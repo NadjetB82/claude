@@ -60,6 +60,40 @@ import {
   fetchQwenTokenPlanQuota,
   invalidateQwenTokenPlanQuotaCache,
 } from "../../open-sse/services/qwenTokenPlanQuotaFetcher.ts";
+import {
+  fetchJinaQuota,
+  invalidateJinaQuotaCache,
+} from "../../open-sse/services/jinaQuotaFetcher.ts";
+import {
+  fetchLlmgatewayQuota,
+  invalidateLlmgatewayQuotaCache,
+} from "../../open-sse/services/llmgatewayQuotaFetcher.ts";
+import {
+  fetchLyceumQuota,
+  invalidateLyceumQuotaCache,
+} from "../../open-sse/services/lyceumQuotaFetcher.ts";
+import {
+  fetchMoonshotQuota,
+  invalidateMoonshotQuotaCache,
+} from "../../open-sse/services/moonshotQuotaFetcher.ts";
+import {
+  fetchNewApiAggregatorQuota,
+  invalidateNewApiAggregatorQuotaCache,
+} from "../../open-sse/services/newApiAggregatorQuotaFetcher.ts";
+import {
+  fetchOpencodeQuota,
+  invalidateOpencodeQuotaCache,
+} from "../../open-sse/services/opencodeQuotaFetcher.ts";
+import {
+  fetchOpenrouterQuota,
+  invalidateOpenrouterQuotaCache,
+} from "../../open-sse/services/openrouterQuotaFetcher.ts";
+import {
+  fetchTavilyQuota,
+  invalidateTavilyQuotaCache,
+} from "../../open-sse/services/tavilyQuotaFetcher.ts";
+import { fetchV0Quota, invalidateV0QuotaCache } from "../../open-sse/services/v0QuotaFetcher.ts";
+import { readFileSync } from "node:fs";
 
 // socks5 skips the TCP reachability probe in runWithProxyContext, so the mock
 // fetch below never races the fast-fail path; the proxy context is still set.
@@ -577,4 +611,313 @@ test("grok web billing reads inside the proxy context", async () => {
       // best effort cleanup
     }
   }
+});
+
+test("jina quota reads inside the proxy context", async () => {
+  useAssignedProxy();
+  const connectionId = `jina-proxy-${Date.now()}`;
+  let observed: boolean | null = null;
+  const wrappedFetch = globalThis.fetch;
+  globalThis.fetch = (async () => {
+    observed = hasAmbientProxyContext();
+    return new Response(
+      JSON.stringify({
+        code: 200,
+        data: { user_id: "u1", wallet: { total_balance: 5000000 } },
+      }),
+      { status: 200 }
+    );
+  }) as typeof globalThis.fetch;
+  try {
+    const quota = await fetchJinaQuota(connectionId, { apiKey: "jina-tok" });
+    assert.ok(quota);
+    assert.equal(observed, true);
+  } finally {
+    globalThis.fetch = wrappedFetch;
+    invalidateJinaQuotaCache(connectionId);
+  }
+});
+
+test("llmgateway quota reads inside the proxy context", async () => {
+  useAssignedProxy();
+  const connectionId = `llmgw-proxy-${Date.now()}`;
+  let observed: boolean | null = null;
+  const wrappedFetch = globalThis.fetch;
+  globalThis.fetch = (async () => {
+    observed = hasAmbientProxyContext();
+    return new Response(
+      JSON.stringify({
+        data: {
+          devPlan: "pro",
+          devPlanCreditsUsed: "25",
+          devPlanCreditsLimit: "237",
+          devPlanCreditsRemaining: "212.00",
+          devPlanPremiumWeeklyLimit: "35.55",
+          devPlanPremiumCreditsUsed: "5.00",
+          devPlanPremiumWeekResetsAt: "2026-08-28T12:00:00.000Z",
+        },
+      }),
+      { status: 200 }
+    );
+  }) as typeof globalThis.fetch;
+  try {
+    const quota = await fetchLlmgatewayQuota(connectionId, { apiKey: "llmgtwy_test" });
+    assert.ok(quota);
+    assert.equal(observed, true);
+  } finally {
+    globalThis.fetch = wrappedFetch;
+    invalidateLlmgatewayQuotaCache(connectionId);
+  }
+});
+
+test("lyceum quota reads inside the proxy context", async () => {
+  useAssignedProxy();
+  const connectionId = `lyceum-proxy-${Date.now()}`;
+  let observed: boolean | null = null;
+  const wrappedFetch = globalThis.fetch;
+  globalThis.fetch = (async () => {
+    observed = hasAmbientProxyContext();
+    return new Response(
+      JSON.stringify({ available_credits: 50, used_credits: 10, remaining_credits: 40 }),
+      { status: 200 }
+    );
+  }) as typeof globalThis.fetch;
+  try {
+    const quota = await fetchLyceumQuota(connectionId, { apiKey: "lk_test" });
+    assert.ok(quota);
+    assert.equal(observed, true);
+  } finally {
+    globalThis.fetch = wrappedFetch;
+    invalidateLyceumQuotaCache(connectionId);
+  }
+});
+
+test("moonshot quota reads inside the proxy context", async () => {
+  useAssignedProxy();
+  const connectionId = `ms-proxy-${Date.now()}`;
+  let observed: boolean | null = null;
+  const wrappedFetch = globalThis.fetch;
+  globalThis.fetch = (async () => {
+    observed = hasAmbientProxyContext();
+    return new Response(
+      JSON.stringify({
+        code: 0,
+        data: { available_balance: 2.5, voucher_balance: 0, cash_balance: 2.5 },
+        status: true,
+      }),
+      { status: 200 }
+    );
+  }) as typeof globalThis.fetch;
+  try {
+    const quota = await fetchMoonshotQuota(connectionId, {
+      apiKey: "sk-test",
+      providerSpecificData: { baseUrl: "https://api.moonshot.cn/v1" },
+    });
+    assert.ok(quota);
+    assert.equal(observed, true);
+  } finally {
+    globalThis.fetch = wrappedFetch;
+    invalidateMoonshotQuotaCache(connectionId);
+  }
+});
+
+test("new-api aggregator quota reads inside the proxy context", async () => {
+  useAssignedProxy();
+  const connectionId = `agg-proxy-${Date.now()}`;
+  let observed: boolean | null = null;
+  const wrappedFetch = globalThis.fetch;
+  globalThis.fetch = (async () => {
+    observed = hasAmbientProxyContext();
+    return new Response(JSON.stringify({ data: { quota: 250_000 } }), { status: 200 });
+  }) as typeof globalThis.fetch;
+  try {
+    const quota = await fetchNewApiAggregatorQuota(connectionId, {
+      providerSpecificData: {
+        consoleApiKey: "system-access-token",
+        newApiUserId: "42",
+        newApiAggregatorBalance: true,
+        baseUrl: "https://my-newapi.example.com/v1",
+      },
+    });
+    assert.ok(quota);
+    assert.equal(observed, true);
+  } finally {
+    globalThis.fetch = wrappedFetch;
+    invalidateNewApiAggregatorQuotaCache(connectionId);
+  }
+});
+
+test("opencode quota reads inside the proxy context", async () => {
+  useAssignedProxy();
+  const connectionId = `opencode-proxy-${Date.now()}`;
+  let observed: boolean | null = null;
+  const wrappedFetch = globalThis.fetch;
+  globalThis.fetch = (async () => {
+    observed = hasAmbientProxyContext();
+    return new Response(
+      JSON.stringify({
+        usage: {
+          rolling: { status: "ok", percent: 25, resetsAt: "2026-09-01T01:02:03.000Z" },
+          weekly: { status: "ok", percent: 50, resetsAt: "2026-09-05T04:05:06.000Z" },
+          monthly: { status: "ok", percent: 10, resetsAt: "2026-09-30T07:08:09.000Z" },
+        },
+      }),
+      { status: 200 }
+    );
+  }) as typeof globalThis.fetch;
+  try {
+    const quota = await fetchOpencodeQuota(connectionId, { apiKey: "opencode-key" });
+    assert.ok(quota);
+    assert.equal(observed, true);
+  } finally {
+    globalThis.fetch = wrappedFetch;
+    invalidateOpencodeQuotaCache(connectionId);
+  }
+});
+
+test("opencode quota invalidation clears the shared no-auth reading", async () => {
+  useAssignedProxy();
+  let calls = 0;
+  let observed: boolean | null = null;
+  const wrappedFetch = globalThis.fetch;
+  globalThis.fetch = (async () => {
+    calls += 1;
+    observed = hasAmbientProxyContext();
+    return new Response(
+      JSON.stringify({
+        usage: {
+          rolling: { status: "ok", percent: 25, resetsAt: "2026-09-01T01:02:03.000Z" },
+          weekly: { status: "ok", percent: 50, resetsAt: "2026-09-05T04:05:06.000Z" },
+          monthly: { status: "ok", percent: 10, resetsAt: "2026-09-30T07:08:09.000Z" },
+        },
+      }),
+      { status: 200 }
+    );
+  }) as typeof globalThis.fetch;
+  try {
+    const first = await fetchOpencodeQuota("", { apiKey: "opencode-key" });
+    assert.ok(first);
+    assert.equal(observed, true);
+    assert.equal(calls, 1);
+    invalidateOpencodeQuotaCache("");
+    const second = await fetchOpencodeQuota("", { apiKey: "opencode-key" });
+    assert.ok(second);
+    assert.equal(calls, 2);
+  } finally {
+    globalThis.fetch = wrappedFetch;
+    invalidateOpencodeQuotaCache("");
+    invalidateOpencodeQuotaCache("noauth");
+  }
+});
+
+test("openrouter quota reads inside the proxy context", async () => {
+  useAssignedProxy();
+  const connectionId = `openrouter-proxy-${Date.now()}`;
+  const contexts: boolean[] = [];
+  const wrappedFetch = globalThis.fetch;
+  globalThis.fetch = (async (url: RequestInfo | URL) => {
+    contexts.push(hasAmbientProxyContext());
+    if (String(url).endsWith("/key")) {
+      return new Response(
+        JSON.stringify({
+          data: { limit: 100, limit_remaining: 10, limit_reset: null, is_free_tier: false },
+        }),
+        { status: 200 }
+      );
+    }
+    return new Response(JSON.stringify({ data: { total_credits: 100, total_usage: 90 } }), {
+      status: 200,
+    });
+  }) as typeof globalThis.fetch;
+  try {
+    const quota = await fetchOpenrouterQuota(connectionId, { apiKey: "test-key" });
+    assert.ok(quota);
+    assert.ok(contexts.length === 2);
+    assert.ok(contexts.every(Boolean));
+  } finally {
+    globalThis.fetch = wrappedFetch;
+    invalidateOpenrouterQuotaCache(connectionId);
+  }
+});
+
+test("tavily quota reads inside the proxy context", async () => {
+  useAssignedProxy();
+  const connectionId = `tavily-proxy-${Date.now()}`;
+  let observed: boolean | null = null;
+  const wrappedFetch = globalThis.fetch;
+  globalThis.fetch = (async () => {
+    observed = hasAmbientProxyContext();
+    return new Response(
+      JSON.stringify({
+        account: { current_plan: "Researcher", plan_usage: 10, plan_limit: 1000 },
+      }),
+      { status: 200 }
+    );
+  }) as typeof globalThis.fetch;
+  try {
+    const quota = await fetchTavilyQuota(connectionId, { apiKey: "mock-token" });
+    assert.ok(quota);
+    assert.equal(observed, true);
+  } finally {
+    globalThis.fetch = wrappedFetch;
+    invalidateTavilyQuotaCache(connectionId);
+  }
+});
+
+test("v0 quota reads inside the proxy context", async () => {
+  useAssignedProxy();
+  const connectionId = `v0-proxy-${Date.now()}`;
+  const contexts: boolean[] = [];
+  const wrappedFetch = globalThis.fetch;
+  globalThis.fetch = (async (url: RequestInfo | URL) => {
+    contexts.push(hasAmbientProxyContext());
+    if (String(url).endsWith("/v1/user/billing")) {
+      return new Response(
+        JSON.stringify({
+          billingType: "credit",
+          data: { remaining: 20, limit: 100, reset: "2026-08-01T00:00:00.000Z" },
+        }),
+        { status: 200 }
+      );
+    }
+    return new Response(JSON.stringify({ remaining: 900, limit: 1000 }), { status: 200 });
+  }) as typeof globalThis.fetch;
+  try {
+    const quota = await fetchV0Quota(connectionId, { apiKey: "v0-key" });
+    assert.ok(quota);
+    assert.ok(contexts.length === 2);
+    assert.ok(contexts.every(Boolean));
+  } finally {
+    globalThis.fetch = wrappedFetch;
+    invalidateV0QuotaCache(connectionId);
+  }
+});
+
+test("every remaining quota fetcher routes through the connection proxy helper", async () => {
+  const { readdirSync } = await import("node:fs");
+  const { dirname } = await import("node:path");
+  const { fileURLToPath } = await import("node:url");
+  const here = dirname(fileURLToPath(import.meta.url));
+  const dir = join(here, "..", "..", "open-sse", "services");
+  const targets = [
+    "jinaQuotaFetcher.ts",
+    "llmgatewayQuotaFetcher.ts",
+    "lyceumQuotaFetcher.ts",
+    "moonshotQuotaFetcher.ts",
+    "newApiAggregatorQuotaFetcher.ts",
+    "opencodeQuotaFetcher.ts",
+    "openrouterQuotaFetcher.ts",
+    "tavilyQuotaFetcher.ts",
+    "v0QuotaFetcher.ts",
+  ];
+  const onDisk = new Set(readdirSync(dir));
+  const offenders: string[] = [];
+  for (const name of targets) {
+    assert.ok(onDisk.has(name), `missing fetcher file ${name}`);
+    const source = readFileSync(join(dir, name), "utf8");
+    const direct = [...source.matchAll(/await fetch\(/g)].length;
+    const helper = [...source.matchAll(/fetchWithConnectionProxy\(/g)].length;
+    if (direct > 0 || helper < 1) offenders.push(`${name} (direct=${direct} helper=${helper})`);
+  }
+  assert.deepEqual(offenders, []);
 });
