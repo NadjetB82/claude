@@ -562,8 +562,8 @@ function getContentBlocksFromMessage(
       content: toolContent,
       // Zed's cloud proxy (cloud.zed.dev/completions) strictly requires
       // `is_error` on every Anthropic tool_result block. OpenAI tool messages
-      // carry no such flag, so default to false unless the caller set it.
-      is_error: msg.is_error === true,
+      // carry no such flag, so default to false unless the caller set it explicitly.
+      is_error: msg.is_error ?? false,
     });
   } else if (msg.role === "user") {
     if (typeof msg.content === "string") {
@@ -588,7 +588,7 @@ function getContentBlocksFromMessage(
             content: resultContent,
             // Always emit a boolean: Zed's strict Anthropic parser rejects
             // tool_result blocks with a missing `is_error` field.
-            is_error: part.is_error === true,
+            is_error: part.is_error ?? false,
           });
         } else if (part.type === "image_url" || part.type === "image") {
           const imageBlock = openAiImagePartToClaudeBlock(part);
