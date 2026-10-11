@@ -369,6 +369,7 @@ async function runSwitch(
     restoreSlot(throttleKey, prevSlot);
     await recordSelectorSwitchOutcome({
       subscriptionId: hit.subscriptionId,
+      selector: hit.selector,
       result: guarded.reason ?? "blocked",
       kind,
     });
@@ -382,6 +383,7 @@ async function runSwitch(
     restoreSlot(throttleKey, prevSlot);
     await recordSelectorSwitchOutcome({
       subscriptionId: hit.subscriptionId,
+      selector: hit.selector,
       result: "incomplete",
       kind,
     });
@@ -413,6 +415,7 @@ async function runSwitch(
     restoreSlot(throttleKey, prevSlot);
     await recordSelectorSwitchOutcome({
       subscriptionId: hit.subscriptionId,
+      selector: hit.selector,
       result: res.reason,
       kind,
     });
@@ -420,6 +423,7 @@ async function runSwitch(
   }
   await recordSelectorSwitchOutcome({
     subscriptionId: hit.subscriptionId,
+    selector: hit.selector,
     result: "ok",
     member: res.target ?? null,
     kind,
@@ -448,16 +452,71 @@ function setAsideKind(entryKey: string, now: number): ProxyRefusalKind | null {
  * snapshot or the hard default. Unknown or unreadable values fall through to
  * the live snapshot path. Never throws.
  */
-function lastPersistedSwitchKind(subscriptionId: string): ProxyRefusalKind | null {
+/** Read one selector's stored kind from the per-selector trace column.
+ * Unknown, missing or unreadable entries fall through to the caller. */
+function selectorEntryKind(raw: unknown, selector: string): ProxyRefusalKind | null {
   try {
-    const db = getDbInstance();
-    const row = db
-      .prepare("SELECT selector_last_switch_kind FROM proxy_subscriptions WHERE id = ?")
-      .get(subscriptionId) as { selector_last_switch_kind?: unknown } | undefined;
-    const kind = row?.selector_last_switch_kind;
+    const stored = typeof raw === "string" ? (JSON.parse(raw) as Record<string, unknown>) : null;
+    if (!stored || typeof stored !== "object" || Array.isArray(stored)) return null;
+    const entry = stored[selector];
+    if (!entry || typeof entry !== "object" || Array.isArray(entry)) return null;
+    const kind = (entry as Record<string, unknown>).kind;
     return typeof kind === "string" && kind.length > 0 ? (kind as ProxyRefusalKind) : null;
   } catch {
     return null;
+  }
+}
+
+/** Read the stored kind from the extended select row, with a legacy-column
+ * fallback for old DBs. Never throws. */
+function kindFromExtendedRow(
+  row:
+    { selector_last_switch_kind?: unknown; selector_last_switch_by_selector?: unknown } | undefined,
+  selector?: string
+): ProxyRefusalKind | null {
+  if (selector !== undefined) {
+    const kept = selectorEntryKind(row?.selector_last_switch_by_selector, selector);
+    if (kept !== null) return kept;
+  }
+  return asRefusalKind(row?.selector_last_switch_kind);
+}
+
+/** Read the stored kind from the legacy summary column. Never throws. */
+function kindFromLegacyRow(
+  row: { selector_last_switch_kind?: unknown } | undefined
+): ProxyRefusalKind | null {
+  return asRefusalKind(row?.selector_last_switch_kind);
+}
+
+/** Narrow an unknown DB value to a stored kind. Never throws. */
+function asRefusalKind(value: unknown): ProxyRefusalKind | null {
+  return typeof value === "string" && value.length > 0 ? (value as ProxyRefusalKind) : null;
+}
+
+function lastPersistedSwitchKind(
+  subscriptionId: string,
+  selector?: string
+): ProxyRefusalKind | null {
+  try {
+    const db = getDbInstance();
+    const row = db
+      .prepare(
+        "SELECT selector_last_switch_kind, selector_last_switch_by_selector FROM proxy_subscriptions WHERE id = ?"
+      )
+      .get(subscriptionId) as
+      | { selector_last_switch_kind?: unknown; selector_last_switch_by_selector?: unknown }
+      | undefined;
+    return kindFromExtendedRow(row, selector);
+  } catch {
+    try {
+      const db = getDbInstance();
+      const row = db
+        .prepare("SELECT selector_last_switch_kind FROM proxy_subscriptions WHERE id = ?")
+        .get(subscriptionId) as { selector_last_switch_kind?: unknown } | undefined;
+      return kindFromLegacyRow(row);
+    } catch {
+      return null;
+    }
   }
 }
 
@@ -476,11 +535,12 @@ function switchOutcomeKind(
   setAsideKey: string,
   now: number,
   propagated?: ProxyRefusalKind,
-  subscriptionId?: string
+  subscriptionId?: string,
+  selector?: string
 ): ProxyRefusalKind {
   if (propagated !== undefined) return propagated;
   if (subscriptionId !== undefined) {
-    const kept = lastPersistedSwitchKind(subscriptionId);
+    const kept = lastPersistedSwitchKind(subscriptionId, selector);
     if (kept !== null) return kept;
   }
   return setAsideKind(setAsideKey, now) ?? "ip_quota_429";
@@ -512,8 +572,9 @@ export async function maybeSwitchOnSetAside(
       // the last outcome, and a throttle is normal backoff, never a failure.
       await recordSelectorSwitchOutcome({
         subscriptionId: hit.subscriptionId,
+        selector: hit.selector,
         result: "throttled",
-        kind: switchOutcomeKind(setAsideKey, now, opts?.kind, hit.subscriptionId),
+        kind: switchOutcomeKind(setAsideKey, now, opts?.kind, hit.subscriptionId, hit.selector),
       });
       return { switched: false, reason: "throttled" };
     }
