@@ -37,11 +37,9 @@ async function resetStorage() {
 
 async function seedConnection() {
   return providersDb.createProviderConnection({
-    provider: "antigravity",
-    authType: "oauth",
-    email: "antigravity-strict@example.com",
-    accessToken: "fake-antigravity-access-token",
-    tokenExpiresAt: new Date(Date.now() + 60_000).toISOString(),
+    provider: "groq",
+    authType: "apikey",
+    apiKey: "gsk_fake-groq-api-key-for-testing",
   });
 }
 
