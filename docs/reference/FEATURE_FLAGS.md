@@ -46,7 +46,7 @@ A boolean flag is considered **enabled** when its effective value is `"true"`,
 
 ## Flag Catalog
 
-85 flags across 6 categories. **Default** is the definition default — the value
+86 flags across 6 categories. **Default** is the definition default — the value
 used when neither a DB override nor an environment variable is present.
 
 ### Security (10)
@@ -92,16 +92,24 @@ used when neither a DB override nor an environment variable is present.
 | `OMNIROUTE_ALLOW_LOCAL_PROVIDER_URLS`           | boolean | `true`  |         | Allow provider URLs on local/private addresses (127.0.0.1, localhost, LAN). On by default (local-first): the guard then blocks cloud-metadata endpoints (all of 169.254.0.0/16 plus the known metadata hostnames). Disable for strict public-only blocking: private and loopback hosts are blocked too.                                                                                                                                                                                                             |
 | `ENABLE_CC_COMPATIBLE_PROVIDER`                 | boolean | `false` | ✓       | Enable Claude Code compatible provider mode.                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 
-### Policies (6)
+### Policies (7)
 
-| Key                             | Type    | Default    | Description                                                                                                                                                                                                                      |
-| ------------------------------- | ------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `TOOL_POLICY_MODE`              | enum    | `disabled` | Tool-use policy enforcement mode. Values: `disabled`, `warn`, `block`.                                                                                                                                                           |
-| `RATE_LIMIT_AUTO_ENABLE`        | boolean | `false`    | Force the auto-enable rate-limit safety net on/off via the env var. The runtime reads only the env var: unset follows the dashboard setting (default on), not this catalog default.                                              |
-| `DISABLE_CONTEXT_WINDOW_CHECKS` | boolean | `false`    | Skip OmniRoute's local context-window / max-input-token check for direct single-model requests. Upstream limits still apply.                                                                                                     |
-| `CAPABILITY_FILTER_ENABLED`     | boolean | `false`    | Reject requests before dispatch when the target model lacks required capabilities (vision, tools, structured output, context window). Protects direct single-provider requests that bypass the combo-layer compatibility filter. |
-| `USAGE_LIMIT_IGNORE_UNPRICED`   | boolean | `false`    | Count usage of models that have no price as $0 in per-key USD usage quotas instead of treating the quota as exceeded. Off by default: an unpriced model or routing alias can hide real spend, so the quota fails closed.         |
-| `RADAR_ENABLED`                 | boolean | `false`    | Enable the OmniRoute Radar module (catalog feed screens and sync). Off by default; enabling only unlocks the UI — data sync remains a separate opt-in.                                                                           |
+| Key                             | Type    | Default       | Description                                                                                                                                                                                                                                                       |
+| ------------------------------- | ------- | ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `UNPRICED_USAGE_BUDGET_POLICY`  | enum    | `fail_closed` | How per-key daily/weekly USD limits treat usage whose provider/model has no pricing row. `fail_closed` (default) marks the window as exceeded (#12341); `count_as_zero` counts it as $0 and keeps enforcing priced spend. Values: `fail_closed`, `count_as_zero`. |
+| `TOOL_POLICY_MODE`              | enum    | `disabled`    | Tool-use policy enforcement mode. Values: `disabled`, `warn`, `block`.                                                                                                                                                                                            |
+| `RATE_LIMIT_AUTO_ENABLE`        | boolean | `false`       | Force the auto-enable rate-limit safety net on/off via the env var. The runtime reads only the env var: unset follows the dashboard setting (default on), not this catalog default.                                                                               |
+| `DISABLE_CONTEXT_WINDOW_CHECKS` | boolean | `false`       | Skip OmniRoute's local context-window / max-input-token check for direct single-model requests. Upstream limits still apply.                                                                                                                                      |
+| `CAPABILITY_FILTER_ENABLED`     | boolean | `false`       | Reject requests before dispatch when the target model lacks required capabilities (vision, tools, structured output, context window). Protects direct single-provider requests that bypass the combo-layer compatibility filter.                                  |
+| `USAGE_LIMIT_IGNORE_UNPRICED`   | boolean | `false`       | Count usage of models that have no price as $0 in per-key USD usage quotas instead of treating the quota as exceeded. Off by default: an unpriced model or routing alias can hide real spend, so the quota fails closed.                                          |
+| `RADAR_ENABLED`                 | boolean | `false`       | Enable the OmniRoute Radar module (catalog feed screens and sync). Off by default; enabling only unlocks the UI — data sync remains a separate opt-in.                                                                                                            |
+
+When `UNPRICED_USAGE_BUDGET_POLICY` is explicitly configured (DB override before environment),
+it takes precedence over `USAGE_LIMIT_IGNORE_UNPRICED`. With no explicit enum value, the
+upstream boolean opt-out selects `count_as_zero`; otherwise the default is `fail_closed`.
+Invalid enum values and unreadable feature-flag storage fail closed. Neither opt-out relaxes
+priced spend or a failed pricing lookup. Enforcement and the administrator report resolve the
+same effective policy.
 
 ### Runtime (36)
 
