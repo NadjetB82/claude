@@ -110,6 +110,7 @@ import * as exactModelLock from "./accountFallback/exactModelLock.ts";
 import { isCreditsExhaustedWithSharedWallet } from "./accountFallback/sharedWalletCredits.ts";
 import { isMistralAmbiguous401 } from "./accountFallback/mistralAmbiguousAuth.ts";
 import { isMistralAmbiguous401SoftLockoutEnabled } from "@/shared/utils/featureFlags";
+import { boundedMap } from "@/lib/quota/boundedMap";
 export type ProviderProfile = {
   baseCooldownMs: number;
   useUpstreamRetryHints: boolean;
@@ -589,7 +590,8 @@ const modelFailureState = new Map<string, ModelFailureState>();
 
 // Aliases (e.g. "cx" → "codex") must share lockout state with their canonical
 // provider, otherwise a model locked via one spelling stays routable via the other.
-const canonicalProviderCache = new Map<string, string>();
+// Bounded to 512 entries (max ~372 providers + aliases) with LRU eviction.
+const canonicalProviderCache = boundedMap<string>("canonical-provider-cache", 512, "lru");
 function getCanonicalLockProvider(provider: string): string {
   let canonical = canonicalProviderCache.get(provider);
   if (!canonical) {

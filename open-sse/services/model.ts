@@ -5,6 +5,7 @@ import { resolveWildcardAlias } from "./wildcardRouter.ts";
 import { getRegisteredProviderEffortBaseModelId } from "../utils/registeredEffortVariants.ts";
 import { hasProviderModelAlias, resolveProviderModelAlias } from "./modelCanonicalization.ts";
 import { resolveActivePrefixedProviderModel } from "./prefixedProviderModel.ts";
+import { boundedMap } from "@/lib/quota/boundedMap";
 
 export { resolveProviderAlias };
 export { resolveCanonicalProviderModel } from "./modelCanonicalization.ts";
@@ -25,6 +26,9 @@ type ResolvedModelTarget = {
 
 // Client context-window tags are routing hints, not part of provider model IDs.
 const CONTEXT_WINDOW_SUFFIX_RE = /\[(\d+)([kKmM])?\]\s*$/;
+
+// Cache for parseModel results - bounded to 2048 entries with LRU eviction
+const parseModelCache = boundedMap<ParsedModel>("parse-model-cache", 2048, "lru");
 
 export function stripContextWindowSuffix(
   modelStr: string | null | undefined
@@ -356,18 +360,25 @@ function shouldTreatAsExactModelId(modelStr: string | null) {
  * Supports [1m] suffix for extended 1M context window (e.g. "claude-sonnet-4-6[1m]")
  */
 export function parseModel(modelStr: string | null | undefined): ParsedModel {
+  // Fast path: check cache first
+  if (modelStr && typeof modelStr === "string") {
+    const cached = parseModelCache.get(modelStr);
+    if (cached) return cached;
+  }
+
   // Guard truthy non-strings (object/number/array), not just falsy values — a
   // malformed combo `modelStr` or providerSpecificData saved as an object would
   // otherwise reach `cleanStr.endsWith("[1m]")` and crash with
   // `endsWith is not a function`. Same class as #2359 / #2463.
   if (!modelStr || typeof modelStr !== "string") {
-    return {
+    const result = {
       provider: null,
       model: null,
       isAlias: false,
       providerAlias: null,
       extendedContext: false,
     };
+    return result;
   }
 
   // Sanitize: reject strings with path traversal, control characters, or syntax that would let
@@ -378,13 +389,14 @@ export function parseModel(modelStr: string | null | undefined): ParsedModel {
     hasUnsafeModelIdSyntax(modelStr)
   ) {
     console.log(`[MODEL] Warning: rejected malformed model string: "${modelStr.substring(0, 50)}"`);
-    return {
+    const result = {
       provider: null,
       model: null,
       isAlias: false,
       providerAlias: null,
       extendedContext: false,
     };
+    return result;
   }
 
   // Extract the legacy [1m] marker while stripping all client context tags.
@@ -404,7 +416,15 @@ export function parseModel(modelStr: string | null | undefined): ParsedModel {
 
   if (shouldTreatAsExactModelId(cleanStr)) {
     console.debug(`[MODEL] Treating "${cleanStr}" as an exact model id`);
-    return { provider: null, model: cleanStr, isAlias: true, providerAlias: null, extendedContext };
+    const result = {
+      provider: null,
+      model: cleanStr,
+      isAlias: true,
+      providerAlias: null,
+      extendedContext,
+    };
+    parseModelCache.set(modelStr, result);
+    return result;
   }
 
   // Check if standard format: provider/model or alias/model
@@ -413,11 +433,27 @@ export function parseModel(modelStr: string | null | undefined): ParsedModel {
     const providerOrAlias = cleanStr.slice(0, firstSlash).trim();
     const model = cleanStr.slice(firstSlash + 1).trim();
     const provider = resolveProviderAlias(providerOrAlias);
-    return { provider, model, isAlias: false, providerAlias: providerOrAlias, extendedContext };
+    const result = {
+      provider,
+      model,
+      isAlias: false,
+      providerAlias: providerOrAlias,
+      extendedContext,
+    };
+    parseModelCache.set(modelStr, result);
+    return result;
   }
 
   // Alias format (model alias, not provider alias)
-  return { provider: null, model: cleanStr, isAlias: true, providerAlias: null, extendedContext };
+  const result = {
+    provider: null,
+    model: cleanStr,
+    isAlias: true,
+    providerAlias: null,
+    extendedContext,
+  };
+  parseModelCache.set(modelStr, result);
+  return result;
 }
 
 /**
