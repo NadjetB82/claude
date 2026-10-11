@@ -64,6 +64,8 @@ const sections = [
       "security",
       "compression",
       "ops",
+      "providers",
+      "comparison",
     ],
   },
 ];
