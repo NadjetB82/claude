@@ -698,6 +698,22 @@ export const APIKEY_PROVIDERS_GATEWAYS = {
     apiHint:
       "Get your API key from https://panel.api.airforce — OpenAI-compatible endpoint at https://api.airforce/v1",
   },
+  onomeo: {
+    id: "onomeo",
+    serviceKinds: ["llm"],
+    alias: "onm",
+    name: "onomeo",
+    icon: "hub",
+    color: "#6366F1",
+    textIcon: "ON",
+    website: "https://onomeo.com",
+    hasFree: true,
+    freeNote:
+      "19 free models (auto, DeepSeek V4/V4.1 Flash, GLM 5.2/5.3/4.5/4.6v/4.7 Flash, Gemini 3.1/3.5/3.6/3.7/3.8 Flash, GPT-OSS 20B, Muse Glimmer 30B, Codestral, Mistral 14B, HY4 Preview) — 30 calls per 5-hour window that refill automatically, no card required. Every 50K characters counts as one call; shared global pool may limit availability.",
+    apiHint:
+      "Sign up at https://onomeo.com (Google/GitHub/email, no card) to create an API key. OpenAI-compatible endpoint at https://onomeo.com/v1. Model pages at https://onomeo.com/models/<id> list upstream provenance and training policies.",
+    passthroughModels: true,
+  },
   crof: {
     id: "crof",
     serviceKinds: ["llm"],

@@ -22,7 +22,7 @@ import type { FreeModelBudget } from "./freeModelCatalog.ts";
  * rewrites file timestamps on every deploy, which would report a months-old
  * catalog as "updated today". Bump this whenever the entries below change.
  */
-export const FREE_CATALOG_CURATED_AT = "2026-09-12";
+export const FREE_CATALOG_CURATED_AT = "2026-10-11";
 
 export const FREE_MODEL_BUDGETS: FreeModelBudget[] = [
   { provider: "agentrouter", modelId: "claude-opus-4-8", displayName: "Claude Opus 4.8", monthlyTokens: 0, creditTokens: 200000000, freeType: "one-time-initial", poolKey: "agentrouter", tos: "caution" },
@@ -315,7 +315,31 @@ export const FREE_MODEL_BUDGETS: FreeModelBudget[] = [
   { provider: "nvidia", modelId: "google/gemma-4-31b-it", displayName: "Gemma 4 31B", monthlyTokens: 0, creditTokens: 0, freeType: "one-time-initial", poolKey: "nvidia", tos: "caution" },
   { provider: "nvidia", modelId: "nvidia/nemotron-3-super-120b-a12b", displayName: "Nemotron 3 Super 120B A12B", monthlyTokens: 0, creditTokens: 0, freeType: "one-time-initial", poolKey: "nvidia", tos: "caution" },
   { provider: "nvidia", modelId: "openai/gpt-oss-120b", displayName: "GPT OSS 120B", monthlyTokens: 0, creditTokens: 0, freeType: "one-time-initial", poolKey: "nvidia", tos: "caution" },
-  // evidence: public-page https://ollama.com/pricing (2026-09-02) — Free plan: "Starter usage credits
+  
+
+// evidence: public-page https://onomeo.com/api/info (2026-10-11) — Free models list (freeModels field) with 30 calls per 5-hour window that refill automatically; 1 call per 50K chars. modelTraining field shows upstream training policies.
+{ provider: "onomeo", modelId: "auto", displayName: "Auto", monthlyTokens: 20000000, creditTokens: 0, freeType: "recurring-daily", poolKey: "onomeo", tos: "caution", trainsOnPrompts: true },
+{ provider: "onomeo", modelId: "deepseek-v4-flash", displayName: "DeepSeek V4 Flash", monthlyTokens: 20000000, creditTokens: 0, freeType: "recurring-daily", poolKey: "onomeo", tos: "caution" },
+{ provider: "onomeo", modelId: "glm-5.2", displayName: "GLM 5.2", monthlyTokens: 20000000, creditTokens: 0, freeType: "recurring-daily", poolKey: "onomeo", tos: "caution" },
+{ provider: "onomeo", modelId: "deepseek-v4.1-flash", displayName: "DeepSeek V4.1 Flash", monthlyTokens: 20000000, creditTokens: 0, freeType: "recurring-daily", poolKey: "onomeo", tos: "caution" },
+{ provider: "onomeo", modelId: "gemini-3.1-flash-lite", displayName: "Gemini 3.1 Flash Lite", monthlyTokens: 20000000, creditTokens: 0, freeType: "recurring-daily", poolKey: "onomeo", tos: "caution", trainsOnPrompts: true },
+{ provider: "onomeo", modelId: "gemini-3.8-flash", displayName: "Gemini 3.8 Flash", monthlyTokens: 20000000, creditTokens: 0, freeType: "recurring-daily", poolKey: "onomeo", tos: "caution", trainsOnPrompts: true },
+{ provider: "onomeo", modelId: "gemini-3.7-flash", displayName: "Gemini 3.7 Flash", monthlyTokens: 20000000, creditTokens: 0, freeType: "recurring-daily", poolKey: "onomeo", tos: "caution", trainsOnPrompts: true },
+{ provider: "onomeo", modelId: "gemini-3.6-flash", displayName: "Gemini 3.6 Flash", monthlyTokens: 20000000, creditTokens: 0, freeType: "recurring-daily", poolKey: "onomeo", tos: "caution", trainsOnPrompts: true },
+{ provider: "onomeo", modelId: "gemini-3.5-flash", displayName: "Gemini 3.5 Flash", monthlyTokens: 20000000, creditTokens: 0, freeType: "recurring-daily", poolKey: "onomeo", tos: "caution", trainsOnPrompts: true },
+{ provider: "onomeo", modelId: "gemini-3.5-flash-lite", displayName: "Gemini 3.5 Flash Lite", monthlyTokens: 20000000, creditTokens: 0, freeType: "recurring-daily", poolKey: "onomeo", tos: "caution", trainsOnPrompts: true },
+{ provider: "onomeo", modelId: "gpt-oss-20b", displayName: "GPT-OSS 20B", monthlyTokens: 20000000, creditTokens: 0, freeType: "recurring-daily", poolKey: "onomeo", tos: "caution", trainsOnPrompts: true },
+{ provider: "onomeo", modelId: "muse-glimmer-30b", displayName: "Muse Glimmer 30B", monthlyTokens: 20000000, creditTokens: 0, freeType: "recurring-daily", poolKey: "onomeo", tos: "caution", trainsOnPrompts: true },
+{ provider: "onomeo", modelId: "glm-5.3-flash", displayName: "GLM 5.3 Flash", monthlyTokens: 20000000, creditTokens: 0, freeType: "recurring-daily", poolKey: "onomeo", tos: "caution", trainsOnPrompts: true },
+{ provider: "onomeo", modelId: "codestral-latest", displayName: "Codestral Latest", monthlyTokens: 20000000, creditTokens: 0, freeType: "recurring-daily", poolKey: "onomeo", tos: "caution" },
+{ provider: "onomeo", modelId: "ministral-14b-latest", displayName: "Ministral 14B Latest", monthlyTokens: 20000000, creditTokens: 0, freeType: "recurring-daily", poolKey: "onomeo", tos: "caution" },
+{ provider: "onomeo", modelId: "hy4-preview", displayName: "HY4 Preview", monthlyTokens: 20000000, creditTokens: 0, freeType: "recurring-daily", poolKey: "onomeo", tos: "caution" },
+{ provider: "onomeo", modelId: "glm-4.5-flash", displayName: "GLM 4.5 Flash", monthlyTokens: 20000000, creditTokens: 0, freeType: "recurring-daily", poolKey: "onomeo", tos: "caution", trainsOnPrompts: true },
+{ provider: "onomeo", modelId: "glm-4.6v-flash", displayName: "GLM 4.6v Flash", monthlyTokens: 20000000, creditTokens: 0, freeType: "recurring-daily", poolKey: "onomeo", tos: "caution", trainsOnPrompts: true },
+{ provider: "onomeo", modelId: "glm-4.7-flash", displayName: "GLM 4.7 Flash", monthlyTokens: 20000000, creditTokens: 0, freeType: "recurring-daily", poolKey: "onomeo", tos: "caution", trainsOnPrompts: true },
+// evidence: public-page https://onomeo.com/api/info (2026-10-11) — Free models list (freeModels field) with 30 calls per 5-hour window that refill automatically; 1 call per 50K chars. modelTraining field shows upstream training policies.
+
+// evidence: public-page https://ollama.com/pricing (2026-09-02) — Free plan: "Starter usage credits
   // included · Includes access to starter models · Add credits to unlock all models"; docs.ollama.com/cloud:
   // "usage resets monthly". No token figure and no named starter-model list ⇒ recurring-uncapped.
   { provider: "ollama-cloud", modelId: "deepseek-v4-pro", displayName: "DeepSeek V4 Pro", monthlyTokens: 0, creditTokens: 0, freeType: "recurring-uncapped", poolKey: "ollama-cloud", tos: "ambiguous" },

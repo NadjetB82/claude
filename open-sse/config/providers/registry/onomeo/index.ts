@@ -1,11 +1,90 @@
 import type { RegistryEntry } from "../../shared.ts";
-import { buildOpenAiCompatibleRegistryEntry } from "../../shared.ts";
 
-export const onomeoProvider: RegistryEntry = buildOpenAiCompatibleRegistryEntry({
+export const onomeoProvider: RegistryEntry = {
   id: "onomeo",
-  alias: "onomeo",
+  alias: "onm",
+  format: "openai",
+  executor: "default",
   baseUrl: "https://onomeo.com/v1/chat/completions",
   modelsUrl: "https://onomeo.com/v1/models",
-  models: [],
+  authType: "apikey",
+  authHeader: "bearer",
+  defaultContextLength: 131072,
   passthroughModels: true,
-});
+  models: [
+    { id: "auto", name: "Auto", contextLength: 1000000, maxOutputTokens: 384000 },
+    {
+      id: "deepseek-v4-flash",
+      name: "DeepSeek V4 Flash",
+      contextLength: 1000000,
+      maxOutputTokens: 384000,
+    },
+    { id: "glm-5.2", name: "GLM 5.2", contextLength: 1000000, maxOutputTokens: 131072 },
+    {
+      id: "deepseek-v4.1-flash",
+      name: "DeepSeek V4.1 Flash",
+      contextLength: 1048576,
+      maxOutputTokens: 384000,
+    },
+    {
+      id: "gemini-3.1-flash-lite",
+      name: "Gemini 3.1 Flash Lite",
+      contextLength: 1048576,
+      maxOutputTokens: 65536,
+    },
+    {
+      id: "gemini-3.8-flash",
+      name: "Gemini 3.8 Flash",
+      contextLength: 1048576,
+      maxOutputTokens: 65536,
+    },
+    {
+      id: "gemini-3.7-flash",
+      name: "Gemini 3.7 Flash",
+      contextLength: 1048576,
+      maxOutputTokens: 65536,
+    },
+    {
+      id: "gemini-3.6-flash",
+      name: "Gemini 3.6 Flash",
+      contextLength: 1048576,
+      maxOutputTokens: 65536,
+    },
+    {
+      id: "gemini-3.5-flash",
+      name: "Gemini 3.5 Flash",
+      contextLength: 1048576,
+      maxOutputTokens: 65536,
+    },
+    {
+      id: "gemini-3.5-flash-lite",
+      name: "Gemini 3.5 Flash Lite",
+      contextLength: 1048576,
+      maxOutputTokens: 65536,
+    },
+    { id: "gpt-oss-20b", name: "GPT-OSS 20B", contextLength: 131072, maxOutputTokens: 32768 },
+    {
+      id: "muse-glimmer-30b",
+      name: "Muse Glimmer 30B",
+      contextLength: 131072,
+      maxOutputTokens: 131072,
+    },
+    { id: "glm-5.3-flash", name: "GLM 5.3 Flash", contextLength: 1000000, maxOutputTokens: 131072 },
+    {
+      id: "codestral-latest",
+      name: "Codestral Latest",
+      contextLength: 256000,
+      maxOutputTokens: 4096,
+    },
+    {
+      id: "ministral-14b-latest",
+      name: "Mistral 14B Latest",
+      contextLength: 262144,
+      maxOutputTokens: 256000,
+    },
+    { id: "hy4-preview", name: "HY4 Preview", contextLength: 1048576, maxOutputTokens: 64000 },
+    { id: "glm-4.5-flash", name: "GLM 4.5 Flash", contextLength: 131072, maxOutputTokens: 98304 },
+    { id: "glm-4.6v-flash", name: "GLM 4.6v Flash", contextLength: 128000, maxOutputTokens: 32768 },
+    { id: "glm-4.7-flash", name: "GLM 4.7 Flash", contextLength: 200000, maxOutputTokens: 131072 },
+  ],
+};
