@@ -8318,6 +8318,8 @@
     "codexFastTierTierDefault": "默认",
     "codexFastTierModelsLabel": "快速层模型",
     "codexFastTierModelsHint": "启用快速层后,只有勾选的模型会附带 service_tier。",
+    "codexFastTierApplyToAll": "应用到全部 Codex 模型",
+    "codexFastTierApplyToAllHint": "启用后，所选层级应用于所有 Codex 模型（包括未来发布的新模型），下方模型列表将被忽略。",
     "codexFastTierModelCheckbox": "为 {model} 启用快速层",
     "claudeFastModeTitle": "Claude快速模式",
     "claudeFastModeDesc": "选择选定的Claude请求进入Anthropic快速模式（速度：“快速”）。",

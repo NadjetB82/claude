@@ -26,6 +26,7 @@ export default function CodexFastTierTab() {
   const [supportedModels, setSupportedModels] = useState<string[]>([
     ...CODEX_FAST_TIER_DEFAULT_SUPPORTED_MODELS,
   ]);
+  const [applyToAllModels, setApplyToAllModels] = useState(false);
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
   const [status, setStatus] = useState<"" | "saved" | "error">("");
@@ -42,6 +43,7 @@ export default function CodexFastTierTab() {
         setEnabled(resolved.enabled);
         setTier(resolved.tier);
         setSupportedModels([...resolved.supportedModels]);
+        setApplyToAllModels(resolved.applyToAllModels);
         setLoading(false);
       })
       .catch(() => {
@@ -63,19 +65,22 @@ export default function CodexFastTierTab() {
     enabled?: boolean;
     tier?: TierValue;
     supportedModels?: string[];
+    applyToAllModels?: boolean;
   }) => {
     if (saving || loading) return;
     setSaving(true);
     setStatus("");
-    const previous = { enabled, tier, supportedModels };
+    const previous = { enabled, tier, supportedModels, applyToAllModels };
     const merged = {
       enabled: next.enabled ?? enabled,
       tier: next.tier ?? tier,
       supportedModels: next.supportedModels ?? supportedModels,
+      applyToAllModels: next.applyToAllModels ?? applyToAllModels,
     };
     setEnabled(merged.enabled);
     setTier(merged.tier);
     setSupportedModels(merged.supportedModels);
+    setApplyToAllModels(merged.applyToAllModels);
     try {
       const res = await fetch("/api/settings", {
         method: "PATCH",
@@ -85,6 +90,7 @@ export default function CodexFastTierTab() {
             enabled: merged.enabled,
             tier: merged.tier,
             supportedModels: merged.supportedModels,
+            applyToAllModels: merged.applyToAllModels,
           },
         }),
       });
@@ -95,12 +101,14 @@ export default function CodexFastTierTab() {
         setEnabled(previous.enabled);
         setTier(previous.tier);
         setSupportedModels(previous.supportedModels);
+        setApplyToAllModels(previous.applyToAllModels);
         setStatus("error");
       }
     } catch {
       setEnabled(previous.enabled);
       setTier(previous.tier);
       setSupportedModels(previous.supportedModels);
+      setApplyToAllModels(previous.applyToAllModels);
       setStatus("error");
     } finally {
       setSaving(false);
@@ -163,6 +171,23 @@ export default function CodexFastTierTab() {
           />
 
           <div>
+            <label className="flex items-center gap-2 text-sm font-medium cursor-pointer">
+              <input
+                type="checkbox"
+                className="h-4 w-4"
+                checked={applyToAllModels}
+                disabled={loading || saving}
+                onChange={(e) => save({ applyToAllModels: e.target.checked })}
+                aria-label={t("codexFastTierApplyToAll")}
+              />
+              {t("codexFastTierApplyToAll")}
+            </label>
+            <p className="mt-1 pl-6 text-xs text-text-muted/80">
+              {t("codexFastTierApplyToAllHint")}
+            </p>
+          </div>
+
+          <div>
             <button
               type="button"
               className="flex items-center gap-1.5 text-sm font-medium text-text-main hover:text-text-muted"
@@ -186,7 +211,7 @@ export default function CodexFastTierTab() {
                         type="checkbox"
                         className="h-4 w-4"
                         checked={checked}
-                        disabled={loading || saving}
+                        disabled={loading || saving || applyToAllModels}
                         onChange={(e) => toggleModel(slug, e.target.checked)}
                         aria-label={t("codexFastTierModelCheckbox", { model: slug })}
                       />

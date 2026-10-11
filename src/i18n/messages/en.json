@@ -8318,6 +8318,8 @@
     "codexFastTierTierDefault": "Default",
     "codexFastTierModelsLabel": "Fast-tier models",
     "codexFastTierModelsHint": "Only checked models receive service_tier when Fast Tier is enabled.",
+    "codexFastTierApplyToAll": "Apply to all Codex models",
+    "codexFastTierApplyToAllHint": "When enabled, the selected tier applies to every Codex model — including models released after this version. The model list below is ignored.",
     "codexFastTierModelCheckbox": "Enable Fast Tier for {model}",
     "claudeFastModeTitle": "Claude Fast Mode",
     "claudeFastModeDesc": "Opt selected Claude requests into Anthropic Fast Mode (speed:\"fast\").",

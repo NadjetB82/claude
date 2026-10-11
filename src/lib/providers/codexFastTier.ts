@@ -28,6 +28,12 @@ export interface CodexGlobalFastServiceTierResolved {
   enabled: boolean;
   tier: CodexFastTierValue;
   supportedModels: readonly string[];
+  /**
+   * When true, the per-model supportedModels gate is skipped and the global tier
+   * applies to every Codex model — including models released after this build.
+   * Operators opt in once instead of maintaining the slug list by hand.
+   */
+  applyToAllModels: boolean;
 }
 
 /**
@@ -51,6 +57,7 @@ export function resolveCodexGlobalFastServiceTier(
   let enabled = false;
   let tier: CodexFastTierValue = "priority";
   let supportedModels: readonly string[] = CODEX_FAST_TIER_DEFAULT_SUPPORTED_MODELS;
+  let applyToAllModels = false;
 
   if (typeof raw === "boolean") {
     enabled = raw;
@@ -72,11 +79,13 @@ export function resolveCodexGlobalFastServiceTier(
         .filter((m) => m.length > 0);
       if (list.length > 0) supportedModels = list;
     }
+
+    if (obj.applyToAllModels === true) applyToAllModels = true;
   } else if (record.codexFastServiceTier === true) {
     enabled = true;
   }
 
-  return { enabled, tier, supportedModels };
+  return { enabled, tier, supportedModels, applyToAllModels };
 }
 
 export function isCodexGlobalFastServiceTierEnabled(settings: unknown): boolean {
@@ -158,8 +167,9 @@ export function applyCodexGlobalFastServiceTier<T extends JsonRecord | null | un
   if (!resolved.enabled) return credentials;
 
   // Per-model gate for paid fast/flex modes. A global "default" mode intentionally
-  // disables account-level overrides for every Codex model.
-  if (resolved.tier !== "default" && options.model !== undefined) {
+  // disables account-level overrides for every Codex model. applyToAllModels skips
+  // the gate entirely so future model releases are covered without list edits.
+  if (resolved.tier !== "default" && options.model !== undefined && !resolved.applyToAllModels) {
     if (!modelMatchesSupportedList(options.model, resolved.supportedModels)) {
       return credentials;
     }

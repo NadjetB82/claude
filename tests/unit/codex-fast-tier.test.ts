@@ -45,6 +45,7 @@ test("Codex global service mode distinguishes no setting from explicit tiers", (
     {
       enabled: true,
       tier: "default",
+      applyToAllModels: false,
       supportedModels: [
         "gpt-6.1-sol",
         "gpt-6-astra",
@@ -260,4 +261,72 @@ test("GPT-6 VS Code service-tier choices rewrite Fast variants to priority reque
       service_tier: "priority",
     });
   }
+});
+
+test("Codex applyToAllModels resolves from settings and defaults to off", () => {
+  assert.equal(
+    resolveCodexGlobalFastServiceTier({
+      codexServiceTier: { enabled: true, applyToAllModels: true },
+    }).applyToAllModels,
+    true
+  );
+  assert.equal(
+    resolveCodexGlobalFastServiceTier({ codexServiceTier: { enabled: true } }).applyToAllModels,
+    false
+  );
+  assert.equal(
+    resolveCodexGlobalFastServiceTier({
+      codexServiceTier: { enabled: true, applyToAllModels: "yes" },
+    }).applyToAllModels,
+    false
+  );
+  // Only the literal boolean true activates the bypass; any other malformed
+  // value (number, null, undefined) resolves to false.
+  for (const malformed of [1, 0, null, undefined]) {
+    assert.equal(
+      resolveCodexGlobalFastServiceTier({
+        codexServiceTier: { enabled: true, applyToAllModels: malformed },
+      }).applyToAllModels,
+      false
+    );
+  }
+});
+
+test("Codex applyToAllModels bypasses the supportedModels gate for future models", () => {
+  // Flag on: a model that matches NO supportedModels entry still gets the global tier,
+  // so newly released Codex models are covered without list edits.
+  const creds = applyCodexGlobalFastServiceTier(
+    "codex",
+    { providerSpecificData: { workspaceId: "ws-9" } },
+    {
+      codexServiceTier: {
+        enabled: true,
+        tier: "priority",
+        supportedModels: ["gpt-5.5"],
+        applyToAllModels: true,
+      },
+    },
+    { model: "gpt-7-future-model" }
+  );
+  assert.equal(creds.providerSpecificData.requestDefaults.serviceTier, "priority");
+  // The bypass must not disturb unrelated credential fields.
+  assert.deepEqual(creds.providerSpecificData, {
+    workspaceId: "ws-9",
+    requestDefaults: { serviceTier: "priority" },
+  });
+
+  // Flag off: the same unlisted model stays untouched (gate still active).
+  const gated = applyCodexGlobalFastServiceTier(
+    "codex",
+    { providerSpecificData: {} },
+    {
+      codexServiceTier: {
+        enabled: true,
+        tier: "priority",
+        supportedModels: ["gpt-5.5"],
+      },
+    },
+    { model: "gpt-7-future-model" }
+  );
+  assert.equal(gated.providerSpecificData.requestDefaults, undefined);
 });

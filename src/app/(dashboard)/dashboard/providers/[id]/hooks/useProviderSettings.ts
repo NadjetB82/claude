@@ -86,6 +86,9 @@ export function useProviderSettings(providerId: string): UseProviderSettingsRetu
   const [codexGlobalSupportedModels, setCodexGlobalSupportedModels] = useState<string[]>([
     ...CODEX_FAST_TIER_DEFAULT_SUPPORTED_MODELS,
   ]);
+  // Loaded alongside supportedModels so the mode dropdown PATCH does not silently
+  // drop the operator's applyToAllModels flag (the PATCH writes the whole object).
+  const [codexGlobalApplyToAllModels, setCodexGlobalApplyToAllModels] = useState(false);
   const [codexSettingsLoaded, setCodexSettingsLoaded] = useState(false);
   const [codexSettingsLoadError, setCodexSettingsLoadError] = useState<string | null>(null);
   const [savingCodexGlobalServiceMode, setSavingCodexGlobalServiceMode] = useState(false);
@@ -142,6 +145,7 @@ export function useProviderSettings(providerId: string): UseProviderSettingsRetu
     const resolvedCodexServiceTier = resolveCodexGlobalFastServiceTier(outcome.data);
     setCodexGlobalServiceMode(getCodexGlobalServiceMode(outcome.data));
     setCodexGlobalSupportedModels([...resolvedCodexServiceTier.supportedModels]);
+    setCodexGlobalApplyToAllModels(resolvedCodexServiceTier.applyToAllModels);
     setCodexSettingsLoadError(null);
     setCodexSettingsLoaded(true);
   }, [providerId]);
@@ -165,6 +169,7 @@ export function useProviderSettings(providerId: string): UseProviderSettingsRetu
       const resolvedCodexServiceTier = resolveCodexGlobalFastServiceTier(outcome.data);
       setCodexGlobalServiceMode(getCodexGlobalServiceMode(outcome.data));
       setCodexGlobalSupportedModels([...resolvedCodexServiceTier.supportedModels]);
+      setCodexGlobalApplyToAllModels(resolvedCodexServiceTier.applyToAllModels);
       setCodexSettingsLoadError(null);
       setCodexSettingsLoaded(true);
     };
@@ -225,6 +230,7 @@ export function useProviderSettings(providerId: string): UseProviderSettingsRetu
             enabled: mode !== "none",
             ...(tier ? { tier } : {}),
             supportedModels: codexGlobalSupportedModels,
+            applyToAllModels: codexGlobalApplyToAllModels,
           },
         }),
       });
@@ -317,6 +323,7 @@ export function useProviderSettings(providerId: string): UseProviderSettingsRetu
     // Codex
     codexGlobalServiceMode,
     codexGlobalSupportedModels,
+    codexGlobalApplyToAllModels,
     codexSettingsLoaded,
     codexSettingsLoadError,
     savingCodexGlobalServiceMode,

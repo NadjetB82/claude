@@ -121,6 +121,18 @@ test("settings schemas accept global Codex fast tier setting", () => {
   );
 });
 
+test("settings route schema preserves codexServiceTier applyToAllModels", () => {
+  const payload = {
+    codexServiceTier: { enabled: true, tier: "priority", applyToAllModels: true },
+  };
+  const parsed = settingsRouteSchema.parse(payload);
+  assert.deepEqual(parsed.codexServiceTier, payload.codexServiceTier);
+  assert.equal(
+    settingsRouteSchema.safeParse({ codexServiceTier: { applyToAllModels: "yes" } }).success,
+    false
+  );
+});
+
 test("settings schemas accept endpoint tunnel visibility toggles", () => {
   const payload = {
     hideEndpointCloudflaredTunnel: true,

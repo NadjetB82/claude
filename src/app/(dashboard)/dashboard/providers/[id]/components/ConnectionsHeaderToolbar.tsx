@@ -102,7 +102,7 @@ export default function ConnectionsHeaderToolbar({
   t,
 }: ConnectionsHeaderToolbarProps) {
   return (
-    <div className="mb-4 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+    <div className="mb-4 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center sm:justify-between">
       <div className="flex min-w-0 flex-wrap items-center gap-2">
         <h2 className="text-lg font-semibold">{t("connections")}</h2>
         {providerId === "claude" && (
