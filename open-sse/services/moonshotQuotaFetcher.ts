@@ -14,6 +14,7 @@ import { toNumber } from "@/shared/utils/numeric";
 import { registerQuotaFetcher, type QuotaInfo } from "./quotaPreflight.ts";
 import { registerMonitorFetcher } from "./quotaMonitor.ts";
 import { throttleQuotaFetch } from "./quotaFetchThrottle.ts";
+import { fetchWithConnectionProxy } from "./connectionProxyFetch.ts";
 import {
   isKimiCodingBaseUrl,
   isKimiCodingConnection,
@@ -170,7 +171,7 @@ export async function fetchMoonshotQuota(
 
   try {
     await throttleQuotaFetch();
-    const response = await fetch(url, {
+    const response = await fetchWithConnectionProxy(connectionId, url, {
       method: "GET",
       headers: {
         Authorization: authHeader,
@@ -179,6 +180,7 @@ export async function fetchMoonshotQuota(
       },
       signal: AbortSignal.timeout(8_000),
     });
+    if (!response) return null;
 
     if (response.status === 401 || response.status === 403) {
       quotaCache.delete(connectionId);
