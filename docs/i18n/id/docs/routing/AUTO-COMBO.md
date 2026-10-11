@@ -4,6 +4,10 @@
 
 ---
 
+🌐 **Languages:** 🇺🇸 [English](../../../../routing/AUTO-COMBO.md) · 🇪🇹 [am](../../../am/docs/routing/AUTO-COMBO.md) · 🇸🇦 [ar](../../../ar/docs/routing/AUTO-COMBO.md) · 🇦🇿 [az](../../../az/docs/routing/AUTO-COMBO.md) · 🇧🇬 [bg](../../../bg/docs/routing/AUTO-COMBO.md) · 🇧🇩 [bn](../../../bn/docs/routing/AUTO-COMBO.md) · 🇧🇦 [bs](../../../bs/docs/routing/AUTO-COMBO.md) · 🇨🇿 [cs](../../../cs/docs/routing/AUTO-COMBO.md) · 🇩🇰 [da](../../../da/docs/routing/AUTO-COMBO.md) · 🇩🇪 [de](../../../de/docs/routing/AUTO-COMBO.md) · 🇬🇷 [el](../../../el/docs/routing/AUTO-COMBO.md) · 🇪🇸 [es](../../../es/docs/routing/AUTO-COMBO.md) · 🇪🇪 [et](../../../et/docs/routing/AUTO-COMBO.md) · 🇮🇷 [fa](../../../fa/docs/routing/AUTO-COMBO.md) · 🇫🇮 [fi](../../../fi/docs/routing/AUTO-COMBO.md) · 🇫🇷 [fr](../../../fr/docs/routing/AUTO-COMBO.md) · 🇮🇪 [ga](../../../ga/docs/routing/AUTO-COMBO.md) · 🇮🇳 [gu](../../../gu/docs/routing/AUTO-COMBO.md) · 🇳🇬 [ha](../../../ha/docs/routing/AUTO-COMBO.md) · 🇮🇱 [he](../../../he/docs/routing/AUTO-COMBO.md) · 🇮🇳 [hi](../../../hi/docs/routing/AUTO-COMBO.md) · 🇭🇷 [hr](../../../hr/docs/routing/AUTO-COMBO.md) · 🇭🇺 [hu](../../../hu/docs/routing/AUTO-COMBO.md) · 🇦🇲 [hy](../../../hy/docs/routing/AUTO-COMBO.md) · 🇳🇬 [ig](../../../ig/docs/routing/AUTO-COMBO.md) · 🇮🇹 [it](../../../it/docs/routing/AUTO-COMBO.md) · 🇯🇵 [ja](../../../ja/docs/routing/AUTO-COMBO.md) · 🇬🇪 [ka](../../../ka/docs/routing/AUTO-COMBO.md) · 🇰🇭 [km](../../../km/docs/routing/AUTO-COMBO.md) · 🇮🇳 [kn](../../../kn/docs/routing/AUTO-COMBO.md) · 🇰🇷 [ko](../../../ko/docs/routing/AUTO-COMBO.md) · 🇱🇹 [lt](../../../lt/docs/routing/AUTO-COMBO.md) · 🇱🇻 [lv](../../../lv/docs/routing/AUTO-COMBO.md) · 🇮🇳 [ml](../../../ml/docs/routing/AUTO-COMBO.md) · 🇮🇳 [mr](../../../mr/docs/routing/AUTO-COMBO.md) · 🇲🇾 [ms](../../../ms/docs/routing/AUTO-COMBO.md) · 🇲🇹 [mt](../../../mt/docs/routing/AUTO-COMBO.md) · 🇲🇲 [my](../../../my/docs/routing/AUTO-COMBO.md) · 🇳🇵 [ne](../../../ne/docs/routing/AUTO-COMBO.md) · 🇳🇱 [nl](../../../nl/docs/routing/AUTO-COMBO.md) · 🇳🇴 [no](../../../no/docs/routing/AUTO-COMBO.md) · 🇮🇳 [or](../../../or/docs/routing/AUTO-COMBO.md) · 🇮🇳 [pa](../../../pa/docs/routing/AUTO-COMBO.md) · 🇵🇭 [phi](../../../phi/docs/routing/AUTO-COMBO.md) · 🇵🇱 [pl](../../../pl/docs/routing/AUTO-COMBO.md) · 🇵🇹 [pt](../../../pt/docs/routing/AUTO-COMBO.md) · 🇧🇷 [pt-BR](../../../pt-BR/docs/routing/AUTO-COMBO.md) · 🇷🇴 [ro](../../../ro/docs/routing/AUTO-COMBO.md) · 🇷🇺 [ru](../../../ru/docs/routing/AUTO-COMBO.md) · 🇱🇰 [si](../../../si/docs/routing/AUTO-COMBO.md) · 🇸🇰 [sk](../../../sk/docs/routing/AUTO-COMBO.md) · 🇸🇮 [sl](../../../sl/docs/routing/AUTO-COMBO.md) · 🇷🇸 [sr](../../../sr/docs/routing/AUTO-COMBO.md) · 🇸🇪 [sv](../../../sv/docs/routing/AUTO-COMBO.md) · 🇰🇪 [sw](../../../sw/docs/routing/AUTO-COMBO.md) · 🇮🇳 [ta](../../../ta/docs/routing/AUTO-COMBO.md) · 🇮🇳 [te](../../../te/docs/routing/AUTO-COMBO.md) · 🇹🇭 [th](../../../th/docs/routing/AUTO-COMBO.md) · 🇹🇷 [tr](../../../tr/docs/routing/AUTO-COMBO.md) · 🇺🇦 [uk-UA](../../../uk-UA/docs/routing/AUTO-COMBO.md) · 🇵🇰 [ur](../../../ur/docs/routing/AUTO-COMBO.md) · 🇺🇿 [uz](../../../uz/docs/routing/AUTO-COMBO.md) · 🇻🇳 [vi](../../../vi/docs/routing/AUTO-COMBO.md) · 🇳🇬 [yo](../../../yo/docs/routing/AUTO-COMBO.md) · 🇨🇳 [zh-CN](../../../zh-CN/docs/routing/AUTO-COMBO.md) · 🇹🇼 [zh-TW](../../../zh-TW/docs/routing/AUTO-COMBO.md)
+
+---
+
 > **Untuk Pengguna**: Mencari panduan memulai dengan cepat? Lihat [Panduan Pengguna Auto-Combo](../getting-started/AUTO-COMBO-GUIDE.md) untuk penjelasan dan contoh sederhana.
 
 > Rantai model yang mengelola dirinya sendiri dengan penilaian adaptif + perutean otomatis tanpa konfigurasi
@@ -47,15 +51,15 @@ Setiap `auto/<category>[:<tier>]` yang valid diresolusikan sesuai permintaan; su
 **Cara menggunakan:**
 
 ```bash
-# IDE atau alat CLI apa pun yang mendukung format OpenAI
+# Any IDE or CLI tool that supports OpenAI format
 Base URL: http://localhost:20128/v1
 API Key:  <your-endpoint-key>
 
-# Dalam kode/konfigurasi Anda, atur model menjadi:
-model: "auto"                 # default seimbang
-model: "auto/coding"          # terbaik untuk tugas coding
-model: "auto/fast"            # paling cepat yang tersedia
-model: "auto/cheap"           # paling murah per token
+# In your code/config, set model to:
+model: "auto"                 # balanced default
+model: "auto/coding"          # best for coding tasks
+model: "auto/fast"            # fastest available
+model: "auto/cheap"           # cheapest per token
 ```
 
 **Yang terjadi:**
@@ -109,15 +113,15 @@ mengingat model penyewa tunggal.
 **Di balik layar:**
 
 ```txt
-Permintaan: { model: "auto/coding" }
+Request: { model: "auto/coding" }
    ↓
-src/sse/handlers/chat.ts mendeteksi prefiks
+src/sse/handlers/chat.ts detects prefix
    ↓
-createVirtualAutoCombo('coding') → candidatePool dari koneksi aktif
+createVirtualAutoCombo('coding') → candidatePool from active connections
    ↓
-handleComboChat (mesin yang sama dengan kombo tersimpan)
+handleComboChat (same engine as persisted combos)
    ↓
-Penilaian otomatis memilih penyedia/model terbaik untuk setiap permintaan
+Auto-scoring selects best provider/model per request
 ```
 
 **File implementasi:**
@@ -152,13 +156,7 @@ Membuat atau mengganti nama combo menjadi nama yang membayangi ID model nyata
 model nyata:
 
 ```json
-{
-  "warning": {
-    "code": "COMBO_NAME_SHADOWS_MODEL",
-    "modelId": "gpt-5.5",
-    "providerId": "openai"
-  }
-}
+{ "warning": { "code": "COMBO_NAME_SHADOWS_MODEL", "modelId": "gpt-5.5", "providerId": "openai" } }
 ```
 
 Saat proses boot, `scanComboModelNameCollisionsAtBoot()`
@@ -189,34 +187,45 @@ Dua masalah umum:
 
 Lihat [#7992](https://github.com/diegosouzapw/OmniRoute/issues/7992) dan [#7111](https://github.com/diegosouzapw/OmniRoute/issues/7111) untuk kebingungan awal yang dijelaskan dalam dokumentasi ini.
 
-## Cara Kerjanya (Auto-Combo Persisten)
+## Cara Kerja (Auto-Combo yang Disimpan)
 
-Auto-Combo Engine secara dinamis memilih penyedia/model terbaik untuk setiap permintaan menggunakan **fungsi penilaian 16 faktor** (didefinisikan dalam `open-sse/services/autoCombo/scoring.ts` → `DEFAULT_WEIGHTS`). Bobot default berjumlah `1.0`; bobot khusus dinormalisasi ulang oleh `normalizeScoringWeights()`. Dua dari enam belas faktor tersebut — `cacheAffinity` dan `resetWindowAffinity` — memiliki bobot default `0`; `reliability` memiliki bobot `0` dalam `DEFAULT_WEIGHTS`, tetapi `0.03` dalam paket generik dan `0.04` dalam `reliability-first`, sedangkan `quality` memiliki bobot `0.02` dalam paket (`0.03` dalam `quality-first`): faktor-faktor tersebut tetap dihitung untuk setiap kandidat, dan `cacheAffinity` mengatur deduplikasi cache prompt di luar skor, sehingga faktor dengan bobot default nol tidak memberikan pengaruh secara default, sedangkan paket mengaktifkannya.
+Auto-Combo Engine secara dinamis memilih penyedia/model terbaik untuk setiap permintaan menggunakan **fungsi penilaian 16 faktor** (didefinisikan di `open-sse/services/autoCombo/scoring.ts` → `DEFAULT_WEIGHTS`). Bobot default berjumlah total `1.0`; bobot kustom dinormalisasi ulang oleh `normalizeScoringWeights()`. Dua dari enam belas faktor — `cacheAffinity` dan `resetWindowAffinity` — memiliki bobot default `0`; `reliability` bernilai `0` di `DEFAULT_WEIGHTS` tetapi `0.03` dalam paket umum dan `0.04` dalam `reliability-first`, serta `quality` bernilai `0.02` dalam paket (`0.03` dalam `quality-first`): faktor-faktor tersebut tetap dihitung untuk setiap kandidat, dan `cacheAffinity` membatasi deduplikasi cache prompt di luar skor, sehingga faktor berbobot default nol tersebut secara default tidak ikut memberikan suara sementara paket-paket memberikan suara.
 
 ![Penilaian 16 faktor Auto-Combo](../diagrams/exported/auto-combo-scoring.svg)
 
-> Sumber: [diagrams/auto-combo-scoring.mmd](../diagrams/auto-combo-scoring.mmd) (buat ulang melalui `npm run docs:render-diagrams`). Nama file tersebut bersifat historis; sumber dan diagram yang dirender menampilkan seluruh 16 faktor yang dideklarasikan dalam `DEFAULT_WEIGHTS`.
+> Sumber: [diagrams/auto-combo-scoring.mmd](../diagrams/auto-combo-scoring.mmd) (buat ulang melalui `npm run docs:render-diagrams`). Nama file bersifat historis; sumber dan diagram yang dirender menampilkan semua 16 faktor yang dideklarasikan di `DEFAULT_WEIGHTS`.
 
-| Faktor                | Bobot Default | Deskripsi                                                                                                                                                                                                                                                        |
-| :-------------------- | :------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `quota`               | 0.1429        | Sisa kuota / ruang batas laju [0..1]                                                                                                                                                                                                                             |
-| `health`              | 0.1605        | Skor kesehatan dari circuit breaker (CLOSED=1.0, HALF_OPEN=0.5, OPEN=0.0)                                                                                                                                                                                        |
-| `costInv`             | 0.1429        | Kebalikan dari biaya **gabungan** (60% harga token input + 40% harga token output, dinormalisasi) — semakin murah = skor semakin tinggi                                                                                                                          |
-| `latencyInv`          | 0.1143        | Kebalikan dari latensi p95 yang dinormalisasi terhadap kumpulan — semakin cepat = skor semakin tinggi                                                                                                                                                            |
-| `taskFit`             | 0.0762        | Kesesuaian jenis tugas (pengodean, peninjauan, perencanaan, analisis, debugging, dokumentasi)                                                                                                                                                                    |
-| `stability`           | 0.0476        | Stabilitas berbasis varians dari simpangan baku latensi — kandidat dengan waktu respons yang berubah-ubah memperoleh skor lebih rendah                                                                                                                           |
-| `tierPriority`        | 0.0476        | Prioritas tingkat akun — Ultra=1.0, Pro=0.67, Standard=0.33, Free=0.0                                                                                                                                                                                            |
-| `tierAffinity`        | 0.0476        | Afinitas antara tingkat kandidat dan tingkat yang direkomendasikan manifes                                                                                                                                                                                       |
-| `specificityMatch`    | 0.0476        | Kecocokan antara spesifisitas permintaan (petunjuk manifes) dan tingkat model                                                                                                                                                                                    |
-| `contextAffinity`     | 0.0476        | Afinitas antara kebutuhan jendela konteks permintaan dan jendela konteks model                                                                                                                                                                                   |
-| `sessionAvailability` | 0.0476        | Ketersediaan sesi OAuth dari koneksi kandidat untuk sesi ini (`getOAuthSessionAvailability()`; koneksi non-OAuth memperoleh skor 1.0)                                                                                                                            |
-| `connectionDensity`   | 0.0476        | Menyebarkan beban ke seluruh koneksi dari penyedia yang sama (anti-konsentrasi)                                                                                                                                                                                  |
-| `cacheAffinity`       | 0.00          | Afinitas hash rendezvous menuju koneksi yang paling mungkin telah menyimpan prefiks cache prompt permintaan ini (`open-sse/services/combo/promptCacheAffinity.ts`); dinonaktifkan secara default (#8008)                                                         |
-| `resetWindowAffinity` | 0.00          | Bias terhadap koneksi yang jendela pengaturan ulang kuotanya menguntungkan (dinonaktifkan secara default)                                                                                                                                                        |
-| `quality`             | 0.03          | Sinyal kualitas output berbasis umpan balik dari pelacak kualitas peristiwa perutean; kandidat tanpa observasi menerima nilai netral 0.5                                                                                                                         |
-| `reliability`         | 0.00          | Proporsi keberhasilan yang diamati, `1 - failureRate`, dari riwayat penggunaan selama 24 jam dengan batas minimum sepuluh sampel (selain itu menggunakan metrik waktu nyata); kandidat tanpa observasi dianggap memiliki nilai 1.0. Dinonaktifkan secara default |
+| Faktor                | Bobot Default | Deskripsi                                                                                                                                                                                                                     |
+| :-------------------- | :------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `quota`               | 0.1429        | Sisa kuota / kelonggaran batas laju (rate-limit headroom) [0..1]                                                                                                                                                              |
+| `health`              | 0.1605        | Skor kesehatan dari pemutus sirkuit (circuit breaker) (CLOSED=1.0, HALF_OPEN=0.5, OPEN=0.0)                                                                                                                                   |
+| `costInv`             | 0.1429        | Kebalikan (invers) dari biaya **gabungan** (60% harga token input + 40% harga token output, dinormalisasi) — lebih murah = skor lebih tinggi                                                                                  |
+| `latencyInv`          | 0.1143        | Kebalikan (invers) dari latensi p95 yang dinormalisasi ke pool — lebih cepat = skor lebih tinggi                                                                                                                              |
+| `taskFit`             | 0.0762        | Kesesuaian jenis tugas (coding, review, planning, analysis, debugging, docs)                                                                                                                                                  |
+| `stability`           | 0.0476        | Stabilitas berbasis varians dari standar deviasi latensi — kandidat yang waktu responsnya berfluktuasi mendapat skor lebih rendah                                                                                             |
+| `tierPriority`        | 0.0476        | Prioritas tingkat akun (account tier) — Ultra=1.0, Pro=0.67, Standard=0.33, Free=0.0                                                                                                                                          |
+| `tierAffinity`        | 0.0476        | Afinitas antara tingkat (tier) kandidat dan tingkat yang direkomendasikan manifes                                                                                                                                             |
+| `specificityMatch`    | 0.0476        | Kecocokan antara spesifisitas permintaan (petunjuk manifes) dan tingkat model                                                                                                                                                 |
+| `contextAffinity`     | 0.0476        | Afinitas antara kebutuhan jendela konteks (context window) permintaan dan jendela konteks model                                                                                                                               |
+| `sessionAvailability` | 0.0476        | Ketersediaan sesi OAuth dari koneksi kandidat untuk sesi ini (`getOAuthSessionAvailability()`; koneksi non-OAuth mendapat skor 1.0)                                                                                           |
+| `connectionDensity`   | 0.0476        | Menyebarkan beban ke seluruh koneksi dari penyedia yang sama (anti-konsentrasi)                                                                                                                                               |
+| `cacheAffinity`       | 0.00          | Afinitas rendezvous-hash terhadap koneksi yang paling mungkin telah menyimpan awalan cache prompt permintaan ini (`open-sse/services/combo/promptCacheAffinity.ts`); dinonaktifkan secara default (#8008)                     |
+| `resetWindowAffinity` | 0.00          | Bias terhadap koneksi yang jendela reset kuotanya menguntungkan (dinonaktifkan secara default)                                                                                                                                |
+| `quality`             | 0.03          | Sinyal kualitas output berbasis umpan balik dari pelacak kualitas peristiwa perutean; kandidat tanpa observasi menerima nilai netral 0.5                                                                                      |
+| `reliability`         | 0.00          | Bagian keberhasilan yang teramati, `1 - failureRate`, dari riwayat penggunaan 24 jam dengan batas minimum sepuluh sampel (metrik waktu nyata jika tidak); kandidat tanpa observasi bernilai 1.0. Dinonaktifkan secara default |
 
-**Jumlah:** `0.1429 + 0.1605 + 0.1429 + 0.1143 + 0.0762 + (7 × 0.0476) + 0.00 + 0.00 + 0.03 + 0.00 = 1.0` sebagaimana dideklarasikan dalam `DEFAULT_WEIGHTS`; bobot yang dikonfigurasi pengguna dinormalisasi ulang menjadi sebuah distribusi oleh `normalizeScoringWeights()` sebelum penilaian.
+> **Kuota yang tidak dapat dibaca (#15347).** Ketika sebuah penyedia memiliki pengambil kuota (_quota fetcher_) tetapi tidak mengembalikan apa pun
+> yang dapat dibaca (pengambilan gagal, kredensial hilang, penggunaan hanya-pesan, atau _snapshot_ yang salah bentuk tanpa
+> `windows` yang dapat diurai dan tanpa `percentUsed` yang terbatas, termasuk `percentUsed: null`), kandidat
+> tersebut mendapatkan skor `0` pada sumbu `quota` dan skor akhirnya dikalikan dengan
+> `UNREADABLE_QUOTA_SOFT_DEPRIORITIZE_FACTOR` (0.5, `autoStrategy.ts`), pola penalti lunak (_soft-penalty_) yang sama
+> seperti penalti status koneksi. Pembacaan penggunaan yang gagal merupakan bukti mengenai telemetri,
+> bukan penyedianya, sehingga peringkatnya benar-benar di bawah pembacaan riil apa pun, termasuk yang terkonfirmasi terpakai 100%,
+> tetapi tidak pernah diblokir secara keras (_hard-blocked_) atau dikeluarkan. Penyedia tanpa batas melaporkan `unlimited: true` dan
+> mendapatkan skor sebagai kuota penuh; penyedia tanpa pengambil kuota yang terdaftar tidak memiliki sumber telemetri sama sekali
+> dan mempertahankan nilai _default_ yaitu `100`.
+
+**Jumlah:** `0.1429 + 0.1605 + 0.1429 + 0.1143 + 0.0762 + (7 × 0.0476) + 0.00 + 0.00 + 0.03 + 0.00 = 1.0` seperti yang dideklarasikan dalam `DEFAULT_WEIGHTS`; bobot yang dikonfigurasi pengguna dinormalisasi ulang menjadi sebuah distribusi oleh `normalizeScoringWeights()` sebelum penilaian.
 
 ## Paket Mode
 
@@ -264,7 +273,7 @@ Combo `auto` dapat diarahkan **per permintaan** melalui tiga header, tanpa mengu
 | `X-OmniRoute-Effort`          | `auto` (nilai lain dicadangkan)                                                                                                                                                          | Anggaran berpikir adaptif: ketika permintaan **tidak** membawa bidang penalaran dalam bentuk apa pun (`reasoning_effort`, `reasoning`, `thinking`), gateway menetapkan `auto` menjadi `low`/`medium`/`high` berdasarkan sinyal bentuk permintaan yang deterministik (panjang pesan pengguna terakhir, ukuran konteks hingga pesan pengguna terakhir, hasil alat sebelumnya, kedalaman perulangan alat). Sinyal dibatasi pada giliran saat ini — semua yang berada setelah pesan pengguna terakhir diabaikan — sehingga setiap permintaan dalam perulangan alat ditetapkan ke tingkat yang sama (penetapan stateless per giliran, tanpa status sesi, tanpa eskalasi di tengah perulangan yang akan merusak prefiks cache prompt upstream). Bidang penalaran klien yang eksplisit selalu diutamakan. Dibatasi pada permintaan yang pengiriman upstream-nya ditetapkan ke format OpenAI Chat Completions (`targetFormat === FORMATS.OPENAI`) — `reasoning_effort` adalah bidang berformat OpenAI, sehingga header tersebut tidak berpengaruh pada permintaan yang ditujukan ke Claude atau Gemini (lihat `open-sse/handlers/chatCore/adaptiveEffortWiring.ts`). |
 
 ```bash
-# Paksa profil tercepat, batasi permintaan ini hingga $0.05, dan lakukan pemblokiran tegas alih-alih melebihi anggaran
+# Force the fastest profile, cap this request at $0.05, and hard-block instead of overspending
 curl -sS http://localhost:20128/v1/chat/completions \
   -H "Content-Type: application/json" \
   -H "X-OmniRoute-Mode: fast" \
@@ -280,59 +289,52 @@ nilai yang telah ditetapkan diteruskan ke input `config.modePack` / `config.budg
 
 ## Semua Strategi Perutean
 
-Mesin combo OmniRoute mendukung **19 strategi perutean** (dideklarasikan di `src/shared/constants/routingStrategies.ts` → `ROUTING_STRATEGY_VALUES`). Mesin Auto Combo sendiri tersedia melalui strategi `auto`; strategi lainnya tersedia untuk combo yang dipersistenkan.
+Mesin kombo OmniRoute mendukung **20 strategi perutean** (dideklarasikan di `src/shared/constants/routingStrategies.ts` → `ROUTING_STRATEGY_VALUES`). Mesin Auto Combo itu sendiri diekspos di bawah strategi `auto`; strategi lainnya tersedia untuk kombo yang dipertahankan (persisted).
 
-| Strategi            | Deskripsi                                                                                                                                                                                                                            |
-| :------------------ | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `priority`          | Daftar berurutan dengan target pertama dan prioritas eksplisit                                                                                                                                                                       |
-| `weighted`          | Pemilihan acak berbobot berdasarkan bobot per target                                                                                                                                                                                 |
-| `round-robin`       | Menggilir target secara berurutan (dalam batch; lihat di bawah)                                                                                                                                                                      |
-| `context-relay`     | Meneruskan konteks antar-target (percakapan panjang)                                                                                                                                                                                 |
-| `fill-first`        | Mengisi kuota setiap target sebelum berpindah ke target berikutnya                                                                                                                                                                   |
-| `p2c`               | Penyeimbangan beban acak dengan metode power-of-2-choices                                                                                                                                                                            |
-| `random`            | Pemilihan acak seragam                                                                                                                                                                                                               |
-| `least-used`        | Memilih target dengan beban saat ini paling rendah                                                                                                                                                                                   |
-| `cost-optimized`    | Meminimalkan biaya $ per permintaan berdasarkan harga katalog                                                                                                                                                                        |
-| `reset-aware` ⭐    | Memprioritaskan berdasarkan waktu pengaturan ulang kuota — jendela pengaturan ulang yang singkat diberi peringkat lebih tinggi                                                                                                       |
-| `reset-window`      | Mengutamakan target yang jendela kuotanya akan paling cepat diatur ulang                                                                                                                                                             |
-| `headroom`          | Memilih target dengan sisa ruang kuota terbanyak                                                                                                                                                                                     |
-| `strict-random`     | Pemilihan acak tanpa deduplikasi pengulangan                                                                                                                                                                                         |
-| `auto`              | Menggunakan penilaian Auto Combo (16 faktor) — **direkomendasikan**                                                                                                                                                                  |
-| `lkgp`              | Jalur Terakhir yang Diketahui Baik (menetapkan penyedia terakhir yang berhasil, lalu beralih ke aturan cadangan)                                                                                                                     |
-| `context-optimized` | Memilih target yang paling sesuai dengan ukuran konteks saat ini                                                                                                                                                                     |
-| `cache-optimized`   | Mengurutkan ulang target berdasarkan afinitas cache prompt — koneksi yang kemungkinan besar sudah menyimpan prefiks permintaan ini dalam cache akan dicoba terlebih dahulu (`open-sse/services/combo/promptCacheAffinity.ts`, #8008) |
-| `fusion` 🧬         | Menyebarkan permintaan ke sekelompok model secara paralel, lalu menyintesis satu jawaban melalui model penilai (lihat di bawah)                                                                                                      |
-| `pipeline`          | Menjalankan target secara berurutan, dengan meneruskan output setiap langkah sebagai input langkah berikutnya; hanya jawaban akhir yang dikembalikan (#6396)                                                                         |
+| Strategi            | Deskripsi                                                                                                                                                                                                            |
+| :------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `priority`          | Daftar berurutan target pertama dengan prioritas eksplisit                                                                                                                                                           |
+| `weighted`          | Acak berbobot berdasarkan bobot per-target                                                                                                                                                                           |
+| `round-robin`       | Siklus melalui target secara berurutan (dibatasi; lihat di bawah)                                                                                                                                                    |
+| `context-relay`     | Serahkan konteks antar target (percakapan panjang)                                                                                                                                                                   |
+| `fill-first`        | Isi kuota setiap target sebelum beralih ke berikutnya                                                                                                                                                                |
+| `p2c`               | Penyeimbangan beban acak Power-of-2-choices                                                                                                                                                                          |
+| `random`            | Pemilihan acak seragam                                                                                                                                                                                               |
+| `least-used`        | Pilih target dengan beban saat ini terendah                                                                                                                                                                          |
+| `cost-optimized`    | Minimalkan $ per permintaan berdasarkan harga katalog                                                                                                                                                                |
+| `reset-aware` ⭐    | Prioritaskan berdasarkan waktu reset kuota — jendela reset singkat diberi peringkat lebih tinggi                                                                                                                     |
+| `reset-window`      | Pilih target yang jendela kuotanya paling cepat di-reset                                                                                                                                                             |
+| `headroom`          | Pilih target dengan sisa ruang kuota terbanyak                                                                                                                                                                       |
+| `quota-weighted`    | Lewati akun yang habis, lalu pilih di antara sisanya secara proporsional dengan sisa kuota dibagi beban yang sedang berjalan; percakapan yang ada tetap disematkan                                                   |
+| `strict-random`     | Acak tanpa deduplikasi pengulangan                                                                                                                                                                                   |
+| `auto`              | Gunakan penilaian Auto Combo (16-faktor) — **direkomendasikan**                                                                                                                                                      |
+| `lkgp`              | Last-Known-Good Path (menyematkan ke penyedia terakhir yang berhasil, lalu kembali ke aturan)                                                                                                                        |
+| `context-optimized` | Pilih target yang paling sesuai untuk ukuran konteks saat ini                                                                                                                                                        |
+| `cache-optimized`   | Urutkan ulang target berdasarkan afinitas prompt-cache — koneksi yang kemungkinan besar sudah menyimpan awalan cache permintaan ini dicoba terlebih dahulu (`open-sse/services/combo/promptCacheAffinity.ts`, #8008) |
+| `fusion` 🧬         | Sebarkan ke panel model secara paralel, lalu sintesis satu jawaban melalui penilai (lihat di bawah)                                                                                                                  |
+| `pipeline`          | Jalankan target secara berurutan, mengalirkan output setiap langkah ke input langkah berikutnya; hanya jawaban akhir yang dikembalikan (#6396)                                                                       |
 
 ⭐ = Baru di v3.8.0 · 🧬 = Baru di v3.8.36
 
 ### Semantik `weighted`
 
 `weighted` adalah **pengundian acak proporsional per permintaan**
-(`open-sse/services/combo/targetSorters.ts` → `selectWeightedTarget`), bukan mekanisme pemerataan:
+(`open-sse/services/combo/targetSorters.ts` → `selectWeightedTarget`), bukan penyama:
 
-- Setiap permintaan memilih **satu** langkah dengan probabilitas `weight / totalWeight`; langkah-langkah yang tersisa
-  diurutkan berdasarkan bobot secara menurun sebagai rangkaian fallback untuk permintaan tersebut.
-- Langkah dengan bobot `0` (atau tanpa bobot) **tidak pernah dipilih** selama ada langkah lain yang memiliki
-  bobot > 0 — langkah tersebut hanya dapat berfungsi sebagai fallback setelah langkah yang dipilih gagal. Hanya ketika **semua**
-  bobot bernilai 0, pemilihan menjadi seragam.
-- Langkah yang semua targetnya tidak tersedia — circuit breaker penyedia `OPEN`, cooldown koneksi,
-  penguncian model — dihapus dari pengundian sebelum pengundian dilakukan
-  (`open-sse/services/combo/targetResolution.ts`), sehingga satu langkah yang sehat untuk sementara dapat
-  memenangkan setiap permintaan.
-- `stickyWeightedLimit` (konfigurasi combo, nilai default `1` = nonaktif) menetapkan langkah yang dipilih untuk sejumlah
-  keberhasilan berturut-turut tersebut sebelum melakukan pengundian ulang.
+- Setiap permintaan menarik **satu** langkah dengan probabilitas `weight / totalWeight`; langkah-langkah yang tersisa diurutkan berdasarkan bobot menurun sebagai rantai cadangan untuk permintaan tersebut.
+- Langkah yang bobotnya `0` (atau hilang) **tidak pernah ditarik** selama langkah lain memiliki bobot > 0 — langkah tersebut hanya dapat berfungsi sebagai cadangan setelah langkah yang ditarik gagal. Hanya ketika **semua** bobot adalah 0, pemilihan menjadi seragam.
+- Langkah yang targetnya tidak tersedia — pemutus sirkuit penyedia `OPEN`, cooldown koneksi, penguncian model — dihapus dari undian sebelum terjadi (`open-sse/services/combo/targetResolution.ts`), sehingga satu langkah yang sehat dapat memenangkan setiap permintaan untuk sementara.
+- `stickyWeightedLimit` (konfigurasi kombo, default `1` = mati) menyematkan langkah yang ditarik untuk sejumlah keberhasilan berturut-turut tersebut sebelum menarik ulang.
 
-Untuk rotasi ketat, gunakan `round-robin`; bobot yang sama pada `weighted` menghasilkan keseimbangan statistik — bukan
-ketat.
+Untuk rotasi ketat gunakan `round-robin`; bobot yang sama pada `weighted` memberikan keseimbangan statistik — bukan ketat.
 
-### Mode pipeline agentik
+### Mode pipeline agentic
 
-Kombinasi `pipeline` dua langkah dapat memilih untuk menggunakan perutean perencana/eksekutor dengan
-`config.agenticOrchestration.enabled`. Target pertama bertanggung jawab atas perencanaan dan jawaban akhir;
-target kedua menghasilkan pemanggilan alat yang sesuai dengan format asli klien. OmniRoute mendeteksi kelanjutan
-hasil alat dari protokol permintaan, menanyakan kepada perencana apakah putaran alat lainnya diperlukan,
-dan secara dinamis menjadikan eksekutor atau perencana sebagai langkah akhir yang ditampilkan kepada klien.
+Kombo `pipeline` dengan setidaknya dua model dapat memilih perutean planner/executor dengan `config.agenticOrchestration.enabled`. Target pertama memiliki perencanaan dan jawaban akhir; target kedua memancarkan panggilan alat (tool calls) asli klien. OmniRoute mendeteksi kelanjutan hasil alat dari protokol permintaan, menanyakan kepada planner apakah putaran alat lain diperlukan, dan secara dinamis menjadikan executor atau planner sebagai langkah akhir yang menghadap klien.
+
+Pada kelanjutan hasil alat, OmniRoute juga menghentikan eksekusi ketika dua putaran selesai berturut-turut mengulangi panggilan alat yang sama dengan hasil yang tidak berubah, atau ketika setiap hasil yang ditandai secara eksplisit dalam dua putaran berturut-turut gagal. Hasil yang berubah mengizinkan panggilan berulang (misalnya, polling). Penjaga (guard) diatur ulang pada permintaan pengguna baru, mengelompokkan panggilan paralel ke dalam satu putaran, dan mendukung riwayat Anthropic, Chat Completions, Responses, dan Gemini. Planner menerima alasan dan memiliki jawaban akhir meskipun meminta putaran alat lain.
+
+Model tambahan setelah target kedua adalah cadangan executor yang diurutkan. Respons HTTP yang gagal atau pengecualian transport berlanjut ke executor berikutnya, membawa keputusan planner dan alat asli yang sama tetapi dengan prompt langkah dan koneksi yang diselesaikan milik executor tersebut. Respons sukses pertama dikembalikan tanpa perubahan, termasuk streaming SSE; kegagalan setelah streaming sukses dimulai tidak dapat dicoba ulang di sini. Jika semua executor gagal, kegagalan terakhir dikembalikan. Pembatalan klien menghentikan pengiriman.
 
 ```json
 {
@@ -344,35 +346,17 @@ dan secara dinamis menjadikan eksekutor atau perencana sebagai langkah akhir yan
 }
 ```
 
-Eksekutor dapat menghasilkan beberapa pemanggilan independen dalam satu respons. Pemanggilan yang saling
-bergantung ditangani dalam giliran hasil alat klien berikutnya, dengan perencana meninjau setiap hasil.
-Nilai default `maxToolRounds` adalah `8` dan menerima `1`–`32`; setelah batas tersebut tercapai, perencana harus
-menghasilkan jawaban akhir terbaik yang tersedia. Keputusan internal perencana disangga, sedangkan
-respons terpilih yang ditampilkan kepada klien mempertahankan preferensi streaming asli.
+Executor dapat memancarkan beberapa panggilan independen dalam satu respons. Panggilan dependen ditangani dalam giliran hasil alat klien berikutnya, dengan planner meninjau setiap hasil. `maxToolRounds` defaultnya adalah `8` dan menerima `1`–`32`; setelah tercapai, planner harus menghasilkan jawaban akhir terbaik yang tersedia. Keputusan planner internal di-buffer, sementara respons yang dipilih yang menghadap klien mempertahankan preferensi streaming asli.
 
-### Batch melekat `round-robin` dan perluasan akun
+### `round-robin` sticky batch dan ekspansi akun
 
-Round-robin diproses secara batch, bukan satu permintaan per langkah:
+Round-robin di-batch, bukan satu-permintaan-per-langkah:
 
-- `stickyRoundRobinLimit` (konfigurasi kombinasi, lalu `comboStickyRoundRobinLimit`, lalu
-  `settings.stickyRoundRobinLimit`, default **3**) mempertahankan target yang sama selama jumlah
-  keberhasilan berturut-turut tersebut sebelum beralih. Atur penggantian di tingkat kombinasi ke `1`
-  untuk peralihan setiap satu permintaan. Editor kombinasi menampilkan nilai efektif dan lapisan asalnya.
-- `connectionAwareExpansion` (konfigurasi kombinasi, lalu pengaturan, default **false**) memperluas
-  setiap langkah tingkat penyedia menjadi target per akun sebelum peralihan. Strategi Grup B
-  (priority, weighted, round-robin, random, p2c, least-used, cost-optimized, lkgp,
-  fill-first, strict-random, context-optimized, cache-optimized, context-relay, fusion,
-  pipeline) mempertahankan tampilan tingkat penyedia hingga opsi ini diaktifkan. Editor kombinasi menyediakan
-  pilihan warisi / aktif / nonaktif; warisi menggunakan nilai default global (nonaktif).
-- Perutean berdasarkan lokalitas cache prompt (`promptCacheAffinityEnabled`, default **true**) mengurutkan ulang
-  koneksi yang disematkan agar kunci cache yang cocok tetap berada pada satu akun. Fitur ini lebih diprioritaskan daripada
-  peralihan round-robin dan berbobot di antara langkah per akun yang disematkan. Nonaktifkan fitur ini melalui
-  Settings → Combo defaults jika Anda memerlukan peralihan yang ketat. Tidak ada penggantian per kombinasi.
+- `stickyRoundRobinLimit` (konfigurasi kombo, lalu `comboStickyRoundRobinLimit`, lalu `settings.stickyRoundRobinLimit`, default **3**) mempertahankan target yang sama untuk jumlah keberhasilan berturut-turut tersebut sebelum berotasi. Atur override kombo ke `1` untuk rotasi satu-permintaan. Editor kombo menunjukkan nilai efektif dan dari lapisan mana nilai tersebut berasal.
+- `connectionAwareExpansion` (konfigurasi kombo, lalu pengaturan, default **false**) memperluas setiap langkah tingkat penyedia menjadi target per-akun sebelum rotasi. Strategi Group-B (priority, weighted, round-robin, random, p2c, least-used, cost-optimized, lkgp, fill-first, strict-random, context-optimized, context-relay, fusion, pipeline) mempertahankan tampilan tingkat penyedia sampai ini diaktifkan. Editor kombo mengekspos inherit / on / off; inherit menggunakan default global (off).
+- Perutean lokalitas prompt-cache (`promptCacheAffinityEnabled`, default **true**) menyusun ulang koneksi yang disematkan sehingga kunci cache yang cocok tetap berada di satu akun. Ini lebih diutamakan daripada rotasi round-robin dan weighted di seluruh langkah per-akun yang disematkan. Matikan di bawah Settings → Combo defaults jika Anda memerlukan rotasi ketat. Tidak ada override per-kombo.
 
-Untuk peralihan multiakun pada satu model, sebaiknya gunakan **satu langkah akun dinamis** (`connectionId`
-kosong, seluruh kumpulan) dengan batas melekat `1`, bukan tiga `connectionId` yang disematkan.
-Langkah yang disematkan bersama afinitas akan mengarah ke akun yang sama meskipun penghitung RR
-terus bertambah.
+Untuk rotasi multi-akun pada satu model, lebih disukai **satu langkah akun-dinamis** (`connectionId` kosong, seluruh pool) dengan batas sticky `1`, bukan tiga `connectionId` yang disematkan. Langkah yang disematkan ditambah afinitas akan runtuh ke akun yang sama bahkan saat penghitung RR bertambah.
 
 ## Strategi Fusion
 
@@ -472,54 +456,46 @@ Ini berarti **menambahkan provider baru dengan `auto/*` yang diaktifkan akan sec
 
 ## API
 
-**Tidak ada endpoint khusus `POST /api/combos/auto`** — Auto-Combo digunakan dengan dua cara:
+Tidak ada **endpoint `POST /api/combos/auto` khusus** — Auto-Combo dikonsumsi dengan dua cara:
 
-1. **Tanpa konfigurasi (direkomendasikan):** Kirim permintaan penyelesaian chat apa pun dengan `model: "auto"` atau `model: "auto/<variant>"`. Pabrik virtual membangun combo untuk setiap permintaan — tanpa persistensi dan tanpa panggilan API tambahan.
+1. **Zero-config (direkomendasikan):** Kirim permintaan chat completion apa pun dengan `model: "auto"` atau `model: "auto/<variant>"`. Virtual factory membangun combo per permintaan — tidak ada persistensi, tidak perlu panggilan API.
 
-2. **Combo persisten dengan `strategy: "auto"`:** Buat combo biasa melalui `POST /api/combos` dan tetapkan `strategy: "auto"` beserta `config.auto.weights` / `config.auto.candidatePool`. Mesin penilaian yang sama digunakan; combo disimpan dalam `combos` dan dapat digunakan kembali berdasarkan ID.
+2. **Combo persisten dengan `strategy: "auto"`:** Buat combo reguler melalui `POST /api/combos` dan atur `strategy: "auto"` ditambah `config.auto.weights` / `config.auto.candidatePool`. Scoring engine yang sama digunakan; combo disimpan di `combos` dan dapat digunakan kembali berdasarkan ID.
 
-Untuk penemuan, `GET /api/combos/auto` mencantumkan setiap varian beserta kumpulan kandidat yang telah diresolusi serta `context_length` / `max_output_tokens` — nilai MAKSIMUM di seluruh jendela dalam kumpulan kandidat. Klien (misalnya plugin opencode) harus mengiklankan nilai-nilai ini, bukan `0`: konteks nol sepenuhnya menonaktifkan pemadatan otomatis opencode, sehingga sesi terus membesar sampai pembersihan riwayat gateway menghancurkan konteks. Nilai MAKSIMUM aman untuk diiklankan karena pra-filter konteks auto-combo merutekan permintaan yang terlalu besar ke kandidat dengan jendela besar.
+Untuk penemuan, `GET /api/combos/auto` mencantumkan setiap varian dengan candidate pool yang diselesaikan ditambah `context_length` / `max_output_tokens` — nilai MAKSIMUM di seluruh window candidate pool. Klien (misalnya plugin opencode) harus mengiklankan nilai-nilai ini alih-alih `0`: konteks nol menonaktifkan auto-compaction opencode sepenuhnya, membiarkan sesi tumbuh hingga pembersihan riwayat gateway menghancurkan konteks. Nilai MAKSIMUM aman untuk diiklankan karena pre-filter konteks auto-combo merutekan permintaan yang terlalu besar ke kandidat dengan window besar.
 
 ```bash
-# Penggunaan tanpa konfigurasi (tanpa pembuatan combo)
+# Zero-config usage (no combo creation)
 curl -X POST http://localhost:20128/v1/chat/completions \
   -H "Authorization: Bearer <key>" \
   -H "Content-Type: application/json" \
   -d '{"model":"auto/coding","messages":[{"role":"user","content":"Hello"}]}'
 
-# Combo otomatis persisten melalui endpoint combo reguler
+# Persisted auto combo via the regular combos endpoint
 curl -X POST http://localhost:20128/api/combos \
   -H "Content-Type: application/json" \
   -d '{"id":"my-auto","name":"Auto Coder","strategy":"auto","config":{"auto":{"candidatePool":["anthropic","google","openai"],"weights":{"quota":0.15,"health":0.3,"costInv":0.05,"latencyInv":0.35,"taskFit":0.1,"stability":0,"tierPriority":0.05}}}}'
 ```
 
-### Strategi router otomatis
+### Auto router strategies
 
-Combo persisten dengan `strategy: "auto"` dapat menetapkan `config.routerStrategy` (atau format lama
-`config.auto.routerStrategy`) ke salah satu nilai berikut:
+Combo `strategy: "auto"` yang persisten dapat mengatur `config.routerStrategy` (atau `config.auto.routerStrategy` lama) ke salah satu dari:
 
 - `rules` — penilaian berbobot default
-- `score` — memilih skor berbobot terkonfigurasi tertinggi. Jika skor benar-benar sama, urutan
-  kandidat yang dikonfigurasi dipertahankan; `explorationRate` yang ada mengambil sampel dari seluruh kumpulan berperingkat.
-- `cost` / `eco` — provider sehat termurah
+- `score` — memilih skor berbobot tertinggi yang dikonfigurasi. Hasil seri yang tepat mempertahankan urutan kandidat yang dikonfigurasi; `explorationRate` yang ada mengambil sampel dari kumpulan peringkat penuh.
+- `cost` / `eco` — penyedia sehat termurah
 - `latency` / `fast` — latensi p95 terendah dengan penalti keandalan
-- `sla-aware` / `sla` — memprioritaskan kandidat yang memenuhi SLO latensi p95, tingkat error, dan
-  biaya opsional
-- `lkgp` — provider terakhir yang diketahui berfungsi ditempatkan pertama
+- `sla-aware` / `sla` — lebih memilih kandidat yang memenuhi SLO latensi p95, tingkat kesalahan, dan biaya opsional
+- `lkgp` — penyedia terakhir yang diketahui baik (last known good provider) didahulukan
+- `nadir` — tanyakan API keputusan [Nadir](https://getnadir.com) model mana di pool yang dibutuhkan prompt; opt-in, fail-open ke `rules`
 
-### Strategi router secara mendetail
+### Router strategies in detail
 
-Mesin auto-combo menyediakan 6 implementasi **RouterStrategy** yang dapat dipasang dan
-Anda tukar melalui `config.routerStrategy` (atau format lama `config.auto.routerStrategy`).
-Setiap strategi memilih satu provider dari kumpulan kandidat berdasarkan `RoutingContext`
-(jenis tugas, petunjuk alat/visi, estimasi token, kebijakan SLA opsional, dan
-provider terakhir yang diketahui berfungsi secara opsional).
+Mesin auto-combo mengekspos 7 implementasi **RouterStrategy** pluggable yang dapat Anda tukar melalui `config.routerStrategy` (atau `config.auto.routerStrategy` lama). Setiap strategi memilih satu penyedia dari candidate pool, berdasarkan `RoutingContext` (tipe tugas, petunjuk alat/visi, estimasi token, kebijakan SLA opsional, penyedia terakhir yang diketahui baik opsional).
 
-#### 1. `rules` (default) — penilaian berbobot dengan 16 faktor
+#### 1. `rules` (default) — 16-factor weighted scoring
 
-Membungkus mesin penilaian yang ada. Memfilter kandidat circuit breaker
-`OPEN`, lalu menjalankan `scorePool()` dengan jenis tugas saat ini dan `getTaskFitness()`,
-serta memilih provider dengan skor tertinggi.
+Membungkus scoring engine yang ada. Memfilter kandidat circuit-breaker `OPEN`, lalu menjalankan `scorePool()` dengan tipe tugas saat ini dan `getTaskFitness()`, memilih penyedia dengan skor tertinggi.
 
 ```ts
 class RulesStrategyImpl implements RouterStrategy {
@@ -539,16 +515,15 @@ class RulesStrategyImpl implements RouterStrategy {
 }
 ```
 
-**Kapan digunakan**: Default. Gunakan saat Anda menginginkan kompromi yang seimbang di antara semua sinyal.
+**Kapan digunakan**: Default. Gunakan saat Anda menginginkan trade-off yang seimbang di semua sinyal.
 
 **Alias**: `rules` (tanpa alias)
 
 ---
 
-#### 2. `cost` / `eco` — provider sehat termurah
+#### 2. `cost` / `eco` — cheapest healthy provider
 
-Mengurutkan kumpulan kandidat berdasarkan `costPer1MTokens` (menaik) dan memilih yang termurah.
-Memfilter kandidat `OPEN` terlebih dahulu.
+Mengurutkan candidate pool berdasarkan `costPer1MTokens` (menaik) dan memilih yang termurah. Memfilter kandidat `OPEN` terlebih dahulu.
 
 ```ts
 class CostStrategyImpl implements RouterStrategy {
@@ -569,10 +544,9 @@ class CostStrategyImpl implements RouterStrategy {
 
 ---
 
-#### 3. `latency` / `fast` — latensi p95 terendah dengan penalti keandalan
+#### 3. `latency` / `fast` — lowest p95 latency with reliability penalty
 
-Mengurutkan berdasarkan `p95LatencyMs + (errorRate * 1000)`. Penalti tingkat kesalahan memastikan
-penyedia yang tidak andal diberi peringkat lebih rendah meskipun latensi nominalnya rendah.
+Mengurutkan berdasarkan `p95LatencyMs + (errorRate * 1000)`. Penalti tingkat kesalahan memastikan penyedia yang tidak dapat diandalkan diberi peringkat lebih rendah meskipun latensi nominalnya rendah.
 
 ```ts
 class LatencyStrategyImpl implements RouterStrategy {
@@ -589,28 +563,27 @@ class LatencyStrategyImpl implements RouterStrategy {
 }
 ```
 
-**Kapan digunakan**: Beban kerja yang sensitif terhadap latensi seperti obrolan waktu nyata, pelengkapan otomatis, atau
-asisten pemrograman interaktif.
+**Kapan digunakan**: Beban kerja yang sensitif terhadap latensi seperti obrolan real-time, autocomplete, atau asisten pengkodean interaktif.
 
 **Alias**: `latency`, `fast`
 
 ---
 
-#### 4. `sla-aware` / `sla` — kepatuhan terhadap SLO latensi/kesalahan/biaya
+#### 4. `sla-aware` / `sla` — latency/error/cost SLO compliance
 
-Memberi skor kepada setiap kandidat berdasarkan seberapa baik kandidat tersebut memenuhi kebijakan SLO yang dikonfigurasi:
+Menilai setiap kandidat berdasarkan seberapa baik kandidat tersebut memenuhi kebijakan SLO yang dikonfigurasi:
 
-| Faktor          | Bobot | Rumus                                                   |
-| --------------- | ----- | ------------------------------------------------------- |
-| Skor latensi    | 35%   | `threshold / max(value, ε)`                             |
-| Skor kesalahan  | 35%   | `threshold / max(value, ε)`                             |
-| Skor kesehatan  | 15%   | `1.0` (CLOSED) / `0.5` (HALF_OPEN) / `0.0` (OPEN)       |
-| Skor biaya      | 10%   | `threshold / max(value, ε)` atau invers ternormalisasi  |
-| Skor stabilitas | 5%    | simpangan baku latensi yang dinormalisasi secara invers |
+| Faktor          | Bobot | Rumus                                                    |
+| --------------- | ----- | -------------------------------------------------------- |
+| Skor latensi    | 35%   | `threshold / max(value, ε)`                              |
+| Skor error      | 35%   | `threshold / max(value, ε)`                              |
+| Skor kesehatan  | 15%   | `1.0` (CLOSED) / `0.5` (HALF_OPEN) / `0.0` (OPEN)        |
+| Skor biaya      | 10%   | `threshold / max(value, ε)` atau ternormalisasi terbalik |
+| Skor stabilitas | 5%    | standar deviasi latensi ternormalisasi terbalik          |
 
-Ketika `hardConstraints: true`, kandidat diurutkan terutama berdasarkan **skor pelanggaran**
-(seberapa jauh mereka melampaui SLO apa pun), lalu berdasarkan skor gabungan. Jika tidak, pengurutan hanya menggunakan
-skor gabungan.
+Saat `hardConstraints: true`, kandidat diurutkan terutama berdasarkan **skor pelanggaran**
+(seberapa jauh mereka melampaui SLO apa pun), kemudian berdasarkan skor komposit. Jika tidak, hanya
+berdasarkan skor komposit.
 
 ```ts
 class SLAStrategyImpl implements RouterStrategy {
@@ -619,12 +592,12 @@ class SLAStrategyImpl implements RouterStrategy {
     "Selects the provider most likely to satisfy latency, error-rate, and cost SLOs";
 
   select(pool, context) {
-    // ... memberi skor kepada setiap kandidat berdasarkan kebijakan: { targetP95Ms, maxErrorRate, maxCostPer1MTokens, hardConstraints }
+    // ... scores each candidate against policy: { targetP95Ms, maxErrorRate, maxCostPer1MTokens, hardConstraints }
   }
 }
 ```
 
-**Bidang SLA** (ditetapkan pada konfigurasi kombo):
+**Field SLA** (diatur pada konfigurasi combo):
 
 ```json
 {
@@ -639,17 +612,17 @@ class SLAStrategyImpl implements RouterStrategy {
 }
 ```
 
-**Kapan digunakan**: Beban kerja produksi dengan batas latensi, tingkat kesalahan, atau biaya yang ketat.
+**Kapan digunakan**: Beban kerja produksi dengan anggaran latensi, tingkat error, atau biaya yang ketat.
 
 **Alias**: `sla-aware`, `sla`
 
 ---
 
-#### 5. `lkgp` — penyedia terakhir yang diketahui berfungsi didahulukan
+#### 5. `lkgp` — penyedia terakhir yang diketahui baik terlebih dahulu
 
-Mencoba **penyedia terakhir yang diketahui berfungsi** (jika ditetapkan) terlebih dahulu, lalu melakukan fallback ke
+Mencoba **penyedia terakhir yang diketahui baik** (jika diatur) terlebih dahulu, kemudian kembali ke
 strategi `rules`. Berguna untuk persistensi sesi — penyedia yang sama menangani
-permintaan lanjutan dalam percakapan.
+permintaan tindak lanjut dalam percakapan.
 
 ```ts
 class LKGPStrategyImpl implements RouterStrategy {
@@ -670,20 +643,62 @@ class LKGPStrategyImpl implements RouterStrategy {
       }
     }
 
-    // Fallback ke strategi rules
+    // Fallback to rules strategy
     return getStrategy("rules").select(pool, context);
   }
 }
 ```
 
-**Kapan digunakan**: Percakapan multi-giliran ketika Anda ingin penyedia yang sama menangani
-permintaan lanjutan (misalnya, untuk caching, kontinuitas konteks, atau konsistensi harga).
+**Kapan digunakan**: Percakapan multi-putaran di mana Anda ingin penyedia yang sama menangani
+permintaan tindak lanjut (misalnya, untuk caching, kontinuitas konteks, atau konsistensi harga).
 
 **Alias**: `lkgp` (tanpa alias)
 
 ---
 
-### Strategi router khusus
+#### 6. `nadir` — pemilihan model yang sadar prompt melalui Nadir
+
+Setiap strategi di atas memberi peringkat kandidat berdasarkan telemetri mereka sendiri; tidak ada yang membaca
+permintaan tersebut. `nadir` mengirimkan giliran pengguna terakhir ditambah id model pool ke API keputusan
+[Nadir](https://getnadir.com) (`POST /v1/bucket`) dan merutekan ke model yang dipilih Nadir dari menu tersebut
+(`simple` → model termurah yang mampu, `complex` → model terdepan). Koneksi yang melayani model tersebut
+tetap dipilih oleh `rules`, jadi kuota, kesehatan, dan biaya tetap menentukan akun mana yang digunakan.
+
+```json
+{
+  "strategy": "auto",
+  "config": {
+    "routerStrategy": "nadir",
+    "nadir": {
+      "apiKey": "ndr_...",
+      "baseUrl": "https://api.getnadir.com",
+      "timeoutMs": 2000
+    }
+  }
+}
+```
+
+`OMNIROUTE_NADIR_API_KEY` dan `OMNIROUTE_NADIR_BASE_URL` adalah fallback env untuk kedua
+string tersebut. `baseUrl` hanya diperlukan untuk Nadir yang di-host sendiri (garis miring `/v1` di akhir ditoleransi).
+Panggilan tanpa kunci akan masuk ke tingkat anonim Nadir, yang dibatasi kecepatannya per IP.
+
+Apa yang keluar dari kotak: teks pesan pengguna terakhir (16k karakter pertama), id model kandidat,
+dan tag saluran `source: "omniroute"`. Tidak ada system prompt, riwayat, tools, atau header.
+
+Perilaku kegagalan adalah fail-open: timeout (default 2000 ms), non-2xx, host yang tidak dapat dijangkau,
+respons yang cacat, atau pilihan di luar pool akan diselesaikan ke keputusan `rules` dan alasannya
+diawali dengan `NadirStrategy: fallback (…)`. Setelah panggilan gagal, strategi akan melewati jaringan
+selama 30 detik, sehingga pemadaman hanya memakan biaya satu timeout per 30 detik, bukan satu per permintaan.
+Peristiwa perutean melaporkan `strategy: "nadir"` hanya ketika Nadir benar-benar membuat pilihan.
+
+**Kapan digunakan**: lalu lintas dengan tingkat kesulitan campuran pada pool yang mencakup tingkatan model
+(model kecil, menengah, dan terdepan), di mana selalu menggunakan model terdepan adalah biaya yang ingin Anda potong.
+
+**Alias**: `nadir` (tanpa alias)
+
+---
+
+### Strategi router kustom
 
 Anda dapat mendaftarkan implementasi `RouterStrategy` Anda sendiri melalui API publik:
 
@@ -698,7 +713,7 @@ class MyCustomStrategy implements RouterStrategy {
   readonly description = "My custom routing strategy";
 
   select(pool, context) {
-    // Logika perutean Anda di sini
+    // Your routing logic here
     return {
       provider: pool[0].provider,
       model: pool[0].model,
@@ -728,15 +743,16 @@ Kemudian gunakan:
 
 ### Panduan pemilihan strategi router
 
-| Kasus penggunaan      | Strategi    | Alasan                                           |
-| --------------------- | ----------- | ------------------------------------------------ |
-| Beban kerja seimbang  | `rules`     | Default — mempertimbangkan semua faktor          |
-| Meminimalkan biaya    | `cost`      | Selalu memilih yang termurah                     |
-| Meminimalkan latensi  | `latency`   | Memilih penyedia andal yang tercepat             |
-| SLO yang ketat        | `sla-aware` | Memfilter berdasarkan ambang p95/kesalahan/biaya |
-| Obrolan multi-giliran | `lkgp`      | Persistensi sesi                                 |
+| Kasus penggunaan           | Strategi    | Alasan                                             |
+| -------------------------- | ----------- | -------------------------------------------------- |
+| Beban kerja seimbang       | `rules`     | Default — mempertimbangkan semua faktor            |
+| Meminimalkan biaya         | `cost`      | Selalu memilih yang termurah                       |
+| Meminimalkan latensi       | `latency`   | Memilih penyedia andal tercepat                    |
+| SLO ketat                  | `sla-aware` | Memfilter berdasarkan ambang batas p95/error/biaya |
+| Obrolan multi-putaran      | `lkgp`      | Persistensi sesi                                   |
+| Tingkat kesulitan campuran | `nadir`     | Memilih tingkatan model per prompt                 |
 
-Bidang yang mendukung SLA:
+Field SLA-aware:
 
 ```json
 {
@@ -804,17 +820,17 @@ Smoke test ini menguji jalur komunikasi yang sebenarnya (combo → penyedia → 
 
 ---
 
-## Berkas
+## File
 
-| Berkas                                                    | Tujuan                                                                                                          |
-| :-------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------- |
-| `open-sse/services/autoCombo/scoring.ts`                  | Fungsi penilaian 16 faktor, `DEFAULT_WEIGHTS`, normalisasi pool                                                 |
-| `open-sse/services/autoCombo/taskFitness.ts`              | Pencarian kecocokan model × tugas                                                                               |
-| `open-sse/services/autoCombo/engine.ts`                   | Logika pemilihan, bandit, batas anggaran                                                                        |
-| `open-sse/services/autoCombo/selfHealing.ts`              | Pengecualian, probe, mode insiden                                                                               |
-| `open-sse/services/autoCombo/modePacks.ts`                | 6 profil bobot (kirim-cepat, penghemat-biaya, utamakan-kualitas, ramah-offline, utamakan-keandalan, mode-kacau) |
-| `open-sse/services/autoCombo/autoPrefix.ts`               | Parser prefiks `auto/` + 6 varian                                                                               |
-| `open-sse/services/autoCombo/virtualFactory.ts`           | Membuat `AutoComboConfig` dalam memori dari koneksi aktif                                                       |
-| `open-sse/services/autoCombo/providerRegistryAccessor.ts` | Kait pengujian untuk membuat tiruan registri penyedia                                                           |
-| `src/shared/constants/routingStrategies.ts`               | `ROUTING_STRATEGY_VALUES` (19 strategi)                                                                         |
-| `src/sse/handlers/chat.ts`                                | Integrasi: pengalihan singkat prefiks otomatis                                                                  |
+| File                                                      | Tujuan                                                                                                 |
+| :-------------------------------------------------------- | :----------------------------------------------------------------------------------------------------- |
+| `open-sse/services/autoCombo/scoring.ts`                  | Fungsi penilaian 16-faktor, `DEFAULT_WEIGHTS`, normalisasi pool                                        |
+| `open-sse/services/autoCombo/taskFitness.ts`              | Pencarian kecocokan (fitness) model × tugas                                                            |
+| `open-sse/services/autoCombo/engine.ts`                   | Logika seleksi, bandit, batas anggaran                                                                 |
+| `open-sse/services/autoCombo/selfHealing.ts`              | Pengecualian, probe, mode insiden                                                                      |
+| `open-sse/services/autoCombo/modePacks.ts`                | 6 profil bobot (ship-fast, cost-saver, quality-first, offline-friendly, reliability-first, chaos-mode) |
+| `open-sse/services/autoCombo/autoPrefix.ts`               | Parser awalan `auto/` + 6 varian                                                                       |
+| `open-sse/services/autoCombo/virtualFactory.ts`           | Membangun `AutoComboConfig` dalam memori dari koneksi aktif                                            |
+| `open-sse/services/autoCombo/providerRegistryAccessor.ts` | Hook pengujian untuk mocking provider registry                                                         |
+| `src/shared/constants/routingStrategies.ts`               | `ROUTING_STRATEGY_VALUES` (20 strategi)                                                                |
+| `src/sse/handlers/chat.ts`                                | Integrasi: short-circuit awalan-otomatis                                                               |

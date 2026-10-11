@@ -4,6 +4,10 @@
 
 ---
 
+🌐 **Languages:** 🇺🇸 [English](../../../../routing/AUTO-COMBO.md) · 🇪🇹 [am](../../../am/docs/routing/AUTO-COMBO.md) · 🇸🇦 [ar](../../../ar/docs/routing/AUTO-COMBO.md) · 🇦🇿 [az](../../../az/docs/routing/AUTO-COMBO.md) · 🇧🇬 [bg](../../../bg/docs/routing/AUTO-COMBO.md) · 🇧🇩 [bn](../../../bn/docs/routing/AUTO-COMBO.md) · 🇧🇦 [bs](../../../bs/docs/routing/AUTO-COMBO.md) · 🇨🇿 [cs](../../../cs/docs/routing/AUTO-COMBO.md) · 🇩🇰 [da](../../../da/docs/routing/AUTO-COMBO.md) · 🇩🇪 [de](../../../de/docs/routing/AUTO-COMBO.md) · 🇬🇷 [el](../../../el/docs/routing/AUTO-COMBO.md) · 🇪🇸 [es](../../../es/docs/routing/AUTO-COMBO.md) · 🇪🇪 [et](../../../et/docs/routing/AUTO-COMBO.md) · 🇮🇷 [fa](../../../fa/docs/routing/AUTO-COMBO.md) · 🇫🇮 [fi](../../../fi/docs/routing/AUTO-COMBO.md) · 🇫🇷 [fr](../../../fr/docs/routing/AUTO-COMBO.md) · 🇮🇪 [ga](../../../ga/docs/routing/AUTO-COMBO.md) · 🇮🇳 [gu](../../../gu/docs/routing/AUTO-COMBO.md) · 🇳🇬 [ha](../../../ha/docs/routing/AUTO-COMBO.md) · 🇮🇳 [hi](../../../hi/docs/routing/AUTO-COMBO.md) · 🇭🇷 [hr](../../../hr/docs/routing/AUTO-COMBO.md) · 🇭🇺 [hu](../../../hu/docs/routing/AUTO-COMBO.md) · 🇦🇲 [hy](../../../hy/docs/routing/AUTO-COMBO.md) · 🇮🇩 [id](../../../id/docs/routing/AUTO-COMBO.md) · 🇳🇬 [ig](../../../ig/docs/routing/AUTO-COMBO.md) · 🇮🇹 [it](../../../it/docs/routing/AUTO-COMBO.md) · 🇯🇵 [ja](../../../ja/docs/routing/AUTO-COMBO.md) · 🇬🇪 [ka](../../../ka/docs/routing/AUTO-COMBO.md) · 🇰🇭 [km](../../../km/docs/routing/AUTO-COMBO.md) · 🇮🇳 [kn](../../../kn/docs/routing/AUTO-COMBO.md) · 🇰🇷 [ko](../../../ko/docs/routing/AUTO-COMBO.md) · 🇱🇹 [lt](../../../lt/docs/routing/AUTO-COMBO.md) · 🇱🇻 [lv](../../../lv/docs/routing/AUTO-COMBO.md) · 🇮🇳 [ml](../../../ml/docs/routing/AUTO-COMBO.md) · 🇮🇳 [mr](../../../mr/docs/routing/AUTO-COMBO.md) · 🇲🇾 [ms](../../../ms/docs/routing/AUTO-COMBO.md) · 🇲🇹 [mt](../../../mt/docs/routing/AUTO-COMBO.md) · 🇲🇲 [my](../../../my/docs/routing/AUTO-COMBO.md) · 🇳🇵 [ne](../../../ne/docs/routing/AUTO-COMBO.md) · 🇳🇱 [nl](../../../nl/docs/routing/AUTO-COMBO.md) · 🇳🇴 [no](../../../no/docs/routing/AUTO-COMBO.md) · 🇮🇳 [or](../../../or/docs/routing/AUTO-COMBO.md) · 🇮🇳 [pa](../../../pa/docs/routing/AUTO-COMBO.md) · 🇵🇭 [phi](../../../phi/docs/routing/AUTO-COMBO.md) · 🇵🇱 [pl](../../../pl/docs/routing/AUTO-COMBO.md) · 🇵🇹 [pt](../../../pt/docs/routing/AUTO-COMBO.md) · 🇧🇷 [pt-BR](../../../pt-BR/docs/routing/AUTO-COMBO.md) · 🇷🇴 [ro](../../../ro/docs/routing/AUTO-COMBO.md) · 🇷🇺 [ru](../../../ru/docs/routing/AUTO-COMBO.md) · 🇱🇰 [si](../../../si/docs/routing/AUTO-COMBO.md) · 🇸🇰 [sk](../../../sk/docs/routing/AUTO-COMBO.md) · 🇸🇮 [sl](../../../sl/docs/routing/AUTO-COMBO.md) · 🇷🇸 [sr](../../../sr/docs/routing/AUTO-COMBO.md) · 🇸🇪 [sv](../../../sv/docs/routing/AUTO-COMBO.md) · 🇰🇪 [sw](../../../sw/docs/routing/AUTO-COMBO.md) · 🇮🇳 [ta](../../../ta/docs/routing/AUTO-COMBO.md) · 🇮🇳 [te](../../../te/docs/routing/AUTO-COMBO.md) · 🇹🇭 [th](../../../th/docs/routing/AUTO-COMBO.md) · 🇹🇷 [tr](../../../tr/docs/routing/AUTO-COMBO.md) · 🇺🇦 [uk-UA](../../../uk-UA/docs/routing/AUTO-COMBO.md) · 🇵🇰 [ur](../../../ur/docs/routing/AUTO-COMBO.md) · 🇺🇿 [uz](../../../uz/docs/routing/AUTO-COMBO.md) · 🇻🇳 [vi](../../../vi/docs/routing/AUTO-COMBO.md) · 🇳🇬 [yo](../../../yo/docs/routing/AUTO-COMBO.md) · 🇨🇳 [zh-CN](../../../zh-CN/docs/routing/AUTO-COMBO.md) · 🇹🇼 [zh-TW](../../../zh-TW/docs/routing/AUTO-COMBO.md)
+
+---
+
 > **למשתמשים**: מחפשים התחלה מהירה? עיינו ב[מדריך למשתמש Auto-Combo](../getting-started/AUTO-COMBO-GUIDE.md) לקבלת הסברים ודוגמאות פשוטים.
 
 > שרשראות מודלים בניהול עצמי עם ניקוד אדפטיבי + ניתוב אוטומטי ללא הגדרות
@@ -47,15 +51,15 @@
 **אופן השימוש:**
 
 ```bash
-# כל IDE או כלי CLI התומך בתבנית OpenAI
+# Any IDE or CLI tool that supports OpenAI format
 Base URL: http://localhost:20128/v1
-API Key:  <מפתח-נקודת-הקצה-שלכם>
+API Key:  <your-endpoint-key>
 
-# בקוד/בתצורה שלכם, הגדירו את המודל כך:
-model: "auto"                 # ברירת מחדל מאוזנת
-model: "auto/coding"          # המתאים ביותר למשימות קידוד
-model: "auto/fast"            # המהיר ביותר הזמין
-model: "auto/cheap"           # הזול ביותר לכל טוקן
+# In your code/config, set model to:
+model: "auto"                 # balanced default
+model: "auto/coding"          # best for coding tasks
+model: "auto/fast"            # fastest available
+model: "auto/cheap"           # cheapest per token
 ```
 
 **מה קורה:**
@@ -106,15 +110,15 @@ model: "auto/cheap"           # הזול ביותר לכל טוקן
 **מאחורי הקלעים:**
 
 ```txt
-בקשה: { model: "auto/coding" }
+Request: { model: "auto/coding" }
    ↓
-src/sse/handlers/chat.ts מזהה את הקידומת
+src/sse/handlers/chat.ts detects prefix
    ↓
-createVirtualAutoCombo('coding') → מאגר מועמדים מחיבורים פעילים
+createVirtualAutoCombo('coding') → candidatePool from active connections
    ↓
-handleComboChat (אותו מנוע המשמש צירופים מתמידים)
+handleComboChat (same engine as persisted combos)
    ↓
-ניקוד אוטומטי בוחר את הספק/המודל הטוב ביותר לכל בקשה
+Auto-scoring selects best provider/model per request
 ```
 
 **קובצי מימוש:**
@@ -146,13 +150,7 @@ handleComboChat (אותו מנוע המשמש צירופים מתמידים)
 `warning` שאינו חוסם, כאשר השם (החדש) מתנגש עם מזהה מודל אמיתי:
 
 ```json
-{
-  "warning": {
-    "code": "COMBO_NAME_SHADOWS_MODEL",
-    "modelId": "gpt-5.5",
-    "providerId": "openai"
-  }
-}
+{ "warning": { "code": "COMBO_NAME_SHADOWS_MODEL", "modelId": "gpt-5.5", "providerId": "openai" } }
 ```
 
 בזמן האתחול, `scanComboModelNameCollisionsAtBoot()`
@@ -183,34 +181,45 @@ curl -X POST http://localhost:20128/v1/chat/completions \
 
 ראו [#7992](https://github.com/diegosouzapw/OmniRoute/issues/7992) ו־[#7111](https://github.com/diegosouzapw/OmniRoute/issues/7111) לתיאור הבלבול המקורי שתיעוד זה נועד להבהיר.
 
-## כיצד זה עובד (שילובי Auto-Combo מתמידים)
+## כיצד זה עובד (Auto-Combos נשמרים)
 
-מנוע ה-Auto-Combo בוחר באופן דינמי את הספק/המודל הטוב ביותר לכל בקשה באמצעות **פונקציית ניקוד בעלת 16 גורמים** (המוגדרת ב-`open-sse/services/autoCombo/scoring.ts` ← `DEFAULT_WEIGHTS`). סכום משקלי ברירת המחדל הוא `1.0`; משקלים מותאמים אישית מנורמלים מחדש באמצעות `normalizeScoringWeights()`. לשניים מתוך שישה-עשר הגורמים — `cacheAffinity` ו-`resetWindowAffinity` — משקל ברירת מחדל של `0`; ל-`reliability` משקל של `0` ב-`DEFAULT_WEIGHTS`, אך `0.03` בערכות כלליות ו-`0.04` ב-`reliability-first`, ול-`quality` משקל של `0.02` בערכות (`0.03` ב-`quality-first`): הם עדיין מחושבים עבור כל מועמד, ו-`cacheAffinity` קובע את הפעלת מניעת הכפילויות במטמון הפרומפטים מחוץ לניקוד, כך שהגורמים שמשקל ברירת המחדל שלהם אפס פשוט אינם משפיעים כברירת מחדל, בעוד שבערכות הם כן משפיעים.
+מנוע ה-Auto-Combo בוחר באופן דינמי את הספק/המודל הטוב ביותר עבור כל בקשה באמצעות **פונקציית ניקוד בעלת 16 גורמים** (מוגדרת ב-`open-sse/services/autoCombo/scoring.ts` ← `DEFAULT_WEIGHTS`). משקלי ברירת המחדל מסתכמים ל-`1.0`; משקלים מותאמים אישית מנורמלים מחדש על ידי `normalizeScoringWeights()`. לשניים מתוך השישה עשר — `cacheAffinity` ו-`resetWindowAffinity` — יש משקל ברירת מחדל של `0`; ל-`reliability` יש `0` ב-`DEFAULT_WEIGHTS` אך `0.03` בחבילות (packs) גנריות ו-`0.04` ב-`reliability-first`, ול-`quality` יש `0.02` בחבילות (`0.03` ב-`quality-first`): הם עדיין מחושבים עבור כל מועמד, ו-`cacheAffinity` מבקר הסרת כפילויות של prompt-cache מחוץ לציון, כך שהגורמים בעלי ברירת מחדל של אפס פשוט אינם מצביעים כברירת מחדל בעוד שחבילות כן.
 
-![ניקוד Auto-Combo בעל 16 גורמים](../diagrams/exported/auto-combo-scoring.svg)
+![Auto-Combo 16-factor scoring](../diagrams/exported/auto-combo-scoring.svg)
 
-> מקור: [diagrams/auto-combo-scoring.mmd](../diagrams/auto-combo-scoring.mmd) (ליצירה מחדש באמצעות `npm run docs:render-diagrams`). שם הקובץ היסטורי; המקור והתרשים המרונדר מציגים את כל 16 הגורמים המוצהרים ב-`DEFAULT_WEIGHTS`.
+> מקור: [diagrams/auto-combo-scoring.mmd](../diagrams/auto-combo-scoring.mmd) (ניתן ליצור מחדש באמצעות `npm run docs:render-diagrams`). שם הקובץ הוא היסטורי; המקור והתרשים המרונדר מציגים את כל 16 הגורמים המוצהרים ב-`DEFAULT_WEIGHTS`.
 
-| גורם                  | משקל ברירת מחדל | תיאור                                                                                                                                                                                      |
-| :-------------------- | :-------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `quota`               | 0.1429          | מכסה שנותרה / מרווח פנוי במגבלת הקצב [0..1]                                                                                                                                                |
-| `health`              | 0.1605          | ציון תקינות ממפסק המעגל (CLOSED=1.0, HALF_OPEN=0.5, OPEN=0.0)                                                                                                                              |
-| `costInv`             | 0.1429          | העלות **המשוקללת** ההופכית (60% מחיר אסימוני קלט + 40% מחיר אסימוני פלט, לאחר נרמול) — זול יותר = ציון גבוה יותר                                                                           |
-| `latencyInv`          | 0.1143          | השהיית p95 הופכית המנורמלת ביחס למאגר — מהיר יותר = ציון גבוה יותר                                                                                                                         |
-| `taskFit`             | 0.0762          | התאמה לסוג המשימה (כתיבת קוד, סקירה, תכנון, ניתוח, ניפוי שגיאות, תיעוד)                                                                                                                    |
-| `stability`           | 0.0476          | יציבות המבוססת על שונות לפי סטיית התקן של ההשהיה — מועמד שזמן התגובה שלו משתנה בחדות מקבל ציון נמוך יותר                                                                                   |
-| `tierPriority`        | 0.0476          | עדיפות רמת החשבון — Ultra=1.0, Pro=0.67, Standard=0.33, Free=0.0                                                                                                                           |
-| `tierAffinity`        | 0.0476          | מידת ההתאמה בין רמת המועמד לבין הרמה המומלצת במניפסט                                                                                                                                       |
-| `specificityMatch`    | 0.0476          | התאמה בין רמת הספציפיות של הבקשה (רמז מהמניפסט) לבין רמת המודל                                                                                                                             |
-| `contextAffinity`     | 0.0476          | מידת ההתאמה בין צורכי חלון ההקשר של הבקשה לבין חלון ההקשר של המודל                                                                                                                         |
-| `sessionAvailability` | 0.0476          | זמינות הפעלת OAuth של חיבור המועמד עבור הפעלה זו (`getOAuthSessionAvailability()`; חיבורים שאינם OAuth מקבלים ציון 1.0)                                                                    |
-| `connectionDensity`   | 0.0476          | פיזור העומס בין חיבורים של אותו ספק (מניעת ריכוזיות)                                                                                                                                       |
-| `cacheAffinity`       | 0.00            | התאמה לפי גיבוב Rendezvous לחיבור בעל הסבירות הגבוהה ביותר שכבר מחזיק את קידומת מטמון הפרומפטים של בקשה זו (`open-sse/services/combo/promptCacheAffinity.ts`); מושבת כברירת מחדל (#8008)   |
-| `resetWindowAffinity` | 0.00            | העדפה לחיבורים שחלון איפוס המכסה שלהם מיטבי (מושבת כברירת מחדל)                                                                                                                            |
-| `quality`             | 0.03            | אות לאיכות הפלט המבוסס על משוב ממעקב האיכות אחר אירועי ניתוב; מועמדים ללא תצפיות מקבלים ערך ניטרלי של 0.5                                                                                  |
-| `reliability`         | 0.00            | שיעור ההצלחה שנצפה, `1 - failureRate`, מתוך 24 שעות של היסטוריית שימוש ובכפוף לסף של עשר דגימות (אחרת נעשה שימוש במדדים בזמן אמת); מועמדים ללא תצפיות מקבלים ערך של 1.0. מושבת כברירת מחדל |
+| גורם                  | משקל ברירת מחדל | תיאור                                                                                                                                                                                |
+| :-------------------- | :-------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `quota`               | 0.1429          | מכסה נותרת / מרווח rate-limit מותר [0..1]                                                                                                                                            |
+| `health`              | 0.1605          | ציון בריאות מ-circuit breaker (CLOSED=1.0, HALF_OPEN=0.5, OPEN=0.0)                                                                                                                  |
+| `costInv`             | 0.1429          | עלות **משוקללת** הופכית (60% מחיר טוקן קלט + 40% מחיר טוקן פלט, מנורמל) — זול יותר = ציון גבוה יותר                                                                                  |
+| `latencyInv`          | 0.1143          | השהיית p95 הופכית מנורמלת למאגר — מהיר יותר = ציון גבוה יותר                                                                                                                         |
+| `taskFit`             | 0.0762          | התאמה לסוג המשימה (coding, review, planning, analysis, debugging, docs)                                                                                                              |
+| `stability`           | 0.0476          | יציבות מבוססת שונות מסטיית התקן של ההשהיה — מועמד שזמן התגובה שלו תנודתי מקבל ציון נמוך יותר                                                                                         |
+| `tierPriority`        | 0.0476          | עדיפות רמת החשבון (account-tier) — Ultra=1.0, Pro=0.67, Standard=0.33, Free=0.0                                                                                                      |
+| `tierAffinity`        | 0.0476          | זיקה בין רמת המועמד לרמה המומלצת על ידי ה-manifest                                                                                                                                   |
+| `specificityMatch`    | 0.0476          | התאמה בין ספציפיות הבקשה (רמז ה-manifest) לבין רמת המודל                                                                                                                             |
+| `contextAffinity`     | 0.0476          | זיקה בין צורך חלון ההקשר של הבקשה לחלון ההקשר של המודל                                                                                                                               |
+| `sessionAvailability` | 0.0476          | זמינות הפעלת OAuth של חיבור המועמד עבור הפעלה זו (`getOAuthSessionAvailability()`; חיבורים שאינם OAuth מקבלים ציון 1.0)                                                              |
+| `connectionDensity`   | 0.0476          | פיזור העומס בין חיבורים של אותו הספק (מניעת ריכוזיות)                                                                                                                                |
+| `cacheAffinity`       | 0.00            | זיקת Rendezvous-hash כלפי החיבור בעל הסבירות הגבוהה ביותר שכבר מחזיק בקידומת ה-prompt-cache של בקשה זו (`open-sse/services/combo/promptCacheAffinity.ts`); מושבת כברירת מחדל (#8008) |
+| `resetWindowAffinity` | 0.00            | הטיה לטובת חיבורים שחלון איפוס המכסה שלהם נוח (מושבת כברירת מחדל)                                                                                                                    |
+| `quality`             | 0.03            | אות איכות פלט מונחה-משוב ממעקב איכות אירועי הניתוב (routing-event); מועמדים ללא תצפיות מקבלים ציון ניטרלי של 0.5                                                                     |
+| `reliability`         | 0.00            | חלק ההצלחה הנצפה, `1 - failureRate`, מתוך 24 שעות של היסטוריית שימוש מעבר לרף של עשר דגימות (מדדים בזמן אמת אחרת); מועמדים ללא תצפיות נקראים כ-1.0. מושבת כברירת מחדל                |
 
-**סכום:** `0.1429 + 0.1605 + 0.1429 + 0.1143 + 0.0762 + (7 × 0.0476) + 0.00 + 0.00 + 0.03 + 0.00 = 1.0`, כפי שמוצהר ב-`DEFAULT_WEIGHTS`; משקלים שהוגדרו על ידי המשתמש מנורמלים מחדש להתפלגות באמצעות `normalizeScoringWeights()` לפני חישוב הניקוד.
+> **מכסה בלתי קריאה (#15347).** כאשר לספק יש מושך מכסה (quota fetcher) אך הוא אינו מחזיר שום דבר
+> קריא (שליפה שנכשלה, אישורים חסרים, שימוש בפורמט הודעה בלבד, או תמונת מצב פגומה ללא
+> `windows` הניתנים לפענוח וללא `percentUsed` סופי, כולל `percentUsed: null`), המועמד
+> מקבל ציון `0` בציר ה-`quota` והציון הסופי שלו מוכפל ב-
+> `UNREADABLE_QUOTA_SOFT_DEPRIORITIZE_FACTOR` (0.5, `autoStrategy.ts`), אותה תבנית ענישה
+> מתונה (soft-penalty) כמו העונש על סטטוס החיבור. קריאת שימוש שנכשלה מהווה עדות על הטלמטריה,
+> ולא על הספק, ולכן הוא מדורג באופן מובהק מתחת לכל קריאה אמיתית, כולל כזו המאושרת כ-100% מנוצלת,
+> אך לעולם אינו נחסם לחלוטין (hard-blocked) או מגורש. ספק ללא מגבלה מדווח על `unlimited: true`
+> ומקבל ציון של מכסה מלאה; לספק ללא מושך מכסה רשום אין מקור טלמטריה כלל
+> ושומר על ערך ברירת המחדל של `100`.
+
+**סכום:** `0.1429 + 0.1605 + 0.1429 + 0.1143 + 0.0762 + (7 × 0.0476) + 0.00 + 0.00 + 0.03 + 0.00 = 1.0` כפי שמוצהר ב-`DEFAULT_WEIGHTS`; משקולות שהוגדרו על ידי המשתמש מנורמלות מחדש להתפלגות על ידי `normalizeScoringWeights()` לפני הניקוד.
 
 ## חבילות מצבים
 
@@ -261,7 +270,7 @@ curl -X POST http://localhost:20128/v1/chat/completions \
 | `X-OmniRoute-Effort`          | `auto` (ערכים אחרים שמורים)                                                                                                                                                              | תקציב חשיבה דינמי: כאשר הבקשה אינה כוללת שדה חשיבה **כלשהו** (`reasoning_effort`, `reasoning`, `thinking`), השער ממפה את `auto` ל־`low`/`medium`/`high` על סמך אותות דטרמיניסטיים ממבנה הבקשה (אורך הודעת המשתמש האחרונה, גודל ההקשר עד להודעת המשתמש האחרונה, תוצאות קודמות של כלים, עומק לולאת הכלים). האותות מוגבלים לתור הנוכחי — המערכת מתעלמת מכל מה שמופיע לאחר הודעת המשתמש האחרונה — כך שכל בקשה בלולאת כלים ממופה לאותה רמה (קיבוע חסר מצב לכל תור, ללא מצב הפעלה וללא הסלמה באמצע הלולאה שתשבור קידומות של מטמון ההנחיות במעלה הזרם). שדה חשיבה מפורש מצד הלקוח תמיד גובר. מוגבל לבקשות שהניתוב שלהן במעלה הזרם ממופה למבנה OpenAI Chat Completions (`targetFormat === FORMATS.OPENAI`) — `reasoning_effort` הוא שדה במבנה OpenAI, ולכן לכותרת אין השפעה על בקשה המיועדת ל־Claude או ל־Gemini (ראו `open-sse/handlers/chatCore/adaptiveEffortWiring.ts`). |
 
 ```bash
-# אילוץ הפרופיל המהיר ביותר, הגבלת בקשה זו ל־$0.05 וחסימה מוחלטת במקום חריגה מהתקציב
+# Force the fastest profile, cap this request at $0.05, and hard-block instead of overspending
 curl -sS http://localhost:20128/v1/chat/completions \
   -H "Content-Type: application/json" \
   -H "X-OmniRoute-Mode: fast" \
@@ -277,59 +286,54 @@ curl -sS http://localhost:20128/v1/chat/completions \
 
 ## כל אסטרטגיות הניתוב
 
-מנוע הקומבו של OmniRoute תומך ב-**19 אסטרטגיות ניתוב** (המוצהרות ב-`src/shared/constants/routingStrategies.ts` → `ROUTING_STRATEGY_VALUES`). מנוע Auto Combo עצמו נחשף תחת האסטרטגיה `auto`; האחרות זמינות עבור קומבואים מתמידים.
+מנוע ה-combo של OmniRoute תומך ב-**20 אסטרטגיות ניתוב** (המוצהרות ב-`src/shared/constants/routingStrategies.ts` → `ROUTING_STRATEGY_VALUES`). מנוע ה-Auto Combo עצמו חשוף תחת האסטרטגיה `auto`; האחרות זמינות עבור combos קבועים (persisted).
 
-| אסטרטגיה            | תיאור                                                                                                                                                                                 |
-| :------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `priority`          | רשימה ממוינת לפי היעד הראשון, עם עדיפות מפורשת                                                                                                                                        |
-| `weighted`          | בחירה אקראית משוקללת לפי המשקל של כל יעד                                                                                                                                              |
-| `round-robin`       | מעבר מחזורי בין היעדים לפי הסדר (באצוות; ראו להלן)                                                                                                                                    |
-| `context-relay`     | העברת ההקשר בין יעדים (שיחות ארוכות)                                                                                                                                                  |
-| `fill-first`        | מילוי המכסה של כל יעד לפני מעבר ליעד הבא                                                                                                                                              |
-| `p2c`               | איזון עומסים אקראי בשיטת Power-of-2-choices                                                                                                                                           |
-| `random`            | בחירה אקראית אחידה                                                                                                                                                                    |
-| `least-used`        | בחירת היעד בעל העומס הנוכחי הנמוך ביותר                                                                                                                                               |
-| `cost-optimized`    | מזעור העלות בדולרים לכל בקשה, בהתאם לתמחור בקטלוג                                                                                                                                     |
-| `reset-aware` ⭐    | תעדוף לפי זמן איפוס המכסה — חלונות איפוס קצרים מדורגים גבוה יותר                                                                                                                      |
-| `reset-window`      | העדפת יעדים שחלון המכסה שלהם יתאפס בזמן הקרוב ביותר                                                                                                                                   |
-| `headroom`          | בחירת היעד בעל מרווח המכסה הנותר הגדול ביותר                                                                                                                                          |
-| `strict-random`     | בחירה אקראית ללא מניעת כפילויות חוזרות                                                                                                                                                |
-| `auto`              | שימוש בניקוד Auto Combo (16 גורמים) — **מומלץ**                                                                                                                                       |
-| `lkgp`              | הנתיב האחרון הידוע כתקין (נצמד לספק האחרון שהצליח, ולאחר מכן חוזר לכללים)                                                                                                             |
-| `context-optimized` | בחירת היעד המתאים ביותר לגודל ההקשר הנוכחי                                                                                                                                            |
-| `cache-optimized`   | סידור מחדש של היעדים לפי זיקה למטמון הפרומפט — החיבור שסביר ביותר כי כבר מחזיק בקידומת השמורה במטמון של בקשה זו מנוסה ראשון (`open-sse/services/combo/promptCacheAffinity.ts`, #8008) |
-| `fusion` 🧬         | שליחה במקביל לקבוצת מודלים, ולאחר מכן סינתזה של תשובה אחת באמצעות שופט (ראו להלן)                                                                                                     |
-| `pipeline`          | הרצת היעדים ברצף, תוך העברת הפלט של כל שלב לקלט של השלב הבא; רק התשובה הסופית מוחזרת (#6396)                                                                                          |
+| אסטרטגיה            | תיאור                                                                                                                                                                                     |
+| :------------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `priority`          | רשימה ממוינת לפי יעד ראשון עם עדיפות מפורשת                                                                                                                                               |
+| `weighted`          | אקראי משוקלל לפי משקל לכל יעד                                                                                                                                                             |
+| `round-robin`       | סבב בין יעדים לפי סדר (במנות; ראו להלן)                                                                                                                                                   |
+| `context-relay`     | העברת הקשר בין יעדים (שיחות ארוכות)                                                                                                                                                       |
+| `fill-first`        | מילוי מכסת כל יעד לפני מעבר לבא                                                                                                                                                           |
+| `p2c`               | איזון עומסים אקראי מסוג Power-of-2-choices                                                                                                                                                |
+| `random`            | בחירה אקראית אחידה                                                                                                                                                                        |
+| `least-used`        | בחירת היעד עם העומס הנוכחי הנמוך ביותר                                                                                                                                                    |
+| `cost-optimized`    | מזעור $ לכל בקשה בהתבסס על מחירון הקטלוג                                                                                                                                                  |
+| `reset-aware` ⭐    | תעדוף לפי זמן איפוס מכסה — חלונות איפוס קצרים מדורגים גבוה יותר                                                                                                                           |
+| `reset-window`      | העדפת יעדים שחלון המכסה שלהם מתאפס הכי מוקדם                                                                                                                                              |
+| `headroom`          | בחירת היעד עם מרווח המכסה (headroom) הפנוי הגדול ביותר                                                                                                                                    |
+| `quota-weighted`    | דילוג על חשבונות שמוצו, ולאחר מכן בחירה מבין היתר ביחס למכסה שנותרה חלקי עומס פעיל; שיחות קיימות נשארות נעולות (pinned)                                                                   |
+| `strict-random`     | אקראי ללא מניעת כפילויות של חזרות                                                                                                                                                         |
+| `auto`              | שימוש בניקוד Auto Combo (16 גורמים) — **מומלץ**                                                                                                                                           |
+| `lkgp`              | נתיב תקין אחרון ידוע (ננעל על הספק המוצלח האחרון, ואז חוזר לכללים)                                                                                                                        |
+| `context-optimized` | בחירת יעד עם ההתאמה הטובה ביותר לגודל ההקשר הנוכחי                                                                                                                                        |
+| `cache-optimized`   | סידור מחדש של יעדים לפי זיקה ל-prompt-cache — החיבור שהסבירות הגבוהה ביותר שהוא כבר מחזיק בקידומת המטמון של בקשה זו מנוסה ראשון (`open-sse/services/combo/promptCacheAffinity.ts`, #8008) |
+| `fusion` 🧬         | פיזור לפאנל של מודלים במקביל, ולאחר מכן סינתזה של תשובה אחת באמצעות שופט (ראו להלן)                                                                                                       |
+| `pipeline`          | הרצת יעדים ברצף, העברת הפלט של כל שלב לקלט של השלב הבא; רק התשובה הסופית מוחזרת (#6396)                                                                                                   |
 
 ⭐ = חדש ב-v3.8.0 · 🧬 = חדש ב-v3.8.36
 
-### הסמנטיקה של `weighted`
+### סמנטיקה של `weighted`
 
-`weighted` היא **הגרלה אקראית יחסית לכל בקשה**
-(`open-sse/services/combo/targetSorters.ts` → `selectWeightedTarget`), ולא מנגנון איזון:
+`weighted` הוא **הגרלה אקראית פרופורציונלית לכל בקשה**
+(`open-sse/services/combo/targetSorters.ts` → `selectWeightedTarget`), לא מאזן (equalizer):
 
-- בכל בקשה מוגרל שלב **אחד** בהסתברות `weight / totalWeight`; השלבים הנותרים
-  מסודרים לפי משקל בסדר יורד כשרשרת הגיבוי עבור אותה בקשה.
-- שלב שמשקלו `0` (או שהמשקל חסר) **לעולם אינו מוגרל** כל עוד לשלב אחר כלשהו יש
-  משקל > 0 — הוא יכול לשמש רק כגיבוי לאחר שהשלב שהוגרל נכשל. רק כאשר **כל**
-  המשקלים הם 0, הבחירה הופכת לאחידה.
-- שלבים שכל היעדים שלהם אינם זמינים — מפסק הזרם של הספק במצב `OPEN`, תקופת
-  צינון של החיבור, נעילת המודל — מוסרים מההגרלה לפני שהיא מתבצעת
-  (`open-sse/services/combo/targetResolution.ts`), כך ששלב תקין יחיד עשוי לזכות זמנית
-  בכל בקשה.
-- `stickyWeightedLimit` (הגדרת קומבו, ברירת המחדל `1` = כבוי) מקבע את השלב שהוגרל למשך מספר זה של
-  הצלחות רצופות לפני הגרלה מחדש.
+- כל בקשה מגרילה **שלב אחד** בהסתברות של `weight / totalWeight`; השלבים הנותרים
+  מסודרים לפי משקל יורד כשרשרת חלופות (fallback) עבור אותה בקשה.
+- שלב שהמשקל שלו הוא `0` (או חסר) **לעולם לא יוגרל** כל עוד לשלב אחר יש משקל > 0 — הוא יכול לשמש רק כחלופה לאחר שהשלב שהוגרל נכשל. רק כאשר **כל** המשקלים הם 0 הבחירה הופכת לאחידה.
+- שלבים שהיעדים שלהם אינם זמינים — מנתק זרם (circuit breaker) של ספק במצב `OPEN`, קירור חיבור, חסימת מודל — מוסרים מההגרלה לפני שהיא מתרחשת
+  (`open-sse/services/combo/targetResolution.ts`), כך ששלב תקין יחיד יכול זמנית לזכות בכל בקשה.
+- `stickyWeightedLimit` (קונפיגורציית combo, ברירת מחדל `1` = כבוי) נועל את השלב שהוגרל למספר כזה של הצלחות רצופות לפני הגרלה מחדש.
 
-לרוטציה קפדנית השתמשו ב-`round-robin`; משקלים שווים ב-`weighted` מספקים איזון סטטיסטי — לא
-קפדני.
+עבור סבב קפדני השתמש ב-`round-robin`; משקלים שווים ב-`weighted` נותנים איזון סטטיסטי — לא קפדני.
 
-### מצב pipeline סוכני
+### מצב צינור עיבוד (pipeline) סוכן
 
-שילוב `pipeline` בן שני שלבים יכול להצטרף לניתוב מתכנן/מבצע באמצעות
-`config.agenticOrchestration.enabled`. היעד הראשון אחראי לתכנון ולתשובות הסופיות;
-היעד השני מפיק קריאות לכלים בפורמט המקורי של הלקוח. OmniRoute מזהה המשכים של
-תוצאות כלים מתוך פרוטוקול הבקשה, שואל את המתכנן אם נדרש סבב כלים נוסף, ובוחר באופן
-דינמי במבצע או במתכנן כשלב הסופי המוצג ללקוח.
+שילוב (combo) מסוג `pipeline` עם לפחות שני מודלים יכול לבחור בניתוב מתכנן/מבצע (planner/executor) באמצעות `config.agenticOrchestration.enabled`. היעד הראשון אחראי על התכנון והתשובות הסופיות; היעד השני מנפיק קריאות כלי (tool calls) מקוריות של הלקוח. OmniRoute מזהה המשכי תוצאות-כלי מפרוטוקול הבקשה, שואל את המתכנן האם נדרש סבב כלי נוסף, והופך באופן דינמי את המבצע או את המתכנן לשלב הסופי מול הלקוח.
+
+בהמשכי תוצאות-כלי, OmniRoute גם עוצר את הביצוע כאשר שני סבבים שהושלמו ברצף חוזרים על אותן קריאות כלי עם תוצאות ללא שינוי, או כאשר כל תוצאה שסומנה במפורש בשני סבבים רצופים נכשלה. תוצאות שהשתנו מאפשרות קריאות חוזרות (לדוגמה, polling). מנגנון ההגנה מתאפס בבקשת משתמש חדשה, מקבץ קריאות מקבילות לסבב אחד, ותומך בהיסטוריות של Anthropic, Chat Completions, Responses ו-Gemini. המתכנן מקבל את הסיבה ואחראי על התשובה הסופית גם אם הוא מבקש סבב כלי נוסף.
+
+מודלים נוספים אחרי היעד השני הם גיבויי מבצע מסודרים. תגובת HTTP שנכשלה או חריגת תעבורה מעבירה את הטיפול למבצע הבא, תוך נשיאת אותה החלטת מתכנן וכלים מקוריים, אך עם ה-prompt של השלב והחיבור שנפתר של אותו מבצע. התגובה המוצלחת הראשונה מוחזרת ללא שינוי, כולל הזרמת SSE; כשלים לאחר תחילת הזרמה מוצלחת לא ניתנים לניסיון חוזר כאן. אם כל המבצעים נכשלים, הכשל האחרון מוחזר. ביטולים מצד הלקוח עוצרים את השילוח.
 
 ```json
 {
@@ -341,39 +345,17 @@ curl -sS http://localhost:20128/v1/chat/completions \
 }
 ```
 
-המבצע רשאי להפיק כמה קריאות בלתי תלויות בתגובה אחת. קריאות תלויות מטופלות
-בסבבים מאוחרים יותר של תוצאות כלים מצד הלקוח, כאשר המתכנן בוחן כל תוצאה.
-ערך ברירת המחדל של `maxToolRounds` הוא `8`, והוא מקבל ערכים בטווח `1`–`32`;
-לאחר הגעה למגבלה, על המתכנן להפיק את התשובה הסופית הטובה ביותר הזמינה.
-החלטות פנימיות של המתכנן נשמרות במאגר זמני, בעוד שהתגובה שנבחרה להצגה ללקוח
-משמרת את העדפת ההזרמה המקורית.
+המבצע עשוי להנפיק מספר קריאות עצמאיות בתגובה אחת. קריאות תלויות מטופלות בתורות מאוחרים יותר של תוצאות-כלי של הלקוח, כאשר המתכנן בוחן כל תוצאה. ערך ברירת המחדל של `maxToolRounds` הוא `8` והוא מקבל ערכים מ-`1` עד `32`; ברגע שהערך מושג, על המתכנן להפיק את התשובה הסופית הטובה ביותר הזמינה. החלטות פנימיות של המתכנן מאוחסנות בחוצץ (buffered), בעוד שהתגובה הנבחרת מול הלקוח משמרת את העדפת ההזרמה המקורית.
 
-### אצווה דביקה והרחבת חשבונות ב-`round-robin`
+### אצווה דביקה (sticky batch) והרחבת חשבון ב-`round-robin`
 
-Round-robin פועל באצוות, ולא לפי בקשה אחת בכל שלב:
+Round-robin מבוצע באצוות, לא בקשה-אחת-לכל-שלב:
 
-- `stickyRoundRobinLimit` (תחילה תצורת השילוב, לאחר מכן `comboStickyRoundRobinLimit`,
-  ואז `settings.stickyRoundRobinLimit`; ברירת המחדל היא **3**) משאיר את אותו יעד
-  למשך מספר זה של הצלחות רצופות לפני המעבר ליעד הבא. הגדירו את דריסת השילוב
-  לערך `1` כדי לעבור לאחר כל בקשה. עורך השילובים מציג את הערך בפועל ואת השכבה
-  שממנה הוא התקבל.
-- `connectionAwareExpansion` (תחילה תצורת השילוב ולאחר מכן ההגדרות; ברירת המחדל
-  היא **false**) מרחיב כל שלב ברמת הספק ליעדים נפרדים לכל חשבון לפני הסבב.
-  אסטרטגיות מקבוצה B (עדיפות, משוקללת, round-robin, אקראית, p2c, הכי פחות בשימוש,
-  ממוטבת לעלות, lkgp, מילוי ראשון, אקראית קפדנית, ממוטבת להקשר, ממוטבת למטמון,
-  העברת הקשר, מיזוג, pipeline) שומרות על תצוגה ברמת הספק עד להפעלת אפשרות זו.
-  עורך השילובים מציע ירושה / מופעל / כבוי; ירושה משתמשת בברירת המחדל הגלובלית
-  (כבוי).
-- ניתוב לפי מקומיות מטמון ההנחיות (`promptCacheAffinityEnabled`; ברירת המחדל היא
-  **true**) משנה את סדר החיבורים המוצמדים, כך שמפתחות מטמון תואמים יישארו באותו
-  חשבון. הוא מקבל קדימות על פני round-robin וסבב משוקלל בין שלבים מוצמדים לכל
-  חשבון. כבו אותו תחת הגדרות → ברירות המחדל של שילובים אם נדרש סבב קפדני.
-  אין אפשרות לדריסה ברמת שילוב.
+- `stickyRoundRobinLimit` (הגדרת combo, לאחר מכן `comboStickyRoundRobinLimit`, לאחר מכן `settings.stickyRoundRobinLimit`, ברירת מחדל **3**) שומר על אותו יעד למספר כזה של הצלחות רצופות לפני ביצוע סבב (rotation). הגדר את עקיפת ה-combo ל-`1` עבור סבב של בקשה אחת. עורך ה-combo מציג את הערך האפקטיבי ומאיזו שכבה הוא הגיע.
+- `connectionAwareExpansion` (הגדרת combo, לאחר מכן הגדרות, ברירת מחדל **false**) מרחיב כל שלב ברמת הספק ליעדים לפי-חשבון לפני ביצוע הסבב. אסטרטגיות Group-B (priority, weighted, round-robin, random, p2c, least-used, cost-optimized, lkgp, fill-first, strict-random, context-optimized, cache-optimized, context-relay, fusion, pipeline) שומרות על תצוגה ברמת הספק עד שהגדרה זו מופעלת. עורך ה-combo חושף inherit / on / off; inherit משתמש בברירת המחדל הגלובלית (off).
+- ניתוב מקומיות של מטמון-הנחיה (prompt-cache locality routing) (`promptCacheAffinityEnabled`, ברירת מחדל **true**) מסדר מחדש חיבורים מוצמדים כך שמפתחות מטמון תואמים יישארו על חשבון אחד. יש לו עדיפות על פני סבב round-robin וסבב משוקלל (weighted) על פני שלבים מוצמדים לפי-חשבון. כבה זאת תחת Settings → Combo defaults אם אתה זקוק לסבב קפדני. אין עקיפה לפי-combo.
 
-לסבב בין כמה חשבונות עבור מודל אחד, העדיפו **שלב אחד עם חשבון דינמי**
-(`connectionId` ריק, המאגר כולו) עם מגבלה דביקה של `1`, ולא שלושה ערכי
-`connectionId` מוצמדים. שלבים מוצמדים יחד עם זיקה מתכנסים לאותו חשבון, גם כאשר
-מונה ה-RR ממשיך להתקדם.
+עבור סבב מרובה-חשבונות במודל אחד, העדף **שלב חשבון-דינמי אחד** (`connectionId` ריק, כל המאגר) עם מגבלת דביקות `1`, ולא שלושה `connectionId` מוצמדים. שלבים מוצמדים בתוספת זיקה (affinity) קורסים על אותו חשבון גם בזמן שמונה ה-RR מתקדם.
 
 ## אסטרטגיית Fusion
 
@@ -473,54 +455,46 @@ curl -X POST http://localhost:20128/api/combos \
 
 ## API
 
-**לא קיימת נקודת קצה ייעודית מסוג `POST /api/combos/auto`** — ניתן להשתמש ב-Auto-Combo בשתי דרכים:
+אין **נקודת קצה ייעודית מסוג `POST /api/combos/auto`** — ניתן לצרוך Auto-Combo בשתי דרכים:
 
-1. **ללא הגדרות (מומלץ):** שלחו כל בקשת השלמת צ'אט עם `model: "auto"` או `model: "auto/<variant>"`. המפעל הווירטואלי בונה את השילוב עבור כל בקשה — ללא שמירה וללא צורך בקריאות API.
+1. **ללא הגדרה (מומלץ):** שלח כל בקשת השלמת צ'אט עם `model: "auto"` או `model: "auto/<variant>"`. המפעל הווירטואלי בונה את ה-combo עבור כל בקשה — אין צורך בשימור (persistence) או בקריאות API.
 
-2. **שילוב שמור עם `strategy: "auto"`:** צרו שילוב רגיל באמצעות `POST /api/combos` והגדירו `strategy: "auto"` יחד עם `config.auto.weights` / `config.auto.candidatePool`. נעשה שימוש באותו מנגנון ניקוד; השילוב נשמר ב-`combos` וניתן לשימוש חוזר לפי מזהה.
+2. **Combo משומר עם `strategy: "auto"`:** צור combo רגיל באמצעות `POST /api/combos` והגדר `strategy: "auto"` בתוספת `config.auto.weights` / `config.auto.candidatePool`. נעשה שימוש באותו מנוע ניקוד; ה-combo נשמר ב-`combos` וניתן לשימוש חוזר לפי מזהה (ID).
 
-לצורך גילוי, `GET /api/combos/auto` מציג כל וריאנט יחד עם מאגר המועמדים שחושב עבורו, וכן `context_length` / `max_output_tokens` — הערך המרבי מבין חלונות מאגר המועמדים. לקוחות (לדוגמה, תוסף opencode) חייבים לפרסם ערכים אלה במקום `0`: הקשר באורך אפס משבית לחלוטין את הדחיסה האוטומטית של opencode, ומאפשר להפעלות לגדול עד שמנגנון ניקוי ההיסטוריה של השער הורס את ההקשר. בטוח לפרסם את הערך המרבי, משום שמסנן ההקשר המקדים של auto-combo מנתב בקשות גדולות מדי למועמדים בעלי חלון גדול.
+לצורך גילוי, `GET /api/combos/auto` מפרט כל וריאנט עם מאגר המועמדים שנפתר שלו בתוספת `context_length` / `max_output_tokens` — הערך המקסימלי (MAX) מבין החלונות של מאגר המועמדים. לקוחות (למשל תוסף opencode) חייבים לפרסם ערכים אלו במקום `0`: הקשר (context) אפס משבית את הדחיסה האוטומטית של opencode לחלוטין, ומאפשר לסשנים לגדול עד שמחיקת ההיסטוריה של ה-gateway משמידה את ההקשר. בטוח לפרסם את הערך המקסימלי (MAX) מכיוון שמסנן ההקשר המוקדם של ה-auto-combo מנתב בקשות גדולות מדי למועמדים בעלי חלון גדול.
 
 ```bash
-# שימוש ללא הגדרות (ללא יצירת שילוב)
+# Zero-config usage (no combo creation)
 curl -X POST http://localhost:20128/v1/chat/completions \
   -H "Authorization: Bearer <key>" \
   -H "Content-Type: application/json" \
   -d '{"model":"auto/coding","messages":[{"role":"user","content":"Hello"}]}'
 
-# שילוב אוטומטי שמור באמצעות נקודת הקצה הרגילה של שילובים
+# Persisted auto combo via the regular combos endpoint
 curl -X POST http://localhost:20128/api/combos \
   -H "Content-Type: application/json" \
   -d '{"id":"my-auto","name":"Auto Coder","strategy":"auto","config":{"auto":{"candidatePool":["anthropic","google","openai"],"weights":{"quota":0.15,"health":0.3,"costInv":0.05,"latencyInv":0.35,"taskFit":0.1,"stability":0,"tierPriority":0.05}}}}'
 ```
 
-### אסטרטגיות הנתב האוטומטי
+### אסטרטגיות ניתוב אוטומטי (Auto router strategies)
 
-שילובים שמורים עם `strategy: "auto"` יכולים להגדיר את `config.routerStrategy` (או את האפשרות הישנה
-`config.auto.routerStrategy`) לאחד מהערכים הבאים:
+ניתן להגדיר ב-combos משומרים מסוג `strategy: "auto"` את `config.routerStrategy` (או את ה-`config.auto.routerStrategy` הישן) לאחת מהאפשרויות הבאות:
 
-- `rules` — ניקוד משוקלל המוגדר כברירת מחדל
-- `score` — בוחר את הציון המשוקלל המוגדר הגבוה ביותר. במקרה של שוויון מדויק נשמר
-  סדר המועמדים שהוגדר; `explorationRate` הקיים דוגם מתוך מלוא המאגר המדורג.
+- `rules` — ניקוד משוקלל כברירת מחדל
+- `score` — בוחר את הניקוד המשוקלל הגבוה ביותר שהוגדר. שוויון מדויק שומר על סדר המועמדים שהוגדר; ה-`explorationRate` הקיים דוגם מתוך המאגר המדורג המלא.
 - `cost` / `eco` — הספק התקין הזול ביותר
-- `latency` / `fast` — זמן ההשהיה p95 הנמוך ביותר, עם קנס על אמינות
-- `sla-aware` / `sla` — העדפת מועמדים שעומדים בזמן ההשהיה p95, בשיעור השגיאות וביעדי
-  SLO אופציונליים לעלות
-- `lkgp` — הספק האחרון שידוע כתקין ראשון
+- `latency` / `fast` — השהיית p95 הנמוכה ביותר עם קנס על אמינות
+- `sla-aware` / `sla` — העדפת מועמדים העומדים ב-SLO של השהיית p95, שיעור שגיאות, ועלות אופציונלית
+- `lkgp` — הספק הטוב האחרון הידוע תחילה
+- `nadir` — שאל את ה-API להחלטות של [Nadir](https://getnadir.com) איזה מודל במאגר ה-prompt צריך; הצטרפות אופציונלית (opt-in), במקרה של כשל חוזר ל-`rules`
 
-### אסטרטגיות הנתב בפירוט
+### אסטרטגיות ניתוב בפירוט
 
-מנוע auto-combo חושף 6 מימושי **RouterStrategy** הניתנים להחלפה,
-שאותם ניתן להחליף באמצעות `config.routerStrategy` (או האפשרות הישנה `config.auto.routerStrategy`).
-כל אסטרטגיה בוחרת ספק אחד ממאגר המועמדים, בהינתן `RoutingContext`
-(סוג משימה, רמזים לגבי כלים/ראייה, אומדן אסימונים, מדיניות SLA אופציונלית וספק
-אחרון שידוע כתקין, באופן אופציונלי).
+מנוע ה-auto-combo חושף 7 מימושי **RouterStrategy** ניתנים להחלפה שניתן להחליף באמצעות `config.routerStrategy` (או ה-`config.auto.routerStrategy` הישן). כל אסטרטגיה בוחרת ספק אחד ממאגר המועמדים, בהינתן `RoutingContext` (סוג משימה, רמזי כלי/ראייה, הערכת אסימונים, מדיניות SLA אופציונלית, ספק טוב אחרון ידוע אופציונלי).
 
-#### 1. `rules` (ברירת מחדל) — ניקוד משוקלל בעל 16 גורמים
+#### 1. `rules` (ברירת מחדל) — ניקוד משוקלל של 16 גורמים
 
-עוטף את מנגנון הניקוד הקיים. מסנן מועמדים שמפסק הזרם שלהם נמצא במצב `OPEN`,
-ולאחר מכן מפעיל את `scorePool()` עם סוג המשימה הנוכחי ו-`getTaskFitness()`,
-ובוחר בספק בעל הציון הגבוה ביותר.
+עוטף את מנוע הניקוד הקיים. מסנן מועמדים עם מפסק זרם (circuit-breaker) במצב `OPEN`, ולאחר מכן מריץ את `scorePool()` עם סוג המשימה הנוכחי ו-`getTaskFitness()`, ובוחר את הספק בעל הניקוד הגבוה ביותר.
 
 ```ts
 class RulesStrategyImpl implements RouterStrategy {
@@ -540,16 +514,15 @@ class RulesStrategyImpl implements RouterStrategy {
 }
 ```
 
-**מתי להשתמש**: ברירת המחדל. השתמשו כאשר אתם רוצים איזון בין כל האותות.
+**מתי להשתמש**: ברירת מחדל. השתמש כאשר אתה רוצה פשרה מאוזנת בין כל האותות.
 
-**כינוי**: `rules` (ללא כינוי נוסף)
+**כינוי**: `rules` (ללא כינוי)
 
 ---
 
 #### 2. `cost` / `eco` — הספק התקין הזול ביותר
 
-ממיין את מאגר המועמדים לפי `costPer1MTokens` (בסדר עולה) ובוחר בזול ביותר.
-תחילה מסנן מועמדים במצב `OPEN`.
+ממיין את מאגר המועמדים לפי `costPer1MTokens` (בסדר עולה) ובוחר את הזול ביותר. מסנן תחילה מועמדים במצב `OPEN`.
 
 ```ts
 class CostStrategyImpl implements RouterStrategy {
@@ -564,16 +537,15 @@ class CostStrategyImpl implements RouterStrategy {
 }
 ```
 
-**מתי להשתמש**: עומסי עבודה רגישים לעלות, עיבוד אצווה או משימות רקע.
+**מתי להשתמש**: עומסי עבודה רגישים לעלות, עיבוד אצווה (batch), או משימות רקע.
 
 **כינויים**: `cost`, `eco`
 
 ---
 
-#### 3. `latency` / `fast` — זמן ההשהיה p95 הנמוך ביותר, עם קנס על אמינות
+#### 3. `latency` / `fast` — השהיית p95 הנמוכה ביותר עם קנס על אמינות
 
-ממיין לפי `p95LatencyMs + (errorRate * 1000)`. הקנס על שיעור השגיאות מבטיח
-שספקים לא אמינים ידורגו נמוך יותר, גם אם זמן ההשהיה הנומינלי שלהם נמוך.
+ממיין לפי `p95LatencyMs + (errorRate * 1000)`. הקנס על שיעור השגיאות מבטיח שספקים לא אמינים ידורגו נמוך יותר גם אם ההשהיה הנומינלית שלהם נמוכה.
 
 ```ts
 class LatencyStrategyImpl implements RouterStrategy {
@@ -590,28 +562,27 @@ class LatencyStrategyImpl implements RouterStrategy {
 }
 ```
 
-**מתי להשתמש**: עומסי עבודה רגישים לזמן השהיה, כגון צ'אט בזמן אמת, השלמה אוטומטית או
-עוזרי תכנות אינטראקטיביים.
+**מתי להשתמש**: עומסי עבודה רגישים להשהיה כמו צ'אט בזמן אמת, השלמה אוטומטית, או עוזרי קידוד אינטראקטיביים.
 
 **כינויים**: `latency`, `fast`
 
 ---
 
-#### 4. `sla-aware` / `sla` — עמידה ביעדי SLO של זמן השהיה/שגיאות/עלות
+#### 4. `sla-aware` / `sla` — עמידה ב-SLO של השהיה/שגיאה/עלות
 
-מעניק לכל מועמד ציון לפי מידת העמידה שלו במדיניות ה-SLO שהוגדרה:
+מנקד כל מועמד לפי מידת העמידה שלו במדיניות ה-SLO שהוגדרה:
 
-| גורם           | משקל | נוסחה                                             |
-| -------------- | ---- | ------------------------------------------------- |
-| ציון זמן השהיה | 35%  | `threshold / max(value, ε)`                       |
-| ציון שגיאות    | 35%  | `threshold / max(value, ε)`                       |
-| ציון תקינות    | 15%  | `1.0` (CLOSED) / `0.5` (HALF_OPEN) / `0.0` (OPEN) |
-| ציון עלות      | 10%  | `threshold / max(value, ε)` או ערך מנורמל הפוך    |
-| ציון יציבות    | 5%   | סטיית תקן מנורמלת והפוכה של זמן ההשהיה            |
+| גורם        | משקל | נוסחה                                             |
+| ----------- | ---- | ------------------------------------------------- |
+| ציון שיהוי  | 35%  | `threshold / max(value, ε)`                       |
+| ציון שגיאות | 35%  | `threshold / max(value, ε)`                       |
+| ציון תקינות | 15%  | `1.0` (CLOSED) / `0.5` (HALF_OPEN) / `0.0` (OPEN) |
+| ציון עלות   | 10%  | `threshold / max(value, ε)` או מנורמל הפוך        |
+| ציון יציבות | 5%   | סטיית תקן של שיהוי מנורמלת הפוך                   |
 
-כאשר `hardConstraints: true`, המועמדים ממוינים תחילה לפי **ציון ההפרה**
-(עד כמה הם חורגים מיעד SLO כלשהו), ולאחר מכן לפי הציון המשוקלל. אחרת, המיון מתבצע
-רק לפי הציון המשוקלל.
+כאשר `hardConstraints: true`, המועמדים ממוינים בראש ובראשונה לפי **ציון חריגה**
+(עד כמה הם חורגים מכל SLO), ולאחר מכן לפי ציון משוקלל. אחרת, זהו רק
+הציון המשוקלל.
 
 ```ts
 class SLAStrategyImpl implements RouterStrategy {
@@ -620,12 +591,12 @@ class SLAStrategyImpl implements RouterStrategy {
     "Selects the provider most likely to satisfy latency, error-rate, and cost SLOs";
 
   select(pool, context) {
-    // ... מעניק ציון לכל מועמד ביחס למדיניות: { targetP95Ms, maxErrorRate, maxCostPer1MTokens, hardConstraints }
+    // ... scores each candidate against policy: { targetP95Ms, maxErrorRate, maxCostPer1MTokens, hardConstraints }
   }
 }
 ```
 
-**שדות SLA** (מוגדרים בתצורת השילוב):
+**שדות SLA** (מוגדרים ב-combo config):
 
 ```json
 {
@@ -640,17 +611,17 @@ class SLAStrategyImpl implements RouterStrategy {
 }
 ```
 
-**מתי להשתמש**: עומסי עבודה בסביבת ייצור עם תקציבים מחמירים לזמן השהיה, לשיעור שגיאות או לעלות.
+**מתי להשתמש**: עומסי עבודה בייצור עם תקציבי שיהוי, שיעור שגיאות או עלות קפדניים.
 
 **כינויים**: `sla-aware`, `sla`
 
 ---
 
-#### 5. `lkgp` — הספק התקין האחרון הידוע תחילה
+#### 5. `lkgp` — הספק האחרון הידוע כטוב תחילה
 
-מנסה תחילה את **הספק התקין האחרון הידוע** (אם הוגדר), ולאחר מכן עובר לאסטרטגיית
-`rules`. שימושי לשמירת עקביות הפעלה — אותו ספק מטפל בבקשות המשך
-בשיחה.
+מנסה תחילה את **הספק האחרון הידוע כטוב** (אם הוגדר), ולאחר מכן חוזר לאסטרטגיית
+`rules`. שימושי לדביקות סשן (session stickiness) — אותו ספק מטפל בבקשות
+המשך בשיחה.
 
 ```ts
 class LKGPStrategyImpl implements RouterStrategy {
@@ -671,22 +642,66 @@ class LKGPStrategyImpl implements RouterStrategy {
       }
     }
 
-    // חזרה לאסטרטגיית rules
+    // Fallback to rules strategy
     return getStrategy("rules").select(pool, context);
   }
 }
 ```
 
-**מתי להשתמש**: שיחות מרובות תורים שבהן רצוי שאותו ספק יטפל
-בבקשות המשך (למשל לצורך אחסון במטמון, רציפות ההקשר או עקביות בתמחור).
+**מתי להשתמש**: שיחות מרובות-שלבים שבהן רוצים שאותו ספק יטפל בבקשות המשך
+(למשל, עבור שמירה במטמון, רציפות הקשר, או עקביות בתמחור).
 
-**כינוי**: `lkgp` (ללא כינוי נוסף)
+**כינוי**: `lkgp` (ללא כינוי)
+
+---
+
+#### 6. `nadir` — בחירת מודל מודעת-פרומפט באמצעות Nadir
+
+כל אסטרטגיה לעיל מדרגת את המועמדים לפי הטלמטריה שלהם; אף אחת מהן לא קוראת
+את הבקשה. `nadir` שולח את תור המשתמש האחרון בתוספת מזהי המודלים של המאגר ל-API
+ההחלטות של [Nadir](https://getnadir.com) (`POST /v1/bucket`) ומנתב למודל
+ש-Nadir בוחר מתוך התפריט הזה (`simple` → המודל הזול ביותר המסוגל, `complex` → מודל החזית).
+החיבור שמשרת את המודל הזה עדיין נבחר על ידי `rules`, כך שמכסה, תקינות ועלות
+ממשיכים להכריע באיזה חשבון להשתמש.
+
+```json
+{
+  "strategy": "auto",
+  "config": {
+    "routerStrategy": "nadir",
+    "nadir": {
+      "apiKey": "ndr_...",
+      "baseUrl": "https://api.getnadir.com",
+      "timeoutMs": 2000
+    }
+  }
+}
+```
+
+`OMNIROUTE_NADIR_API_KEY` ו-`OMNIROUTE_NADIR_BASE_URL` הם חלופות סביבה עבור שני
+המחרוזות. `baseUrl` נדרש רק עבור Nadir בהתארחות עצמית (trailing `/v1` מתקבל).
+קריאות ללא מפתח נוחתות בשכבה האנונימית של Nadir, המוגבלת בקצב לפי IP.
+
+מה יוצא מהקופסה: הטקסט של הודעת המשתמש האחרונה (16 אלף התווים הראשונים), מזהי
+מודלי המועמדים ותג ערוץ `source: "omniroute"`. ללא פרומפט מערכת, היסטוריה, כלים או כותרות.
+
+התנהגות במקרה של כשל היא fail-open: פסק זמן (ברירת מחדל 2000 מילי-שניות), תגובה
+שאינה 2xx, מארח שלא ניתן להגיע אליו, תגובה פגומה או בחירה מחוץ למאגר מתפתרים
+להחלטת `rules` והסיבה מקבלת תחילית `NadirStrategy: fallback (…)`. לאחר קריאה
+שנכשלה, האסטרטגיה מדלגת על הרשת למשך 30 שניות, כך שתקלה עולה פסק זמן אחד לכל
+30 שניות במקום אחד לכל בקשה. אירועי ניתוב מדווחים על `strategy: "nadir"` רק כאשר
+Nadir אכן ביצע את הבחירה.
+
+**מתי להשתמש**: תעבורה בעלת דרגות קושי מעורבות במאגר המשתרע על פני שכבות מודלים
+(מודל קטן, בינוני ומודל חזית), שבו תמיד-חזית הוא העלות שברצונך לחתוך.
+
+**כינוי**: `nadir` (ללא כינוי)
 
 ---
 
 ### אסטרטגיות ניתוב מותאמות אישית
 
-ניתן לרשום מימוש משלכם של `RouterStrategy` דרך ה-API הציבורי:
+ניתן לרשום מימוש `RouterStrategy` משלך דרך ה-API הציבורי:
 
 ```ts
 import {
@@ -699,7 +714,7 @@ class MyCustomStrategy implements RouterStrategy {
   readonly description = "My custom routing strategy";
 
   select(pool, context) {
-    // לוגיקת הניתוב שלכם כאן
+    // Your routing logic here
     return {
       provider: pool[0].provider,
       model: pool[0].model,
@@ -714,7 +729,7 @@ class MyCustomStrategy implements RouterStrategy {
 registerStrategy("my-custom", new MyCustomStrategy());
 ```
 
-לאחר מכן השתמשו בה:
+לאחר מכן השתמש בו:
 
 ```json
 {
@@ -729,15 +744,16 @@ registerStrategy("my-custom", new MyCustomStrategy());
 
 ### מדריך לבחירת אסטרטגיית ניתוב
 
-| תרחיש שימוש      | אסטרטגיה    | סיבה                                     |
-| ---------------- | ----------- | ---------------------------------------- |
-| עומס עבודה מאוזן | `rules`     | ברירת המחדל — מביאה בחשבון את כל הגורמים |
-| מזעור עלות       | `cost`      | תמיד בוחרת באפשרות הזולה ביותר           |
-| מזעור זמן השהיה  | `latency`   | בוחרת בספק האמין והמהיר ביותר            |
-| יעדי SLO מחמירים | `sla-aware` | מסננת לפי ספי p95/שגיאות/עלות            |
-| צ'אט מרובה תורים | `lkgp`      | שמירת עקביות הפעלה                       |
+| מקרה שימוש       | אסטרטגיה    | סיבה                           |
+| ---------------- | ----------- | ------------------------------ |
+| עומס עבודה מאוזן | `rules`     | ברירת מחדל — מתחשב בכל הגורמים |
+| מזעור עלות       | `cost`      | תמיד בוחר את הזול ביותר        |
+| מזעור שיהוי      | `latency`   | בוחר את הספק האמין המהיר ביותר |
+| SLO קפדניים      | `sla-aware` | מסנן לפי ספי p95/שגיאות/עלות   |
+| צ'אט מרובה-שלבים | `lkgp`      | דביקות סשן                     |
+| דרגת קושי מעורבת | `nadir`     | בוחר את שכבת המודל לפי פרומפט  |
 
-שדות המותאמים ל-SLA:
+שדות SLA-aware:
 
 ```json
 {
@@ -815,15 +831,15 @@ offline-friendly) מפורטות בטבלה "פרופילי משקל לפי חב
 
 ## קבצים
 
-| קובץ                                                      | מטרה                                                                                                        |
-| :-------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------- |
-| `open-sse/services/autoCombo/scoring.ts`                  | פונקציית דירוג בעלת 16 גורמים, `DEFAULT_WEIGHTS`, נורמת המאגר                                               |
-| `open-sse/services/autoCombo/taskFitness.ts`              | טבלת התאמה בין מודל למשימה                                                                                  |
-| `open-sse/services/autoCombo/engine.ts`                   | לוגיקת בחירה, בנדיט, תקרת תקציב                                                                             |
-| `open-sse/services/autoCombo/selfHealing.ts`              | החרגה, בדיקות גישוש, מצב תקרית                                                                              |
-| `open-sse/services/autoCombo/modePacks.ts`                | 6 פרופילי משקל (אספקה מהירה, חיסכון בעלויות, איכות תחילה, ידידותי לעבודה לא מקוונת, אמינות תחילה, מצב כאוס) |
-| `open-sse/services/autoCombo/autoPrefix.ts`               | מנתח הקידומת `auto/` + 6 וריאנטים                                                                           |
-| `open-sse/services/autoCombo/virtualFactory.ts`           | בניית `AutoComboConfig` בזיכרון מחיבורים פעילים                                                             |
-| `open-sse/services/autoCombo/providerRegistryAccessor.ts` | נקודת חיבור לבדיקות לצורך הדמיית מרשם הספקים                                                                |
-| `src/shared/constants/routingStrategies.ts`               | `ROUTING_STRATEGY_VALUES` ‏(19 אסטרטגיות)                                                                   |
-| `src/sse/handlers/chat.ts`                                | אינטגרציה: קיצור דרך עבור קידומת אוטומטית                                                                   |
+| קובץ                                                      | מטרה                                                                                                   |
+| :-------------------------------------------------------- | :----------------------------------------------------------------------------------------------------- |
+| `open-sse/services/autoCombo/scoring.ts`                  | פונקציית ניקוד בעלת 16 גורמים, `DEFAULT_WEIGHTS`, pool norm                                            |
+| `open-sse/services/autoCombo/taskFitness.ts`              | חיפוש התאמת מודל × משימה                                                                               |
+| `open-sse/services/autoCombo/engine.ts`                   | לוגיקת בחירה, bandit, תקרת תקציב                                                                       |
+| `open-sse/services/autoCombo/selfHealing.ts`              | החרגה, probes, מצב תקרית                                                                               |
+| `open-sse/services/autoCombo/modePacks.ts`                | 6 פרופילי משקל (ship-fast, cost-saver, quality-first, offline-friendly, reliability-first, chaos-mode) |
+| `open-sse/services/autoCombo/autoPrefix.ts`               | מנתח תחילית `auto/` + 6 גרסאות                                                                         |
+| `open-sse/services/autoCombo/virtualFactory.ts`           | בונה `AutoComboConfig` בזיכרון מחיבורים פעילים                                                         |
+| `open-sse/services/autoCombo/providerRegistryAccessor.ts` | hook בדיקה עבור mocking של רישום ספקים                                                                 |
+| `src/shared/constants/routingStrategies.ts`               | `ROUTING_STRATEGY_VALUES` (20 אסטרטגיות)                                                               |
+| `src/sse/handlers/chat.ts`                                | אינטגרציה: short-circuit לתחילית auto                                                                  |

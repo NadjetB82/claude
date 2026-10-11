@@ -4,6 +4,10 @@
 
 ---
 
+🌐 **Languages:** 🇺🇸 [English](../../../../routing/AUTO-COMBO.md) · 🇪🇹 [am](../../../am/docs/routing/AUTO-COMBO.md) · 🇸🇦 [ar](../../../ar/docs/routing/AUTO-COMBO.md) · 🇦🇿 [az](../../../az/docs/routing/AUTO-COMBO.md) · 🇧🇬 [bg](../../../bg/docs/routing/AUTO-COMBO.md) · 🇧🇩 [bn](../../../bn/docs/routing/AUTO-COMBO.md) · 🇧🇦 [bs](../../../bs/docs/routing/AUTO-COMBO.md) · 🇨🇿 [cs](../../../cs/docs/routing/AUTO-COMBO.md) · 🇩🇰 [da](../../../da/docs/routing/AUTO-COMBO.md) · 🇩🇪 [de](../../../de/docs/routing/AUTO-COMBO.md) · 🇬🇷 [el](../../../el/docs/routing/AUTO-COMBO.md) · 🇪🇸 [es](../../../es/docs/routing/AUTO-COMBO.md) · 🇪🇪 [et](../../../et/docs/routing/AUTO-COMBO.md) · 🇮🇷 [fa](../../../fa/docs/routing/AUTO-COMBO.md) · 🇫🇮 [fi](../../../fi/docs/routing/AUTO-COMBO.md) · 🇫🇷 [fr](../../../fr/docs/routing/AUTO-COMBO.md) · 🇮🇪 [ga](../../../ga/docs/routing/AUTO-COMBO.md) · 🇮🇳 [gu](../../../gu/docs/routing/AUTO-COMBO.md) · 🇳🇬 [ha](../../../ha/docs/routing/AUTO-COMBO.md) · 🇮🇱 [he](../../../he/docs/routing/AUTO-COMBO.md) · 🇮🇳 [hi](../../../hi/docs/routing/AUTO-COMBO.md) · 🇭🇷 [hr](../../../hr/docs/routing/AUTO-COMBO.md) · 🇭🇺 [hu](../../../hu/docs/routing/AUTO-COMBO.md) · 🇦🇲 [hy](../../../hy/docs/routing/AUTO-COMBO.md) · 🇮🇩 [id](../../../id/docs/routing/AUTO-COMBO.md) · 🇳🇬 [ig](../../../ig/docs/routing/AUTO-COMBO.md) · 🇮🇹 [it](../../../it/docs/routing/AUTO-COMBO.md) · 🇯🇵 [ja](../../../ja/docs/routing/AUTO-COMBO.md) · 🇬🇪 [ka](../../../ka/docs/routing/AUTO-COMBO.md) · 🇰🇭 [km](../../../km/docs/routing/AUTO-COMBO.md) · 🇮🇳 [kn](../../../kn/docs/routing/AUTO-COMBO.md) · 🇰🇷 [ko](../../../ko/docs/routing/AUTO-COMBO.md) · 🇱🇹 [lt](../../../lt/docs/routing/AUTO-COMBO.md) · 🇱🇻 [lv](../../../lv/docs/routing/AUTO-COMBO.md) · 🇮🇳 [ml](../../../ml/docs/routing/AUTO-COMBO.md) · 🇮🇳 [mr](../../../mr/docs/routing/AUTO-COMBO.md) · 🇲🇾 [ms](../../../ms/docs/routing/AUTO-COMBO.md) · 🇲🇹 [mt](../../../mt/docs/routing/AUTO-COMBO.md) · 🇲🇲 [my](../../../my/docs/routing/AUTO-COMBO.md) · 🇳🇵 [ne](../../../ne/docs/routing/AUTO-COMBO.md) · 🇳🇱 [nl](../../../nl/docs/routing/AUTO-COMBO.md) · 🇳🇴 [no](../../../no/docs/routing/AUTO-COMBO.md) · 🇮🇳 [or](../../../or/docs/routing/AUTO-COMBO.md) · 🇮🇳 [pa](../../../pa/docs/routing/AUTO-COMBO.md) · 🇵🇭 [phi](../../../phi/docs/routing/AUTO-COMBO.md) · 🇵🇹 [pt](../../../pt/docs/routing/AUTO-COMBO.md) · 🇧🇷 [pt-BR](../../../pt-BR/docs/routing/AUTO-COMBO.md) · 🇷🇴 [ro](../../../ro/docs/routing/AUTO-COMBO.md) · 🇷🇺 [ru](../../../ru/docs/routing/AUTO-COMBO.md) · 🇱🇰 [si](../../../si/docs/routing/AUTO-COMBO.md) · 🇸🇰 [sk](../../../sk/docs/routing/AUTO-COMBO.md) · 🇸🇮 [sl](../../../sl/docs/routing/AUTO-COMBO.md) · 🇷🇸 [sr](../../../sr/docs/routing/AUTO-COMBO.md) · 🇸🇪 [sv](../../../sv/docs/routing/AUTO-COMBO.md) · 🇰🇪 [sw](../../../sw/docs/routing/AUTO-COMBO.md) · 🇮🇳 [ta](../../../ta/docs/routing/AUTO-COMBO.md) · 🇮🇳 [te](../../../te/docs/routing/AUTO-COMBO.md) · 🇹🇭 [th](../../../th/docs/routing/AUTO-COMBO.md) · 🇹🇷 [tr](../../../tr/docs/routing/AUTO-COMBO.md) · 🇺🇦 [uk-UA](../../../uk-UA/docs/routing/AUTO-COMBO.md) · 🇵🇰 [ur](../../../ur/docs/routing/AUTO-COMBO.md) · 🇺🇿 [uz](../../../uz/docs/routing/AUTO-COMBO.md) · 🇻🇳 [vi](../../../vi/docs/routing/AUTO-COMBO.md) · 🇳🇬 [yo](../../../yo/docs/routing/AUTO-COMBO.md) · 🇨🇳 [zh-CN](../../../zh-CN/docs/routing/AUTO-COMBO.md) · 🇹🇼 [zh-TW](../../../zh-TW/docs/routing/AUTO-COMBO.md)
+
+---
+
 > **Dla użytkowników**: Szukasz szybkiego startu? Zobacz [Podręcznik użytkownika Auto-Combo](../getting-started/AUTO-COMBO-GUIDE.md), aby poznać proste wyjaśnienia i przykłady.
 
 > Samozarządzające się łańcuchy modeli z adaptacyjną punktacją i automatycznym routingiem bez konfiguracji
@@ -47,15 +51,15 @@ Każdy prawidłowy zapis `auto/<category>[:<tier>]` jest rozwiązywany na żąda
 **Jak używać:**
 
 ```bash
-# Dowolne IDE lub narzędzie CLI obsługujące format OpenAI
-Bazowy adres URL: http://localhost:20128/v1
-Klucz API:       <klucz-punktu-końcowego>
+# Any IDE or CLI tool that supports OpenAI format
+Base URL: http://localhost:20128/v1
+API Key:  <your-endpoint-key>
 
-# W kodzie/konfiguracji ustaw model na:
-model: "auto"                 # zrównoważone ustawienie domyślne
-model: "auto/coding"          # najlepszy do zadań związanych z kodowaniem
-model: "auto/fast"            # najszybszy dostępny
-model: "auto/cheap"           # najtańszy w przeliczeniu na token
+# In your code/config, set model to:
+model: "auto"                 # balanced default
+model: "auto/coding"          # best for coding tasks
+model: "auto/fast"            # fastest available
+model: "auto/cheap"           # cheapest per token
 ```
 
 **Co się dzieje:**
@@ -109,15 +113,15 @@ model pojedynczego dzierżawcy.
 **Za kulisami:**
 
 ```txt
-Żądanie: { model: "auto/coding" }
+Request: { model: "auto/coding" }
    ↓
-src/sse/handlers/chat.ts wykrywa prefiks
+src/sse/handlers/chat.ts detects prefix
    ↓
-createVirtualAutoCombo('coding') → pula kandydatów z aktywnych połączeń
+createVirtualAutoCombo('coding') → candidatePool from active connections
    ↓
-handleComboChat (ten sam silnik co w przypadku utrwalonych kombinacji)
+handleComboChat (same engine as persisted combos)
    ↓
-Automatyczna ocena wybiera najlepszego dostawcę/model dla każdego żądania
+Auto-scoring selects best provider/model per request
 ```
 
 **Pliki implementacji:**
@@ -152,13 +156,7 @@ pole `warning`, gdy (nowa) nazwa koliduje z rzeczywistym
 identyfikatorem modelu:
 
 ```json
-{
-  "warning": {
-    "code": "COMBO_NAME_SHADOWS_MODEL",
-    "modelId": "gpt-5.5",
-    "providerId": "openai"
-  }
-}
+{ "warning": { "code": "COMBO_NAME_SHADOWS_MODEL", "modelId": "gpt-5.5", "providerId": "openai" } }
 ```
 
 Podczas uruchamiania funkcja `scanComboModelNameCollisionsAtBoot()`
@@ -189,34 +187,45 @@ Dwie częste pułapki:
 
 Pierwotne źródło opisanego tutaj nieporozumienia można znaleźć w [#7992](https://github.com/diegosouzapw/OmniRoute/issues/7992) i [#7111](https://github.com/diegosouzapw/OmniRoute/issues/7111).
 
-## Jak to działa (utrwalone Auto-Combo)
+## Jak to działa (Utrwalone Auto-Combos)
 
-Mechanizm Auto-Combo dynamicznie wybiera najlepszego dostawcę/model dla każdego żądania przy użyciu **16-czynnikowej funkcji punktacji** (zdefiniowanej w `open-sse/services/autoCombo/scoring.ts` → `DEFAULT_WEIGHTS`). Suma domyślnych wag wynosi `1.0`; niestandardowe wagi są ponownie normalizowane przez `normalizeScoringWeights()`. Dwa z szesnastu czynników — `cacheAffinity` i `resetWindowAffinity` — mają domyślną wagę `0`; `reliability` ma wagę `0` w `DEFAULT_WEIGHTS`, ale `0.03` w pakietach ogólnych i `0.04` w `reliability-first`, natomiast `quality` ma wagę `0.02` w pakietach (`0.03` w `quality-first`): nadal są one obliczane dla każdego kandydata, a `cacheAffinity` steruje deduplikacją pamięci podręcznej promptów poza punktacją, dlatego czynniki z domyślną wagą równą zero po prostu domyślnie nie wpływają na wynik, natomiast w pakietach są uwzględniane.
+Silnik Auto-Combo dynamicznie wybiera najlepszego dostawcę/model dla każdego żądania za pomocą **16-czynnikowej funkcji punktacji** (zdefiniowanej w `open-sse/services/autoCombo/scoring.ts` → `DEFAULT_WEIGHTS`). Domyślne wagi sumują się do `1.0`; niestandardowe wagi są renormalizowane przez `normalizeScoringWeights()`. Dwa z szesnastu czynników — `cacheAffinity` oraz `resetWindowAffinity` — mają domyślną wagę `0`; `reliability` ma wagę `0` w `DEFAULT_WEIGHTS`, ale `0.03` w pakietach generycznych i `0.04` w `reliability-first`, a `quality` ma wagę `0.02` w pakietach (`0.03` w `quality-first`): są one nadal obliczane dla każdego kandydata, a `cacheAffinity` steruje deduplikacją prompt-cache poza punktacją, więc czynniki z domyślną wartością zero po prostu nie biorą udziału w głosowaniu domyślnie, podczas gdy pakiety to robią.
 
-![16-czynnikowa punktacja Auto-Combo](../diagrams/exported/auto-combo-scoring.svg)
+![Punktacja 16-czynnikowa Auto-Combo](../diagrams/exported/auto-combo-scoring.svg)
 
-> Źródło: [diagrams/auto-combo-scoring.mmd](../diagrams/auto-combo-scoring.mmd) (wygeneruj ponownie za pomocą `npm run docs:render-diagrams`). Nazwa pliku ma charakter historyczny; źródło i wyrenderowany diagram przedstawiają wszystkie 16 czynników zadeklarowanych w `DEFAULT_WEIGHTS`.
+> Źródło: [diagrams/auto-combo-scoring.mmd](../diagrams/auto-combo-scoring.mmd) (wygeneruj ponownie za pomocą `npm run docs:render-diagrams`). Nazwa pliku jest zaszłością historyczną; źródło i wyrenderowany diagram pokazują wszystkie 16 czynników zadeklarowanych w `DEFAULT_WEIGHTS`.
 
-| Czynnik               | Domyślna waga | Opis                                                                                                                                                                                                                                                                       |
-| :-------------------- | :------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `quota`               | 0.1429        | Pozostały limit / zapas limitu szybkości [0..1]                                                                                                                                                                                                                            |
-| `health`              | 0.1605        | Wynik kondycji z wyłącznika automatycznego (CLOSED=1.0, HALF_OPEN=0.5, OPEN=0.0)                                                                                                                                                                                           |
-| `costInv`             | 0.1429        | Odwrotność **mieszanego** kosztu (60% ceny tokenów wejściowych + 40% ceny tokenów wyjściowych, po normalizacji) — taniej = wyższy wynik                                                                                                                                    |
-| `latencyInv`          | 0.1143        | Odwrotność opóźnienia p95 znormalizowanego względem puli — szybciej = wyższy wynik                                                                                                                                                                                         |
-| `taskFit`             | 0.0762        | Dopasowanie do typu zadania (programowanie, przegląd, planowanie, analiza, debugowanie, dokumentacja)                                                                                                                                                                      |
-| `stability`           | 0.0476        | Stabilność oparta na wariancji odchylenia standardowego opóźnienia — kandydat o bardziej zmiennym czasie odpowiedzi otrzymuje niższy wynik                                                                                                                                 |
-| `tierPriority`        | 0.0476        | Priorytet poziomu konta — Ultra=1.0, Pro=0.67, Standard=0.33, Free=0.0                                                                                                                                                                                                     |
-| `tierAffinity`        | 0.0476        | Zgodność między poziomem kandydata a poziomem zalecanym w manifeście                                                                                                                                                                                                       |
-| `specificityMatch`    | 0.0476        | Dopasowanie między specyficznością żądania (wskazówką manifestu) a poziomem modelu                                                                                                                                                                                         |
-| `contextAffinity`     | 0.0476        | Zgodność między wymaganym przez żądanie rozmiarem okna kontekstu a oknem kontekstu modelu                                                                                                                                                                                  |
-| `sessionAvailability` | 0.0476        | Dostępność sesji OAuth połączenia kandydata dla tej sesji (`getOAuthSessionAvailability()`; połączenia inne niż OAuth otrzymują wynik 1.0)                                                                                                                                 |
-| `connectionDensity`   | 0.0476        | Rozkłada obciążenie między połączeniami tego samego dostawcy (zapobiega koncentracji)                                                                                                                                                                                      |
-| `cacheAffinity`       | 0.00          | Zgodność oparta na haszowaniu rendezvous, preferująca połączenie, które najprawdopodobniej zawiera już prefiks pamięci podręcznej promptu dla tego żądania (`open-sse/services/combo/promptCacheAffinity.ts`); domyślnie wyłączona (#8008)                                 |
-| `resetWindowAffinity` | 0.00          | Preferowanie połączeń, których okno resetowania limitu jest korzystne (domyślnie wyłączone)                                                                                                                                                                                |
-| `quality`             | 0.03          | Sygnał jakości wyników oparty na informacjach zwrotnych z modułu śledzenia jakości zdarzeń routingu; kandydaci bez obserwacji otrzymują neutralną wartość 0.5                                                                                                              |
-| `reliability`         | 0.00          | Zaobserwowany udział sukcesów, `1 - failureRate`, obliczany na podstawie 24 godzin historii użycia z minimalnym progiem dziesięciu próbek (w przeciwnym razie używane są metryki czasu rzeczywistego); kandydaci bez obserwacji otrzymują wartość 1.0. Domyślnie wyłączone |
+| Czynnik               | Domyślna waga | Opis                                                                                                                                                                                                                                            |
+| :-------------------- | :------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `quota`               | 0.1429        | Pozostały limit (quota) / zapas rate-limitu [0..1]                                                                                                                                                                                              |
+| `health`              | 0.1605        | Wynik kondycji (health score) z circuit breakera (CLOSED=1.0, HALF_OPEN=0.5, OPEN=0.0)                                                                                                                                                          |
+| `costInv`             | 0.1429        | Odwrotność **mieszanego** kosztu (cena 60% tokenów wejściowych + 40% tokenów wyjściowych, znormalizowana) — taniej = wyższy wynik                                                                                                               |
+| `latencyInv`          | 0.1143        | Odwrotność opóźnienia p95 znormalizowana do puli — szybciej = wyższy wynik                                                                                                                                                                      |
+| `taskFit`             | 0.0762        | Dopasowanie do typu zadania (coding, review, planning, analysis, debugging, docs)                                                                                                                                                               |
+| `stability`           | 0.0476        | Stabilność oparta na wariancji z odchylenia standardowego opóźnienia — kandydat, którego czas odpowiedzi ulega wahaniom, otrzymuje niższy wynik                                                                                                 |
+| `tierPriority`        | 0.0476        | Priorytet poziomu konta (tier) — Ultra=1.0, Pro=0.67, Standard=0.33, Free=0.0                                                                                                                                                                   |
+| `tierAffinity`        | 0.0476        | Powiązanie (affinity) między poziomem kandydata a poziomem zalecanym przez manifest                                                                                                                                                             |
+| `specificityMatch`    | 0.0476        | Zgodność między specyfiką żądania (wskazówka z manifestu) a poziomem modelu                                                                                                                                                                     |
+| `contextAffinity`     | 0.0476        | Powiązanie między zapotrzebowaniem żądania na okno kontekstu a oknem kontekstu modelu                                                                                                                                                           |
+| `sessionAvailability` | 0.0476        | Dostępność sesji OAuth połączenia kandydata dla tej sesji (`getOAuthSessionAvailability()`; połączenia inne niż OAuth otrzymują wynik 1.0)                                                                                                      |
+| `connectionDensity`   | 0.0476        | Rozkłada obciążenie pomiędzy połączenia tego samego dostawcy (antykoncentracja)                                                                                                                                                                 |
+| `cacheAffinity`       | 0.00          | Powiązanie rendezvous-hash z połączeniem, które z największym prawdopodobieństwem posiada już prefiks prompt-cache tego żądania (`open-sse/services/combo/promptCacheAffinity.ts`); domyślnie wyłączone (#8008)                                 |
+| `resetWindowAffinity` | 0.00          | Preferencja w kierunku połączeń, których okno resetowania limitu (quota) jest korzystne (domyślnie wyłączone)                                                                                                                                   |
+| `quality`             | 0.03          | Sygnał jakości wyników oparty na opiniach (feedback) ze śledzenia jakości zdarzeń routingu; kandydaci bez obserwacji otrzymują neutralną wartość 0.5                                                                                            |
+| `reliability`         | 0.00          | Zaobserwowany udział sukcesów, `1 - failureRate`, z 24-godzinnej historii użycia z minimalnym progiem dziesięciu próbek (w przeciwnym razie metryki czasu rzeczywistego); kandydaci bez obserwacji są odczytywani jako 1.0. Domyślnie wyłączone |
 
-**Suma:** `0.1429 + 0.1605 + 0.1429 + 0.1143 + 0.0762 + (7 × 0.0476) + 0.00 + 0.00 + 0.03 + 0.00 = 1.0`, zgodnie z deklaracją w `DEFAULT_WEIGHTS`; przed obliczeniem punktacji wagi skonfigurowane przez użytkownika są ponownie normalizowane do rozkładu przez `normalizeScoringWeights()`.
+> **Nieczytelny limit/quota (#15347).** Gdy dostawca posiada mechanizm pobierania limitów (quota fetcher), ale nie zwraca on nic
+> czytelnego (nieudane pobranie, brakujące dane uwierzytelniające, użycie zawierające tylko komunikat lub zniekształcony zrzut stanu bez
+> możliwych do sparsowania `windows` oraz bez skończonej wartości `percentUsed`, w tym `percentUsed: null`), kandydat
+> otrzymuje wynik `0` na osi `quota`, a jego ostateczny wynik jest mnożony przez
+> `UNREADABLE_QUOTA_SOFT_DEPRIORITIZE_FACTOR` (0.5, `autoStrategy.ts`), co stanowi ten sam wzorzec
+> łagodnej kary (soft-penalty), co kara za stan połączenia. Nieudany odczyt użycia jest świadectwem dotyczącym telemetrii,
+> a nie samego dostawcy, dlatego plasuje się on ściśle poniżej jakiegokolwiek rzeczywistego odczytu, w tym potwierdzonego
+> zużycia na poziomie 100%, ale nigdy nie jest twardo blokowany ani usuwany. Dostawca bez limitu zgłasza `unlimited: true` i
+> uzyskuje maksymalny wynik limitu; dostawca bez zarejestrowanego mechanizmu pobierania limitów nie ma żadnego źródła telemetrii
+> i zachowuje domyślną wartość `100`.
+
+**Suma:** `0.1429 + 0.1605 + 0.1429 + 0.1143 + 0.0762 + (7 × 0.0476) + 0.00 + 0.00 + 0.03 + 0.00 = 1.0`, zgodnie z deklaracją w `DEFAULT_WEIGHTS`; wagi skonfigurowane przez użytkownika są renormalizowane do postaci rozkładu przez `normalizeScoringWeights()` przed przeprowadzeniem oceny punktowej.
 
 ## Pakiety trybów
 
@@ -267,7 +276,7 @@ kombinacji.
 | `X-OmniRoute-Effort`          | `auto` (pozostałe wartości są zarezerwowane)                                                                                                                                                                       | Adaptacyjny budżet rozumowania: gdy żądanie **nie zawiera** pola rozumowania w żadnej postaci (`reasoning_effort`, `reasoning`, `thinking`), brama rozstrzyga wartość `auto` jako `low`/`medium`/`high` na podstawie deterministycznych sygnałów wynikających ze struktury żądania (długość ostatniej wiadomości użytkownika, rozmiar kontekstu do ostatniej wiadomości użytkownika włącznie, wcześniejsze wyniki narzędzi, głębokość pętli narzędzi). Sygnały są ograniczone do bieżącej tury — wszystko po ostatniej wiadomości użytkownika jest ignorowane — dzięki czemu każde żądanie w pętli narzędzi jest rozstrzygane na tym samym poziomie (bezstanowe przypięcie dla danej tury, bez stanu sesji i bez eskalacji w trakcie pętli, która naruszyłaby prefiksy pamięci podręcznej promptów po stronie usługi nadrzędnej). Jawnie określone przez klienta pole rozumowania ma zawsze pierwszeństwo. Dotyczy żądań, których przekazanie do usługi nadrzędnej przyjmuje format OpenAI Chat Completions (`targetFormat === FORMATS.OPENAI`) — `reasoning_effort` jest polem charakterystycznym dla formatu OpenAI, dlatego nagłówek nie ma wpływu na żądanie skierowane do Claude lub Gemini (zobacz `open-sse/handlers/chatCore/adaptiveEffortWiring.ts`). |
 
 ```bash
-# Wymuś najszybszy profil, ogranicz koszt tego żądania do $0.05 i zastosuj twardą blokadę zamiast przekraczania budżetu
+# Force the fastest profile, cap this request at $0.05, and hard-block instead of overspending
 curl -sS http://localhost:20128/v1/chat/completions \
   -H "Content-Type: application/json" \
   -H "X-OmniRoute-Mode: fast" \
@@ -284,59 +293,58 @@ dla pojedynczego żądania.
 
 ## Wszystkie strategie routingu
 
-Silnik kombinacji OmniRoute obsługuje **19 strategii routingu** (zadeklarowanych w `src/shared/constants/routingStrategies.ts` → `ROUTING_STRATEGY_VALUES`). Sam silnik Auto Combo jest dostępny w ramach strategii `auto`; pozostałe strategie są dostępne dla zapisanych kombinacji.
+Silnik combo OmniRoute obsługuje **20 strategii routingu** (zadeklarowanych w `src/shared/constants/routingStrategies.ts` → `ROUTING_STRATEGY_VALUES`). Sam silnik Auto Combo jest udostępniony w ramach strategii `auto`; pozostałe są dostępne dla utrwalonych (persisted) combo.
 
-| Strategia           | Opis                                                                                                                                                                                                                                                      |
-| :------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `priority`          | Uporządkowana lista, w której pierwszy cel ma pierwszeństwo, z jawnym priorytetem                                                                                                                                                                         |
-| `weighted`          | Losowanie ważone według wagi poszczególnych celów                                                                                                                                                                                                         |
-| `round-robin`       | Cykliczne przechodzenie przez cele w ustalonej kolejności (partiami; patrz poniżej)                                                                                                                                                                       |
-| `context-relay`     | Przekazywanie kontekstu między celami (długie konwersacje)                                                                                                                                                                                                |
-| `fill-first`        | Wykorzystanie limitu każdego celu przed przejściem do następnego                                                                                                                                                                                          |
-| `p2c`               | Losowe równoważenie obciążenia metodą wyboru z 2 opcji                                                                                                                                                                                                    |
-| `random`            | Jednostajny wybór losowy                                                                                                                                                                                                                                  |
-| `least-used`        | Wybór celu o najmniejszym bieżącym obciążeniu                                                                                                                                                                                                             |
-| `cost-optimized`    | Minimalizacja kosztu $ na żądanie na podstawie cennika katalogowego                                                                                                                                                                                       |
-| `reset-aware` ⭐    | Priorytetyzacja według czasu resetowania limitu — krótsze okna resetowania mają wyższą pozycję                                                                                                                                                            |
-| `reset-window`      | Preferowanie celów, których okno limitu zostanie zresetowane najwcześniej                                                                                                                                                                                 |
-| `headroom`          | Wybór celu z największym pozostałym zapasem limitu                                                                                                                                                                                                        |
-| `strict-random`     | Losowanie bez usuwania powtórzeń                                                                                                                                                                                                                          |
-| `auto`              | Użycie punktacji Auto Combo (16 czynników) — **zalecane**                                                                                                                                                                                                 |
-| `lkgp`              | Ostatnia znana dobra ścieżka (przypina do ostatniego dostawcy, który pomyślnie obsłużył żądanie, a następnie przechodzi awaryjnie do reguł)                                                                                                               |
-| `context-optimized` | Wybór celu najlepiej dopasowanego do bieżącego rozmiaru kontekstu                                                                                                                                                                                         |
-| `cache-optimized`   | Zmiana kolejności celów według zgodności z pamięcią podręczną promptów — połączenie, które najprawdopodobniej przechowuje już buforowany prefiks tego żądania, jest wypróbowywane jako pierwsze (`open-sse/services/combo/promptCacheAffinity.ts`, #8008) |
-| `fusion` 🧬         | Równoległe wysłanie żądania do panelu modeli, a następnie zsyntetyzowanie jednej odpowiedzi przez model oceniający (patrz poniżej)                                                                                                                        |
-| `pipeline`          | Sekwencyjne uruchamianie celów i przekazywanie wyniku każdego kroku jako danych wejściowych następnego; zwracana jest tylko końcowa odpowiedź (#6396)                                                                                                     |
+| Strategia           | Opis                                                                                                                                                                                                                                               |
+| :------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `priority`          | Lista uporządkowana według pierwszego celu z jawnym priorytetem                                                                                                                                                                                    |
+| `weighted`          | Ważone losowanie według wagi dla każdego celu                                                                                                                                                                                                      |
+| `round-robin`       | Cykl przez cele w kolejności (grupowo; patrz poniżej)                                                                                                                                                                                              |
+| `context-relay`     | Przekazywanie kontekstu między celami (długie konwersacje)                                                                                                                                                                                         |
+| `fill-first`        | Wypełnij limit każdego celu przed przejściem do następnego                                                                                                                                                                                         |
+| `p2c`               | Równoważenie obciążenia typu Power-of-2-choices (losowe)                                                                                                                                                                                           |
+| `random`            | Jednostajny wybór losowy                                                                                                                                                                                                                           |
+| `least-used`        | Wybierz cel z najniższym bieżącym obciążeniem                                                                                                                                                                                                      |
+| `cost-optimized`    | Minimalizacja kosztów $ na żądanie przy uwzględnieniu cennika katalogowego                                                                                                                                                                         |
+| `reset-aware` ⭐    | Priorytetyzacja według czasu resetowania limitu — krótsze okna resetowania są wyżej w rankingu                                                                                                                                                     |
+| `reset-window`      | Preferuj cele, których okno limitu resetuje się najszybciej                                                                                                                                                                                        |
+| `headroom`          | Wybierz cel z największym pozostałym zapasem limitu                                                                                                                                                                                                |
+| `quota-weighted`    | Pomiń wyczerpane konta, a następnie wybierz spośród pozostałych proporcjonalnie do pozostałego limitu podzielonego przez obciążenie w locie; istniejące konwersacje pozostają przypięte                                                            |
+| `strict-random`     | Losowość bez deduplikacji powtórzeń                                                                                                                                                                                                                |
+| `auto`              | Użyj punktacji Auto Combo (16-czynnikowej) — **zalecane**                                                                                                                                                                                          |
+| `lkgp`              | Last-Known-Good Path (przypina do ostatniego udanego dostawcy, a następnie wraca do reguł)                                                                                                                                                         |
+| `context-optimized` | Wybierz cel najlepiej dopasowany do bieżącego rozmiaru kontekstu                                                                                                                                                                                   |
+| `cache-optimized`   | Zmień kolejność celów według powinowactwa pamięci podręcznej promptów — połączenie, które najprawdopodobniej już posiada zbuforowany prefiks tego żądania, jest sprawdzane jako pierwsze (`open-sse/services/combo/promptCacheAffinity.ts`, #8008) |
+| `fusion` 🧬         | Rozgałęzienie do panelu modeli równolegle, a następnie synteza jednej odpowiedzi przez sędziego (patrz poniżej)                                                                                                                                    |
+| `pipeline`          | Uruchom cele sekwencyjnie, przekazując wyjście każdego kroku do wejścia następnego; zwracana jest tylko ostateczna odpowiedź (#6396)                                                                                                               |
 
 ⭐ = Nowość w v3.8.0 · 🧬 = Nowość w v3.8.36
 
 ### Semantyka `weighted`
 
-`weighted` wykonuje **proporcjonalne losowanie dla każdego żądania**
-(`open-sse/services/combo/targetSorters.ts` → `selectWeightedTarget`), a nie równoważenie:
+`weighted` to **proporcjonalne losowanie na żądanie**
+(`open-sse/services/combo/targetSorters.ts` → `selectWeightedTarget`), a nie wyrównywacz:
 
-- Dla każdego żądania losowany jest **jeden** krok z prawdopodobieństwem `weight / totalWeight`; pozostałe kroki
-  są uporządkowane według malejącej wagi jako łańcuch awaryjny dla tego żądania.
-- Krok, którego waga wynosi `0` (lub nie została określona), **nigdy nie jest losowany**, dopóki dowolny inny krok ma
-  wagę > 0 — może służyć wyłącznie jako opcja awaryjna po niepowodzeniu wylosowanego kroku. Dopiero gdy **wszystkie**
+- Każde żądanie losuje **jeden** krok z prawdopodobieństwem `weight / totalWeight`; pozostałe kroki
+  są uporządkowane według malejącej wagi jako łańcuch rezerwowy (fallback) dla tego żądania.
+- Krok, którego waga wynosi `0` (lub jej brakuje), **nigdy nie jest losowany**, dopóki jakikolwiek inny krok ma
+  wagę > 0 — może służyć jedynie jako rezerwa (fallback) po niepowodzeniu wylosowanego kroku. Dopiero gdy **wszystkie**
   wagi wynoszą 0, wybór staje się jednostajny.
-- Kroki, których wszystkie cele są niedostępne — wyłącznik obwodu dostawcy ma stan `OPEN`, połączenie
-  jest w okresie karencji lub model jest zablokowany — są usuwane z puli przed losowaniem
-  (`open-sse/services/combo/targetResolution.ts`), dlatego pojedynczy sprawny krok może tymczasowo
-  obsługiwać każde żądanie.
-- `stickyWeightedLimit` (konfiguracja kombinacji, domyślnie `1` = wyłączone) przypina wylosowany krok na określoną liczbę
-  kolejnych pomyślnych wykonań przed ponownym losowaniem.
+- Kroki, których cele są niedostępne — wyłącznik (circuit breaker) dostawcy `OPEN`, chłodzenie połączenia,
+  blokada modelu — są usuwane z losowania przed jego wykonaniem
+  (`open-sse/services/combo/targetResolution.ts`), więc pojedynczy zdrowy krok może tymczasowo
+  wygrywać każde żądanie.
+- `stickyWeightedLimit` (konfiguracja combo, domyślnie `1` = wyłączone) przypina wylosowany krok na taką liczbę kolejnych sukcesów przed ponownym losowaniem.
 
-Aby uzyskać ścisłą rotację, użyj `round-robin`; równe wagi w `weighted` zapewniają równowagę statystyczną, a nie
-ścisłą.
+W celu uzyskania ścisłej rotacji użyj `round-robin`; równe wagi w `weighted` dają statystyczną — a nie ścisłą — równowagę.
 
-### Tryb potoku agentowego
+### Tryb potoku agentowego (Agentic pipeline mode)
 
-Dwustopniowa kombinacja `pipeline` może włączyć routing planisty/wykonawcy za pomocą
-`config.agenticOrchestration.enabled`. Pierwszy element docelowy odpowiada za planowanie i odpowiedzi końcowe;
-drugi element docelowy generuje wywołania narzędzi w natywnym formacie klienta. OmniRoute wykrywa kontynuacje
-z wynikami narzędzi na podstawie protokołu żądania, pyta planistę, czy potrzebna jest kolejna runda narzędzi,
-i dynamicznie wybiera wykonawcę albo planistę jako końcowy etap widoczny dla klienta.
+Kombinacja `pipeline` z co najmniej dwoma modelami może skorzystać z routingu planista/wykonawca (planner/executor) dzięki `config.agenticOrchestration.enabled`. Pierwszy cel odpowiada za planowanie i odpowiedzi końcowe; drugi cel emituje wywołania narzędzi natywne dla klienta. OmniRoute wykrywa kontynuacje wyników narzędzi z protokołu żądania, pyta planistę, czy potrzebna jest kolejna runda narzędzi, i dynamicznie czyni wykonawcę lub planistę krokiem końcowym widocznym dla klienta.
+
+W przypadku kontynuacji wyników narzędzi, OmniRoute zatrzymuje również wykonanie, gdy dwie kolejne zakończone rundy powtarzają te same wywołania narzędzi z niezmienionymi wynikami lub gdy każdy jawnie oznaczony wynik w dwóch kolejnych rundach zakończył się niepowodzeniem. Zmienione wyniki pozwalają na powtarzane wywołania (na przykład odpytywanie). Mechanizm ochronny resetuje się przy nowym żądaniu użytkownika, grupuje równoległe wywołania w jedną rundę i obsługuje historie Anthropic, Chat Completions, Responses oraz Gemini. Planista otrzymuje powód i odpowiada za ostateczną odpowiedź, nawet jeśli zażąda kolejnej rundy narzędzi.
+
+Dodatkowe modele po drugim celu są uporządkowanymi kopiami zapasowymi wykonawcy. Nieudana odpowiedź HTTP lub wyjątek transportu powoduje przejście do następnego wykonawcy, przenosząc tę samą decyzję planisty i natywne narzędzia, ale z własnym promptem kroku i rozpoznanym połączeniem danego wykonawcy. Pierwsza udana odpowiedź jest zwracana bez zmian, w tym strumieniowanie SSE; awarie po rozpoczęciu udanego strumienia nie mogą być tutaj ponowione. Jeśli wszyscy wykonawcy zawiodą, zwracany jest ostatni błąd. Przerwania klienta zatrzymują wysyłanie.
 
 ```json
 {
@@ -348,35 +356,17 @@ i dynamicznie wybiera wykonawcę albo planistę jako końcowy etap widoczny dla 
 }
 ```
 
-Wykonawca może wygenerować wiele niezależnych wywołań w jednej odpowiedzi. Wywołania zależne są
-obsługiwane w kolejnych turach wyników narzędzi po stronie klienta, a planista analizuje każdy wynik.
-Domyślna wartość `maxToolRounds` to `8`; akceptowany zakres wynosi `1`–`32`. Po osiągnięciu limitu planista musi
-wygenerować najlepszą dostępną odpowiedź końcową. Wewnętrzne decyzje planisty są buforowane, natomiast
-wybrana odpowiedź widoczna dla klienta zachowuje pierwotne ustawienie przesyłania strumieniowego.
+Wykonawca może emitować wiele niezależnych wywołań w jednej odpowiedzi. Wywołania zależne są obsługiwane w późniejszych turach wyników narzędzi klienta, przy czym planista przegląda każdy wynik. `maxToolRounds` domyślnie wynosi `8` i akceptuje wartości od `1` do `32`; po osiągnięciu tego limitu planista musi wyprodukować najlepszą dostępną odpowiedź końcową. Wewnętrzne decyzje planisty są buforowane, podczas gdy wybrana odpowiedź widoczna dla klienta zachowuje oryginalną preferencję strumieniowania.
 
-### Lepkie przetwarzanie wsadowe `round-robin` i rozszerzanie kont
+### `round-robin` sticky batch i rozszerzanie kont (account expansion)
 
-Round-robin działa wsadowo, a nie jako jedno żądanie na krok:
+Round-robin jest przetwarzany wsadowo, a nie jedno żądanie na krok:
 
-- `stickyRoundRobinLimit` (najpierw konfiguracja kombinacji, następnie `comboStickyRoundRobinLimit`, potem
-  `settings.stickyRoundRobinLimit`, domyślnie **3**) utrzymuje ten sam element docelowy przez określoną liczbę
-  kolejnych pomyślnych wykonań przed rotacją. Ustaw nadpisanie dla kombinacji na `1`, aby rotacja następowała
-  po każdym żądaniu. Edytor kombinacji pokazuje efektywną wartość oraz warstwę, z której ona pochodzi.
-- `connectionAwareExpansion` (najpierw konfiguracja kombinacji, następnie ustawienia, domyślnie **false**) rozszerza
-  każdy krok na poziomie dostawcy do elementów docelowych odpowiadających poszczególnym kontom przed rotacją. Strategie grupy B
-  (priority, weighted, round-robin, random, p2c, least-used, cost-optimized, lkgp,
-  fill-first, strict-random, context-optimized, cache-optimized, context-relay, fusion,
-  pipeline) zachowują widok na poziomie dostawcy, dopóki ta opcja nie zostanie włączona. Edytor kombinacji udostępnia opcje
-  dziedziczenia / włączenia / wyłączenia; dziedziczenie korzysta z globalnej wartości domyślnej (wyłączone).
-- Routing uwzględniający lokalność pamięci podręcznej promptów (`promptCacheAffinityEnabled`, domyślnie **true**) zmienia kolejność
-  przypiętych połączeń, tak aby pasujące klucze pamięci podręcznej pozostawały na jednym koncie. Ma on pierwszeństwo przed
-  rotacją round-robin i rotacją ważoną między przypiętymi krokami poszczególnych kont. Wyłącz go w sekcji
-  Ustawienia → Domyślne ustawienia kombinacji, jeśli potrzebujesz ścisłej rotacji. Nie ma możliwości nadpisania tej opcji dla pojedynczej kombinacji.
+- `stickyRoundRobinLimit` (konfiguracja combo, następnie `comboStickyRoundRobinLimit`, potem `settings.stickyRoundRobinLimit`, domyślnie **3**) utrzymuje ten sam cel przez taką liczbę kolejnych sukcesów przed rotacją. Ustaw nadpisanie combo na `1` dla rotacji co jedno żądanie. Edytor combo pokazuje efektywną wartość oraz warstwę, z której pochodzi.
+- `connectionAwareExpansion` (konfiguracja combo, następnie ustawienia, domyślnie **false**) rozszerza każdy krok na poziomie dostawcy na cele dla poszczególnych kont przed rotacją. Strategie Group-B (priority, weighted, round-robin, random, p2c, least-used, cost-optimized, lkgp, fill-first, strict-random, context-optimized, context-relay, fusion, pipeline) zachowują widok na poziomie dostawcy, dopóki ta opcja nie jest włączona. Edytor combo udostępnia opcje inherit / on / off; inherit używa globalnego ustawienia domyślnego (off).
+- Routing lokalności pamięci podręcznej promptów (`promptCacheAffinityEnabled`, domyślnie **true**) zmienia kolejność przypiętych połączeń tak, aby pasujące klucze pamięci podręcznej pozostawały na jednym koncie. Ma on pierwszeństwo przed rotacją round-robin i weighted w przypadku przypiętych kroków dla poszczególnych kont. Wyłącz to w Ustawieniach → Domyślne Combo (Settings → Combo defaults), jeśli potrzebujesz ścisłej rotacji. Nie ma możliwości nadpisania dla poszczególnych combo.
 
-W przypadku rotacji między wieloma kontami dla jednego modelu preferuj **jeden krok z kontem dynamicznym** (puste
-`connectionId`, cała pula) z limitem lepkości `1`, zamiast trzech przypiętych wartości `connectionId`.
-Przypięte kroki wraz z mechanizmem koligacji prowadzą do wyboru tego samego konta, nawet gdy licznik RR
-jest zwiększany.
+W przypadku rotacji na wielu kontach dla jednego modelu, preferuj **jeden krok dynamicznego konta** (puste `connectionId`, cała pula) z limitem sticky `1`, a nie trzy przypięte `connectionId`. Przypięte kroki wraz z powinowactwem zbiegają się na tym samym koncie, nawet gdy licznik RR rośnie.
 
 ## Strategia Fusion
 
@@ -476,54 +466,46 @@ Oznacza to, że **dodanie nowego dostawcy z włączonym `auto/*` automatycznie r
 
 ## API
 
-**Nie istnieje dedykowany punkt końcowy `POST /api/combos/auto`** — Auto-Combo jest używane na dwa sposoby:
+Nie ma **dedykowanego punktu końcowego `POST /api/combos/auto`** — Auto-Combo jest używane na dwa sposoby:
 
-1. **Bez konfiguracji (zalecane):** Wyślij dowolne żądanie uzupełniania czatu z `model: "auto"` lub `model: "auto/<variant>"`. Wirtualna fabryka tworzy kombinację dla każdego żądania — bez utrwalania i bez potrzeby wykonywania wywołań API.
+1. **Zero-config (zalecane):** Wyślij dowolne żądanie uzupełniania czatu (chat completion) z `model: "auto"` lub `model: "auto/<variant>"`. Wirtualna fabryka buduje combo dla każdego żądania — nie jest wymagana trwałość ani wywołania API.
 
-2. **Utrwalona kombinacja ze `strategy: "auto"`:** Utwórz zwykłą kombinację za pomocą `POST /api/combos` i ustaw `strategy: "auto"` oraz `config.auto.weights` / `config.auto.candidatePool`. Używany jest ten sam silnik oceny; kombinacja jest przechowywana w `combos` i może być ponownie używana na podstawie identyfikatora.
+2. **Trwałe combo z `strategy: "auto"`:** Utwórz zwykłe combo za pomocą `POST /api/combos` i ustaw `strategy: "auto"` oraz `config.auto.weights` / `config.auto.candidatePool`. Używany jest ten sam silnik punktacji; combo jest przechowywane w `combos` i można je ponownie wykorzystać za pomocą ID.
 
-Na potrzeby wykrywania `GET /api/combos/auto` wyświetla każdy wariant wraz z jego rozstrzygniętą pulą kandydatów oraz wartościami `context_length` / `max_output_tokens` — MAKSYMALNYMI spośród okien w puli kandydatów. Klienci (np. wtyczka opencode) muszą publikować te wartości zamiast `0`: zerowy kontekst całkowicie wyłącza automatyczną kompakcję opencode, przez co sesje rosną do momentu, aż mechanizm czyszczenia historii bramy zniszczy kontekst. Publikowanie wartości MAKSYMALNEJ jest bezpieczne, ponieważ filtr wstępny kontekstu Auto-Combo kieruje zbyt duże żądania do kandydatów z dużymi oknami.
+W celach wykrywania, `GET /api/combos/auto` wyświetla każdy wariant wraz z rozwiązaną pulą kandydatów oraz `context_length` / `max_output_tokens` — czyli WARTOŚĆ MAKSYMALNĄ w oknach puli kandydatów. Klienci (np. wtyczka opencode) muszą reklamować te wartości zamiast `0`: zerowy kontekst całkowicie wyłącza automatyczną kompresję opencode, pozwalając sesjom rosnąć, aż czyszczenie historii bramy (gateway) zniszczy kontekst. Reklamowanie wartości MAKSYMALNEJ jest bezpieczne, ponieważ filtr wstępny kontekstu auto-combo kieruje zbyt duże żądania do kandydatów z dużymi oknami.
 
 ```bash
-# Użycie bez konfiguracji (bez tworzenia kombinacji)
+# Zero-config usage (no combo creation)
 curl -X POST http://localhost:20128/v1/chat/completions \
   -H "Authorization: Bearer <key>" \
   -H "Content-Type: application/json" \
   -d '{"model":"auto/coding","messages":[{"role":"user","content":"Hello"}]}'
 
-# Utrwalona automatyczna kombinacja za pośrednictwem zwykłego punktu końcowego kombinacji
+# Persisted auto combo via the regular combos endpoint
 curl -X POST http://localhost:20128/api/combos \
   -H "Content-Type: application/json" \
   -d '{"id":"my-auto","name":"Auto Coder","strategy":"auto","config":{"auto":{"candidatePool":["anthropic","google","openai"],"weights":{"quota":0.15,"health":0.3,"costInv":0.05,"latencyInv":0.35,"taskFit":0.1,"stability":0,"tierPriority":0.05}}}}'
 ```
 
-### Strategie automatycznego routera
+### Strategie routera Auto
 
-Utrwalone kombinacje ze `strategy: "auto"` mogą ustawić `config.routerStrategy` (lub starsze
-`config.auto.routerStrategy`) na jedną z następujących wartości:
+Trwałe combo z `strategy: "auto"` mogą ustawić `config.routerStrategy` (lub starsze `config.auto.routerStrategy`) na jedną z następujących wartości:
 
-- `rules` — domyślna ocena ważona
-- `score` — wybiera najwyższy skonfigurowany wynik ważony. W przypadku dokładnie takich samych wyników zachowywana jest skonfigurowana
-  kolejność kandydatów; istniejący parametr `explorationRate` wybiera próbki z pełnej uporządkowanej puli.
-- `cost` / `eco` — najtańszy prawidłowo działający dostawca
-- `latency` / `fast` — najmniejsze opóźnienie p95 z karą za niezawodność
-- `sla-aware` / `sla` — preferuje kandydatów spełniających cele SLO dotyczące opóźnienia p95, współczynnika błędów i opcjonalnie
-  kosztów
-- `lkgp` — najpierw ostatni znany prawidłowo działający dostawca
+- `rules` — domyślne punktowanie ważone
+- `score` — wybiera najwyższy skonfigurowany wynik ważony. Dokładne remisy zachowują skonfigurowaną kolejność kandydatów; istniejący `explorationRate` pobiera próbki z pełnej uszeregowanej puli.
+- `cost` / `eco` — najtańszy sprawny dostawca
+- `latency` / `fast` — najniższe opóźnienie p95 z karą za niezawodność
+- `sla-aware` / `sla` — preferuje kandydatów spełniających SLO dotyczące opóźnienia p95, wskaźnika błędów i opcjonalnych kosztów
+- `lkgp` — najpierw ostatni znany dobry dostawca
+- `nadir` — pyta API decyzyjne [Nadir](https://getnadir.com), którego modelu w puli wymaga prompt; opcjonalne, w razie awarii przechodzi do `rules`
 
-### Szczegóły strategii routera
+### Strategie routera w szczegółach
 
-Silnik Auto-Combo udostępnia 6 wymiennych implementacji **RouterStrategy**,
-które można przełączać za pomocą `config.routerStrategy` (lub starszego `config.auto.routerStrategy`).
-Każda strategia wybiera jednego dostawcę z puli kandydatów na podstawie `RoutingContext`
-(typu zadania, wskazówek dotyczących narzędzi/wizji, szacowanej liczby tokenów, opcjonalnej polityki SLA oraz opcjonalnego
-ostatniego znanego prawidłowo działającego dostawcy).
+Silnik auto-combo udostępnia 7 wymiennych implementacji **RouterStrategy**, które można zamieniać za pomocą `config.routerStrategy` (lub starszego `config.auto.routerStrategy`). Każda strategia wybiera jednego dostawcę z puli kandydatów, biorąc pod uwagę `RoutingContext` (typ zadania, wskazówki dotyczące narzędzi/wizji, szacunkowa liczba tokenów, opcjonalna polityka SLA, opcjonalny ostatni znany dobry dostawca).
 
-#### 1. `rules` (domyślna) — 16-czynnikowa ocena ważona
+#### 1. `rules` (domyślne) — 16-czynnikowe punktowanie ważone
 
-Obudowuje istniejący silnik oceny. Odfiltrowuje kandydatów, których wyłącznik obwodu
-ma stan `OPEN`, a następnie uruchamia `scorePool()` z bieżącym typem zadania i `getTaskFitness()`,
-wybierając dostawcę z najwyższym wynikiem.
+Opakowuje istniejący silnik punktacji. Odfiltrowuje kandydatów z `OPEN` wyłącznikiem (circuit-breaker), a następnie uruchamia `scorePool()` z bieżącym typem zadania i `getTaskFitness()`, wybierając dostawcę z najwyższym wynikiem.
 
 ```ts
 class RulesStrategyImpl implements RouterStrategy {
@@ -543,16 +525,15 @@ class RulesStrategyImpl implements RouterStrategy {
 }
 ```
 
-**Kiedy używać**: Domyślnie. Używaj, gdy zależy Ci na zrównoważonym kompromisie między wszystkimi sygnałami.
+**Kiedy używać**: Domyślnie. Użyj, gdy chcesz zrównoważonego kompromisu między wszystkimi sygnałami.
 
-**Alias**: `rules` (bez aliasu)
+**Alias**: `rules` (brak aliasu)
 
 ---
 
-#### 2. `cost` / `eco` — najtańszy prawidłowo działający dostawca
+#### 2. `cost` / `eco` — najtańszy sprawny dostawca
 
-Sortuje pulę kandydatów według `costPer1MTokens` (rosnąco) i wybiera najtańszego.
-Najpierw odfiltrowuje kandydatów ze stanem `OPEN`.
+Sortuje pulę kandydatów według `costPer1MTokens` (rosnąco) i wybiera najtańszego. Najpierw odfiltrowuje kandydatów z `OPEN`.
 
 ```ts
 class CostStrategyImpl implements RouterStrategy {
@@ -567,16 +548,15 @@ class CostStrategyImpl implements RouterStrategy {
 }
 ```
 
-**Kiedy używać**: Obciążenia wrażliwe na koszty, przetwarzanie wsadowe lub zadania działające w tle.
+**Kiedy używać**: Obciążenia wrażliwe na koszty, przetwarzanie wsadowe lub zadania w tle.
 
 **Aliasy**: `cost`, `eco`
 
 ---
 
-#### 3. `latency` / `fast` — najmniejsze opóźnienie p95 z karą za niezawodność
+#### 3. `latency` / `fast` — najniższe opóźnienie p95 z karą za niezawodność
 
-Sortuje według `p95LatencyMs + (errorRate * 1000)`. Kara za współczynnik błędów sprawia,
-że zawodni dostawcy są klasyfikowani niżej, nawet jeśli ich nominalne opóźnienie jest małe.
+Sortuje według `p95LatencyMs + (errorRate * 1000)`. Kara za wskaźnik błędów zapewnia, że zawodni dostawcy są klasyfikowani niżej, nawet jeśli ich nominalne opóźnienie jest niskie.
 
 ```ts
 class LatencyStrategyImpl implements RouterStrategy {
@@ -593,28 +573,26 @@ class LatencyStrategyImpl implements RouterStrategy {
 }
 ```
 
-**Kiedy używać**: Obciążenia wrażliwe na opóźnienia, takie jak czat w czasie rzeczywistym, autouzupełnianie lub
-interaktywni asystenci programowania.
+**Kiedy używać**: Obciążenia wrażliwe na opóźnienia, takie jak czat w czasie rzeczywistym, autouzupełnianie lub interaktywni asystenci kodowania.
 
 **Aliasy**: `latency`, `fast`
 
 ---
 
-#### 4. `sla-aware` / `sla` — zgodność z SLO dotyczącymi opóźnień/błędów/kosztów
+#### 4. `sla-aware` / `sla` — zgodność SLO dotycząca opóźnień/błędów/kosztów
 
-Ocenia każdego kandydata na podstawie tego, jak dobrze spełnia skonfigurowaną politykę SLO:
+Punktuje każdego kandydata w zależności od tego, jak dobrze spełnia skonfigurowaną politykę SLO:
 
-| Czynnik           | Waga | Formuła                                                             |
-| ----------------- | ---- | ------------------------------------------------------------------- |
-| Wynik opóźnienia  | 35%  | `threshold / max(value, ε)`                                         |
-| Wynik błędów      | 35%  | `threshold / max(value, ε)`                                         |
-| Wynik kondycji    | 15%  | `1.0` (CLOSED) / `0.5` (HALF_OPEN) / `0.0` (OPEN)                   |
-| Wynik kosztu      | 10%  | `threshold / max(value, ε)` lub odwrotność znormalizowanej wartości |
-| Wynik stabilności | 5%   | odwrotność znormalizowanego odchylenia standardowego opóźnienia     |
+| Czynnik           | Waga | Wzór                                                            |
+| ----------------- | ---- | --------------------------------------------------------------- |
+| Wynik opóźnienia  | 35%  | `threshold / max(value, ε)`                                     |
+| Wynik błędów      | 35%  | `threshold / max(value, ε)`                                     |
+| Wynik stanu       | 15%  | `1.0` (CLOSED) / `0.5` (HALF_OPEN) / `0.0` (OPEN)               |
+| Wynik kosztu      | 10%  | `threshold / max(value, ε)` lub odwrotność znormalizowana       |
+| Wynik stabilności | 5%   | odwrotność znormalizowanego odchylenia standardowego opóźnienia |
 
-Gdy `hardConstraints: true`, kandydaci są sortowani przede wszystkim według **wyniku naruszeń**
-(tego, o ile przekraczają którekolwiek SLO), a następnie według wyniku złożonego. W przeciwnym razie
-używany jest wyłącznie wynik złożony.
+Gdy `hardConstraints: true`, kandydaci są sortowani głównie według **wyniku naruszeń**
+(o ile przekraczają jakiekolwiek SLO), a następnie według wyniku złożonego. W przeciwnym razie brany jest pod uwagę tylko wynik złożony.
 
 ```ts
 class SLAStrategyImpl implements RouterStrategy {
@@ -623,7 +601,7 @@ class SLAStrategyImpl implements RouterStrategy {
     "Selects the provider most likely to satisfy latency, error-rate, and cost SLOs";
 
   select(pool, context) {
-    // ... ocenia każdego kandydata względem polityki: { targetP95Ms, maxErrorRate, maxCostPer1MTokens, hardConstraints }
+    // ... scores each candidate against policy: { targetP95Ms, maxErrorRate, maxCostPer1MTokens, hardConstraints }
   }
 }
 ```
@@ -643,7 +621,7 @@ class SLAStrategyImpl implements RouterStrategy {
 }
 ```
 
-**Kiedy używać**: Obciążenia produkcyjne ze ścisłymi limitami opóźnień, współczynnika błędów lub kosztów.
+**Kiedy używać**: Obciążenia produkcyjne z rygorystycznymi budżetami opóźnień, wskaźnika błędów lub kosztów.
 
 **Aliasy**: `sla-aware`, `sla`
 
@@ -651,9 +629,7 @@ class SLAStrategyImpl implements RouterStrategy {
 
 #### 5. `lkgp` — najpierw ostatni znany dobry dostawca
 
-Najpierw próbuje użyć **ostatniego znanego dobrego dostawcy** (jeśli jest ustawiony), a następnie przechodzi awaryjnie do
-strategii `rules`. Jest to przydatne do zachowania spójności sesji — ten sam dostawca obsługuje
-kolejne żądania w konwersacji.
+Próbuje najpierw użyć **ostatniego znanego dobrego dostawcy** (jeśli jest ustawiony), a następnie wraca do strategii `rules`. Przydatne w przypadku utrzymywania sesji (session stickiness) — ten sam dostawca obsługuje kolejne żądania w konwersacji.
 
 ```ts
 class LKGPStrategyImpl implements RouterStrategy {
@@ -674,22 +650,51 @@ class LKGPStrategyImpl implements RouterStrategy {
       }
     }
 
-    // Przejście awaryjne do strategii rules
+    // Fallback to rules strategy
     return getStrategy("rules").select(pool, context);
   }
 }
 ```
 
-**Kiedy używać**: Konwersacje wieloturowe, w których ten sam dostawca ma obsługiwać
-kolejne żądania (np. ze względu na buforowanie, ciągłość kontekstu lub spójność cen).
+**Kiedy używać**: Konwersacje wieloetapowe, w których chcesz, aby ten sam dostawca obsługiwał kolejne żądania (np. w celu buforowania, ciągłości kontekstu lub spójności cen).
 
-**Alias**: `lkgp` (bez aliasu)
+**Alias**: `lkgp` (brak aliasu)
+
+---
+
+#### 6. `nadir` — wybór modelu z uwzględnieniem promptu przez Nadir
+
+Każda z powyższych strategii szereguje kandydatów na podstawie własnej telemetrii; żadna z nich nie odczytuje żądania. `nadir` wysyła ostatnią turę użytkownika oraz identyfikatory modeli z puli do API decyzyjnego [Nadir](https://getnadir.com) (`POST /v1/bucket`) i kieruje do modelu, który Nadir wybierze z tego menu (`simple` → najtańszy zdolny model, `complex` → model z czołówki). Połączenie obsługujące ten model jest nadal wybierane przez `rules`, więc kwota, stan i koszt nadal decydują o tym, które konto zostanie użyte.
+
+```json
+{
+  "strategy": "auto",
+  "config": {
+    "routerStrategy": "nadir",
+    "nadir": {
+      "apiKey": "ndr_...",
+      "baseUrl": "https://api.getnadir.com",
+      "timeoutMs": 2000
+    }
+  }
+}
+```
+
+`OMNIROUTE_NADIR_API_KEY` i `OMNIROUTE_NADIR_BASE_URL` to środowiskowe wartości zapasowe dla tych dwóch ciągów znaków. `baseUrl` jest potrzebny tylko w przypadku samodzielnie hostowanego Nadir (ukośnik `/v1` na końcu jest tolerowany). Wywołania bez klucza trafiają do anonimowej warstwy Nadir, która jest ograniczona limitami szybkości (rate-limited) na adres IP.
+
+Co opuszcza skrzynkę: tekst ostatniej wiadomości użytkownika (pierwsze 16 tys. znaków), identyfikatory modeli kandydatów oraz tag kanału `source: "omniroute"`. Brak systemowego promptu, historii, narzędzi czy nagłówków.
+
+Zachowanie w przypadku awarii to fail-open: przekroczenie limitu czasu (domyślnie 2000 ms), odpowiedź inna niż 2xx, nieosiągalny host, błędna odpowiedź lub wybór spoza puli skutkuje decyzją `rules`, a powód jest poprzedzony przedrostkiem `NadirStrategy: fallback (…)`. Po nieudanym wywołaniu strategia pomija sieć przez 30 s, więc awaria kosztuje jeden timeout na 30 s, a nie jeden na żądanie. Zdarzenia routingu raportują `strategy: "nadir"` tylko wtedy, gdy Nadir faktycznie dokonał wyboru.
+
+**Kiedy używać**: ruch o zróżnicowanym stopniu trudności w puli obejmującej różne poziomy modeli (mały, średni i model z czołówki), gdzie zawsze-czołowy model to koszt, który chcesz ograniczyć.
+
+**Alias**: `nadir` (brak aliasu)
 
 ---
 
 ### Niestandardowe strategie routera
 
-Za pomocą publicznego API można zarejestrować własną implementację `RouterStrategy`:
+Możesz zarejestrować własną implementację `RouterStrategy` za pomocą publicznego API:
 
 ```ts
 import {
@@ -702,7 +707,7 @@ class MyCustomStrategy implements RouterStrategy {
   readonly description = "My custom routing strategy";
 
   select(pool, context) {
-    // Tutaj umieść własną logikę routingu
+    // Your routing logic here
     return {
       provider: pool[0].provider,
       model: pool[0].model,
@@ -717,7 +722,7 @@ class MyCustomStrategy implements RouterStrategy {
 registerStrategy("my-custom", new MyCustomStrategy());
 ```
 
-Następnie można jej użyć:
+Następnie użyj jej:
 
 ```json
 {
@@ -732,15 +737,16 @@ Następnie można jej użyć:
 
 ### Przewodnik wyboru strategii routera
 
-| Przypadek użycia        | Strategia   | Powód                                      |
-| ----------------------- | ----------- | ------------------------------------------ |
-| Zrównoważone obciążenie | `rules`     | Domyślna — uwzględnia wszystkie czynniki   |
-| Minimalizacja kosztów   | `cost`      | Zawsze wybiera najtańszego dostawcę        |
-| Minimalizacja opóźnień  | `latency`   | Wybiera najszybszego niezawodnego dostawcę |
-| Ścisłe SLO              | `sla-aware` | Filtruje według progów p95/błędów/kosztów  |
-| Czat wieloturowy        | `lkgp`      | Spójność sesji                             |
+| Przypadek użycia               | Strategia   | Powód                                      |
+| ------------------------------ | ----------- | ------------------------------------------ |
+| Zrównoważone obciążenie        | `rules`     | Domyślna — uwzględnia wszystkie czynniki   |
+| Minimalizacja kosztów          | `cost`      | Zawsze wybiera najtańszą                   |
+| Minimalizacja opóźnień         | `latency`   | Wybiera najszybszego niezawodnego dostawcę |
+| Rygorystyczne SLO              | `sla-aware` | Filtruje według progów p95/błędów/kosztów  |
+| Czat wieloetapowy              | `lkgp`      | Utrzymywanie sesji                         |
+| Zróżnicowany stopień trudności | `nadir`     | Wybiera poziom modelu dla każdego promptu  |
 
-Pola uwzględniające SLA:
+Pola SLA-aware:
 
 ```json
 {
@@ -817,15 +823,15 @@ celowo wykluczone z CI, ponieważ wymagają rzeczywistych danych uwierzytelniaj�
 
 ## Pliki
 
-| Plik                                                      | Przeznaczenie                                                                                         |
+| Plik                                                      | Cel                                                                                                   |
 | :-------------------------------------------------------- | :---------------------------------------------------------------------------------------------------- |
 | `open-sse/services/autoCombo/scoring.ts`                  | 16-czynnikowa funkcja punktacji, `DEFAULT_WEIGHTS`, norma puli                                        |
-| `open-sse/services/autoCombo/taskFitness.ts`              | Tabela dopasowania modelu do zadania                                                                  |
-| `open-sse/services/autoCombo/engine.ts`                   | Logika wyboru, algorytm bandytowy, limit budżetu                                                      |
-| `open-sse/services/autoCombo/selfHealing.ts`              | Wykluczanie, testy kontrolne, tryb incydentu                                                          |
+| `open-sse/services/autoCombo/taskFitness.ts`              | Wyszukiwanie dopasowania modelu do zadania                                                            |
+| `open-sse/services/autoCombo/engine.ts`                   | Logika wyboru, bandit, limit budżetu                                                                  |
+| `open-sse/services/autoCombo/selfHealing.ts`              | Wykluczenie, sondy, tryb incydentu                                                                    |
 | `open-sse/services/autoCombo/modePacks.ts`                | 6 profili wag (ship-fast, cost-saver, quality-first, offline-friendly, reliability-first, chaos-mode) |
-| `open-sse/services/autoCombo/autoPrefix.ts`               | Parser prefiksu `auto/` + 6 wariantów                                                                 |
-| `open-sse/services/autoCombo/virtualFactory.ts`           | Tworzy w pamięci konfigurację `AutoComboConfig` na podstawie aktywnych połączeń                       |
-| `open-sse/services/autoCombo/providerRegistryAccessor.ts` | Mechanizm testowy do mockowania rejestru dostawców                                                    |
-| `src/shared/constants/routingStrategies.ts`               | `ROUTING_STRATEGY_VALUES` (19 strategii)                                                              |
-| `src/sse/handlers/chat.ts`                                | Integracja: skrócona ścieżka dla prefiksu automatycznego                                              |
+| `open-sse/services/autoCombo/autoPrefix.ts`               | parser prefiksu `auto/` + 6 wariantów                                                                 |
+| `open-sse/services/autoCombo/virtualFactory.ts`           | Buduje `AutoComboConfig` w pamięci z aktywnych połączeń                                               |
+| `open-sse/services/autoCombo/providerRegistryAccessor.ts` | Hook testowy do mockowania rejestru dostawców                                                         |
+| `src/shared/constants/routingStrategies.ts`               | `ROUTING_STRATEGY_VALUES` (20 strategii)                                                              |
+| `src/sse/handlers/chat.ts`                                | Integracja: zwarcie auto-prefiksu                                                                     |
