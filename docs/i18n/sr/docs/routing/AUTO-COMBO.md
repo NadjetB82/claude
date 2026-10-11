@@ -4,6 +4,10 @@
 
 ---
 
+🌐 **Languages:** 🇺🇸 [English](../../../../routing/AUTO-COMBO.md) · 🇪🇹 [am](../../../am/docs/routing/AUTO-COMBO.md) · 🇸🇦 [ar](../../../ar/docs/routing/AUTO-COMBO.md) · 🇦🇿 [az](../../../az/docs/routing/AUTO-COMBO.md) · 🇧🇬 [bg](../../../bg/docs/routing/AUTO-COMBO.md) · 🇧🇩 [bn](../../../bn/docs/routing/AUTO-COMBO.md) · 🇧🇦 [bs](../../../bs/docs/routing/AUTO-COMBO.md) · 🇨🇿 [cs](../../../cs/docs/routing/AUTO-COMBO.md) · 🇩🇰 [da](../../../da/docs/routing/AUTO-COMBO.md) · 🇩🇪 [de](../../../de/docs/routing/AUTO-COMBO.md) · 🇬🇷 [el](../../../el/docs/routing/AUTO-COMBO.md) · 🇪🇸 [es](../../../es/docs/routing/AUTO-COMBO.md) · 🇪🇪 [et](../../../et/docs/routing/AUTO-COMBO.md) · 🇮🇷 [fa](../../../fa/docs/routing/AUTO-COMBO.md) · 🇫🇮 [fi](../../../fi/docs/routing/AUTO-COMBO.md) · 🇫🇷 [fr](../../../fr/docs/routing/AUTO-COMBO.md) · 🇮🇪 [ga](../../../ga/docs/routing/AUTO-COMBO.md) · 🇮🇳 [gu](../../../gu/docs/routing/AUTO-COMBO.md) · 🇳🇬 [ha](../../../ha/docs/routing/AUTO-COMBO.md) · 🇮🇱 [he](../../../he/docs/routing/AUTO-COMBO.md) · 🇮🇳 [hi](../../../hi/docs/routing/AUTO-COMBO.md) · 🇭🇷 [hr](../../../hr/docs/routing/AUTO-COMBO.md) · 🇭🇺 [hu](../../../hu/docs/routing/AUTO-COMBO.md) · 🇦🇲 [hy](../../../hy/docs/routing/AUTO-COMBO.md) · 🇮🇩 [id](../../../id/docs/routing/AUTO-COMBO.md) · 🇳🇬 [ig](../../../ig/docs/routing/AUTO-COMBO.md) · 🇮🇹 [it](../../../it/docs/routing/AUTO-COMBO.md) · 🇯🇵 [ja](../../../ja/docs/routing/AUTO-COMBO.md) · 🇬🇪 [ka](../../../ka/docs/routing/AUTO-COMBO.md) · 🇰🇭 [km](../../../km/docs/routing/AUTO-COMBO.md) · 🇮🇳 [kn](../../../kn/docs/routing/AUTO-COMBO.md) · 🇰🇷 [ko](../../../ko/docs/routing/AUTO-COMBO.md) · 🇱🇹 [lt](../../../lt/docs/routing/AUTO-COMBO.md) · 🇱🇻 [lv](../../../lv/docs/routing/AUTO-COMBO.md) · 🇮🇳 [ml](../../../ml/docs/routing/AUTO-COMBO.md) · 🇮🇳 [mr](../../../mr/docs/routing/AUTO-COMBO.md) · 🇲🇾 [ms](../../../ms/docs/routing/AUTO-COMBO.md) · 🇲🇹 [mt](../../../mt/docs/routing/AUTO-COMBO.md) · 🇲🇲 [my](../../../my/docs/routing/AUTO-COMBO.md) · 🇳🇵 [ne](../../../ne/docs/routing/AUTO-COMBO.md) · 🇳🇱 [nl](../../../nl/docs/routing/AUTO-COMBO.md) · 🇳🇴 [no](../../../no/docs/routing/AUTO-COMBO.md) · 🇮🇳 [or](../../../or/docs/routing/AUTO-COMBO.md) · 🇮🇳 [pa](../../../pa/docs/routing/AUTO-COMBO.md) · 🇵🇭 [phi](../../../phi/docs/routing/AUTO-COMBO.md) · 🇵🇱 [pl](../../../pl/docs/routing/AUTO-COMBO.md) · 🇵🇹 [pt](../../../pt/docs/routing/AUTO-COMBO.md) · 🇧🇷 [pt-BR](../../../pt-BR/docs/routing/AUTO-COMBO.md) · 🇷🇴 [ro](../../../ro/docs/routing/AUTO-COMBO.md) · 🇷🇺 [ru](../../../ru/docs/routing/AUTO-COMBO.md) · 🇱🇰 [si](../../../si/docs/routing/AUTO-COMBO.md) · 🇸🇰 [sk](../../../sk/docs/routing/AUTO-COMBO.md) · 🇸🇮 [sl](../../../sl/docs/routing/AUTO-COMBO.md) · 🇸🇪 [sv](../../../sv/docs/routing/AUTO-COMBO.md) · 🇰🇪 [sw](../../../sw/docs/routing/AUTO-COMBO.md) · 🇮🇳 [ta](../../../ta/docs/routing/AUTO-COMBO.md) · 🇮🇳 [te](../../../te/docs/routing/AUTO-COMBO.md) · 🇹🇭 [th](../../../th/docs/routing/AUTO-COMBO.md) · 🇹🇷 [tr](../../../tr/docs/routing/AUTO-COMBO.md) · 🇺🇦 [uk-UA](../../../uk-UA/docs/routing/AUTO-COMBO.md) · 🇵🇰 [ur](../../../ur/docs/routing/AUTO-COMBO.md) · 🇺🇿 [uz](../../../uz/docs/routing/AUTO-COMBO.md) · 🇻🇳 [vi](../../../vi/docs/routing/AUTO-COMBO.md) · 🇳🇬 [yo](../../../yo/docs/routing/AUTO-COMBO.md) · 🇨🇳 [zh-CN](../../../zh-CN/docs/routing/AUTO-COMBO.md) · 🇹🇼 [zh-TW](../../../zh-TW/docs/routing/AUTO-COMBO.md)
+
+---
+
 > **За кориснике**: Тражите брз почетак? Погледајте [Кориснички водич за Auto-Combo](../getting-started/AUTO-COMBO-GUIDE.md) за једноставна објашњења и примере.
 
 > Самоуправљајући ланци модела са адаптивним оцењивањем + аутоматским усмеравањем без конфигурације
@@ -47,15 +51,15 @@
 **Како се користи:**
 
 ```bash
-# Било који IDE или CLI алат који подржава OpenAI формат
+# Any IDE or CLI tool that supports OpenAI format
 Base URL: http://localhost:20128/v1
-API Key:  <ваш-кључ-крајње-тачке>
+API Key:  <your-endpoint-key>
 
-# У коду/конфигурацији подесите модел на:
-model: "auto"                 # уравнотежена подразумевана опција
-model: "auto/coding"          # најбоље за задатке кодирања
-model: "auto/fast"            # најбржа доступна опција
-model: "auto/cheap"           # најјефтиније по токену
+# In your code/config, set model to:
+model: "auto"                 # balanced default
+model: "auto/coding"          # best for coding tasks
+model: "auto/fast"            # fastest available
+model: "auto/cheap"           # cheapest per token
 ```
 
 **Шта се дешава:**
@@ -106,15 +110,15 @@ model: "auto/cheap"           # најјефтиније по токену
 **Иза сцене:**
 
 ```txt
-Захтев: { model: "auto/coding" }
+Request: { model: "auto/coding" }
    ↓
-src/sse/handlers/chat.ts открива префикс
+src/sse/handlers/chat.ts detects prefix
    ↓
-createVirtualAutoCombo('coding') → скуп кандидата из активних веза
+createVirtualAutoCombo('coding') → candidatePool from active connections
    ↓
-handleComboChat (исти механизам као за сачуване комбинације)
+handleComboChat (same engine as persisted combos)
    ↓
-Аутоматско бодовање бира најбољег добављача/модел за сваки захтев
+Auto-scoring selects best provider/model per request
 ```
 
 **Датотеке имплементације:**
@@ -148,13 +152,7 @@ polje `warning` u odgovoru kada se (novi) naziv poklapa sa stvarnim
 ID-om modela:
 
 ```json
-{
-  "warning": {
-    "code": "COMBO_NAME_SHADOWS_MODEL",
-    "modelId": "gpt-5.5",
-    "providerId": "openai"
-  }
-}
+{ "warning": { "code": "COMBO_NAME_SHADOWS_MODEL", "modelId": "gpt-5.5", "providerId": "openai" } }
 ```
 
 Pri pokretanju, `scanComboModelNameCollisionsAtBoot()`
@@ -185,34 +183,45 @@ Dve česte zamke:
 
 Pogledajte [#7992](https://github.com/diegosouzapw/OmniRoute/issues/7992) i [#7111](https://github.com/diegosouzapw/OmniRoute/issues/7111) za originalnu zabunu koju ovo dokumentuje.
 
-## Како функционише (трајно сачуване аутоматске комбинације)
+## Како функционише (Persisted Auto-Combos)
 
-Механизам за аутоматске комбинације динамички бира најбољег добављача/модел за сваки захтев помоћу **функције бодовања са 16 фактора** (дефинисане у `open-sse/services/autoCombo/scoring.ts` → `DEFAULT_WEIGHTS`). Збир подразумеваних тежина износи `1.0`; прилагођене тежине се поново нормализују помоћу `normalizeScoringWeights()`. Два од шеснаест фактора — `cacheAffinity` и `resetWindowAffinity` — имају подразумевану тежину `0`; `reliability` има тежину `0` у `DEFAULT_WEIGHTS`, али `0.03` у генеричким пакетима и `0.04` у пакету `reliability-first`, док `quality` има тежину `0.02` у пакетима (`0.03` у пакету `quality-first`): они се ипак израчунавају за сваког кандидата, а `cacheAffinity` контролише дедупликацију кеша промпта изван резултата, тако да фактори са подразумеваном тежином нула једноставно не утичу на избор док пакети не одреде другачије.
+Auto-Combo Engine динамички бира најбољег добављача/модел за сваки захтев користећи **функцију бодовања са 16 фактора** (дефинисану у `open-sse/services/autoCombo/scoring.ts` → `DEFAULT_WEIGHTS`). Збир подразумеваних тежина је `1.0`; прилагођене тежине се ренормализују помоћу `normalizeScoringWeights()`. Два од шеснаест — `cacheAffinity` и `resetWindowAffinity` — имају подразумевану тежину `0`; `reliability` има `0` у `DEFAULT_WEIGHTS` али `0.03` у генеричким пакетима и `0.04` у `reliability-first`, а `quality` има `0.02` у пакетима (`0.03` у `quality-first`): они се и даље израчунавају за сваког кандидата, а `cacheAffinity` контролише дедупликацију кеша упита ван самог резултата бодовања, тако да фактори са подразумеваном нулом једноставно не учествују у гласању по дефолту, док пакети гласају.
 
-![Бодовање аутоматских комбинација помоћу 16 фактора](../diagrams/exported/auto-combo-scoring.svg)
+![Auto-Combo 16-factor scoring](../diagrams/exported/auto-combo-scoring.svg)
 
-> Извор: [diagrams/auto-combo-scoring.mmd](../diagrams/auto-combo-scoring.mmd) (поново генеришите помоћу `npm run docs:render-diagrams`). Назив датотеке је историјски; извор и генерисани дијаграм приказују свих 16 фактора декларисаних у `DEFAULT_WEIGHTS`.
+> Извор: [diagrams/auto-combo-scoring.mmd](../diagrams/auto-combo-scoring.mmd) (поново генеришите путем `npm run docs:render-diagrams`). Назив фајла је историјски; изворни и рендеровани дијаграм приказују свих 16 фактора декларисаних у `DEFAULT_WEIGHTS`.
 
-| Фактор                | Подразумевана тежина | Опис                                                                                                                                                                                                                      |
-| :-------------------- | :------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `quota`               | 0.1429               | Преостала квота / расположиви капацитет ограничења брзине [0..1]                                                                                                                                                          |
-| `health`              | 0.1605               | Оцена исправности из прекидача кола (CLOSED=1.0, HALF_OPEN=0.5, OPEN=0.0)                                                                                                                                                 |
-| `costInv`             | 0.1429               | Инверзна **комбинована** цена (60% цена улазних + 40% цена излазних токена, нормализовано) — нижа цена = виша оцена                                                                                                       |
-| `latencyInv`          | 0.1143               | Инверзно p95 кашњење нормализовано у односу на скуп — брже = виша оцена                                                                                                                                                   |
-| `taskFit`             | 0.0762               | Прикладност за тип задатка (програмирање, преглед, планирање, анализа, отклањање грешака, документација)                                                                                                                  |
-| `stability`           | 0.0476               | Стабилност заснована на варијанси стандардне девијације кашњења — кандидат чије време одзива осцилира добија нижу оцену                                                                                                   |
-| `tierPriority`        | 0.0476               | Приоритет нивоа налога — Ultra=1.0, Pro=0.67, Standard=0.33, Free=0.0                                                                                                                                                     |
-| `tierAffinity`        | 0.0476               | Подударност између нивоа кандидата и нивоа препорученог у манифесту                                                                                                                                                       |
-| `specificityMatch`    | 0.0476               | Подударност између специфичности захтева (назнаке у манифесту) и нивоа модела                                                                                                                                             |
-| `contextAffinity`     | 0.0476               | Подударност између потребне величине контекстног прозора захтева и контекстног прозора модела                                                                                                                             |
-| `sessionAvailability` | 0.0476               | Доступност OAuth сесије везе кандидата за ову сесију (`getOAuthSessionAvailability()`; везе које не користе OAuth добијају оцену 1.0)                                                                                     |
-| `connectionDensity`   | 0.0476               | Распоређује оптерећење на везе истог добављача (спречавање концентрације)                                                                                                                                                 |
-| `cacheAffinity`       | 0.00                 | Склоност заснована на rendezvous хеширању ка вези која највероватније већ садржи префикс кеша промпта овог захтева (`open-sse/services/combo/promptCacheAffinity.ts`); подразумевано онемогућено (#8008)                  |
-| `resetWindowAffinity` | 0.00                 | Предност везама чији је временски прозор за ресетовање квоте повољан (подразумевано онемогућено)                                                                                                                          |
-| `quality`             | 0.03                 | Сигнал квалитета излаза заснован на повратним информацијама из пратиоца квалитета догађаја рутирања; кандидати без запажања добијају неутралну оцену 0.5                                                                  |
-| `reliability`         | 0.00                 | Уочени удео успеха, `1 - failureRate`, из 24-часовне историје коришћења уз праг од десет узорака (у супротном се користе метрике у реалном времену); кандидати без запажања имају вредност 1.0. Подразумевано онемогућено |
+| Factor                | Default Weight | Description                                                                                                                                                                                                              |
+| :-------------------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `quota`               | 0.1429         | Преостала квота / простор за ограничење брзине (rate-limit headroom) [0..1]                                                                                                                                              |
+| `health`              | 0.1605         | Оцена здравља из circuit breaker-а (CLOSED=1.0, HALF_OPEN=0.5, OPEN=0.0)                                                                                                                                                 |
+| `costInv`             | 0.1429         | Инверзни **комбиновани** трошак (60% улазних + 40% излазних цена токена, нормализовано) — јефтиније = виша оцена                                                                                                         |
+| `latencyInv`          | 0.1143         | Инверзно p95 кашњење нормализовано према пулу — брже = виша оцена                                                                                                                                                        |
+| `taskFit`             | 0.0762         | Прикладност типу задатка (coding, review, planning, analysis, debugging, docs)                                                                                                                                           |
+| `stability`           | 0.0476         | Стабилност заснована на варијанси из стандардне девијације кашњења — кандидат чије време одзива варира добија нижу оцену                                                                                                 |
+| `tierPriority`        | 0.0476         | Приоритет нивоа налога — Ultra=1.0, Pro=0.67, Standard=0.33, Free=0.0                                                                                                                                                    |
+| `tierAffinity`        | 0.0476         | Афинитет између нивоа кандидата и нивоа препорученог у манифесту                                                                                                                                                         |
+| `specificityMatch`    | 0.0476         | Поклапање између специфичности захтева (наговештај из манифеста) и нивоа модела                                                                                                                                          |
+| `contextAffinity`     | 0.0476         | Афинитет између потребе захтева за контекстним прозором и контекстног прозора модела                                                                                                                                     |
+| `sessionAvailability` | 0.0476         | Доступност OAuth сесије кандидатске конекције за ову сесију (`getOAuthSessionAvailability()`; конекције које нису OAuth имају оцену 1.0)                                                                                 |
+| `connectionDensity`   | 0.0476         | Распоређује оптерећење преко конекција истог добављача (спречавање концентрације)                                                                                                                                        |
+| `cacheAffinity`       | 0.00           | Rendezvous-hash афинитет према конекцији за коју је највероватније да већ садржи префикс кеша упита овог захтева (`open-sse/services/combo/promptCacheAffinity.ts`); подразумевано онемогућено (#8008)                   |
+| `resetWindowAffinity` | 0.00           | Пристрасност према конекцијама чији је прозор за ресетовање квоте повољан (подразумевано онемогућено)                                                                                                                    |
+| `quality`             | 0.03           | Сигнал квалитета излаза заснован на повратним информацијама из пратиоца квалитета догађаја рутирања; кандидати без опсервација добијају неутралну вредност 0.5                                                           |
+| `reliability`         | 0.00           | Уочени удео успешности, `1 - failureRate`, из 24-часовне историје коришћења иза прага од десет узорака (у супротном метрика у реалном времену); кандидати без опсервација се рачунају као 1.0. Подразумевано онемогућено |
 
-**Збир:** `0.1429 + 0.1605 + 0.1429 + 0.1143 + 0.0762 + (7 × 0.0476) + 0.00 + 0.00 + 0.03 + 0.00 = 1.0`, како је декларисано у `DEFAULT_WEIGHTS`; тежине које је конфигурисао корисник поново се нормализују у расподелу помоћу `normalizeScoringWeights()` пре бодовања.
+> **Нечитљива квота (#15347).** Када добављач има преузимач квоте (quota fetcher), али он не враћа ништа
+> читљиво (неуспешно преузимање, недостајући акредитиви, употреба само са поруком или неисправан снимак стања без
+> `windows` који се могу рашчланити и без коначног `percentUsed`, укључујући `percentUsed: null`), кандидат
+> добија оцену `0` на оси `quota` и његов коначни резултат се множи са
+> `UNREADABLE_QUOTA_SOFT_DEPRIORITIZE_FACTOR` (0.5, `autoStrategy.ts`), што је исти образац благе казне
+> као и казна за статус везе. Неуспешно читање употребе је доказ о телеметрији,
+> а не о добављачу, па се стога рангира стриктно испод било ког стварног очитавања, укључујући и потврђено 100% искоришћено
+> очитавање, али никада није строго блокиран или избачен. Добављач без ограничења пријављује `unlimited: true` и
+> оцењује се као пуна квота; добављач без регистрованог преузимача квоте уопште нема извор телеметрије
+> и задржава подразумевану вредност од `100`.
+
+**Збир:** `0.1429 + 0.1605 + 0.1429 + 0.1143 + 0.0762 + (7 × 0.0476) + 0.00 + 0.00 + 0.03 + 0.00 = 1.0` као што је декларисано у `DEFAULT_WEIGHTS`; тежине које конфигурише корисник се ренормализују у дистрибуцију помоћу `normalizeScoringWeights()` пре оцењивања.
 
 ## Пакети режима
 
@@ -263,7 +272,7 @@ Pogledajte [#7992](https://github.com/diegosouzapw/OmniRoute/issues/7992) i [#71
 | `X-OmniRoute-Effort`          | `auto` (остале вредности су резервисане)                                                                                                                                                                | Прилагодљиви буџет за размишљање: када захтев **не садржи** поље за резоновање ни у једном облику (`reasoning_effort`, `reasoning`, `thinking`), мрежни пролаз одређује `auto` као `low`/`medium`/`high` на основу детерминистичких сигнала из структуре захтева (дужина последње корисничке поруке, величина контекста до последње корисничке поруке, претходни резултати алата, дубина петље алата). Сигнали су ограничени на тренутни потез — све након последње корисничке поруке се занемарује — тако да се сваки захтев у петљи алата разрешава на исти ниво (фиксирање без стања по потезу, без стања сесије и без ескалације усред петље која би нарушила префиксе кеша упита узводног система). Експлицитно клијентско поље за резоновање увек има предност. Ограничено је на захтеве чије се узводно усмеравање разрешава у облик OpenAI Chat Completions (`targetFormat === FORMATS.OPENAI`) — `reasoning_effort` је поље облика OpenAI, па заглавље нема дејства на захтев усмерен ка Claude-у или Gemini-ју (погледајте `open-sse/handlers/chatCore/adaptiveEffortWiring.ts`). |
 
 ```bash
-# Принудно користи најбржи профил, ограничи овај захтев на $0.05 и строго блокирај уместо прекорачења трошкова
+# Force the fastest profile, cap this request at $0.05, and hard-block instead of overspending
 curl -sS http://localhost:20128/v1/chat/completions \
   -H "Content-Type: application/json" \
   -H "X-OmniRoute-Mode: fast" \
@@ -277,61 +286,72 @@ curl -sS http://localhost:20128/v1/chat/completions \
 `config.budgetFallback`. Сачувана вредност `config.budgetFallback` комбинације ("strict" |
 "cheapest") поставља трајну смерницу; заглавље је замењује за један захтев.
 
-## Све стратегије рутирања
+## Sve strategije rutiranja
 
-OmniRoute механизам за комбинације подржава **19 стратегија рутирања** (декларисаних у `src/shared/constants/routingStrategies.ts` → `ROUTING_STRATEGY_VALUES`). Сам механизам Auto Combo доступан је преко стратегије `auto`; остале су доступне за сачуване комбинације.
+OmniRoute-ov combo engine podržava **20 strategija rutiranja** (deklarisanih u `src/shared/constants/routingStrategies.ts` → `ROUTING_STRATEGY_VALUES`). Sam Auto Combo engine je izložen pod `auto` strategijom; ostale su dostupne za perzistentne combo-e.
 
-| Стратегија          | Опис                                                                                                                                                                                                     |
-| :------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `priority`          | Уређена листа у којој је прво одредиште са експлицитним приоритетом                                                                                                                                      |
-| `weighted`          | Пондерисани случајни избор према тежини сваког одредишта                                                                                                                                                 |
-| `round-robin`       | Циклично пролази кроз одредишта по редоследу (у серијама; погледајте испод)                                                                                                                              |
-| `context-relay`     | Прослеђује контекст између одредишта (за дуге разговоре)                                                                                                                                                 |
-| `fill-first`        | Попуњава квоту сваког одредишта пре преласка на следеће                                                                                                                                                  |
-| `p2c`               | Насумично балансирање оптерећења методом избора између 2 опције                                                                                                                                          |
-| `random`            | Равномерни случајни избор                                                                                                                                                                                |
-| `least-used`        | Бира одредиште са најмањим тренутним оптерећењем                                                                                                                                                         |
-| `cost-optimized`    | Минимизује цену у $ по захтеву на основу цена из каталога                                                                                                                                                |
-| `reset-aware` ⭐    | Одређује приоритет према времену ресетовања квоте — краћи периоди ресетовања рангирају се више                                                                                                           |
-| `reset-window`      | Даје предност одредиштима чији се период квоте најскорије ресетује                                                                                                                                       |
-| `headroom`          | Бира одредиште са највећом преосталом резервом квоте                                                                                                                                                     |
-| `strict-random`     | Насумичан избор без уклањања понављања                                                                                                                                                                   |
-| `auto`              | Користи Auto Combo бодовање (16 фактора) — **препоручено**                                                                                                                                               |
-| `lkgp`              | Последња позната исправна путања (задржава последњег успешног добављача, а затим се враћа на правила)                                                                                                    |
-| `context-optimized` | Бира одредиште које најбоље одговара тренутној величини контекста                                                                                                                                        |
-| `cache-optimized`   | Преуређује одредишта према афинитету кеша упита — прва се испробава веза за коју је највероватније да већ садржи кеширани префикс овог захтева (`open-sse/services/combo/promptCacheAffinity.ts`, #8008) |
-| `fusion` 🧬         | Паралелно прослеђује захтев панелу модела, а затим синтетише један одговор помоћу модела-судије (погледајте испод)                                                                                       |
-| `pipeline`          | Покреће одредишта редом, прослеђујући излаз сваког корака као улаз следећег; враћа се само коначни одговор (#6396)                                                                                       |
+| Strategija          | Opis                                                                                                                                                                                                                 |
+| :------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `priority`          | Lista naručena prema prvom cilju sa eksplicitnim prioritetom                                                                                                                                                         |
+| `weighted`          | Ponderisani nasumični izbor prema težini po cilju                                                                                                                                                                    |
+| `round-robin`       | Kruženje kroz ciljeve po redu (grupisano; pogledajte ispod)                                                                                                                                                          |
+| `context-relay`     | Prenos konteksta između ciljeva (duge konverzacije)                                                                                                                                                                  |
+| `fill-first`        | Popunjavanje kvote svakog cilja pre prelaska na sledeći                                                                                                                                                              |
+| `p2c`               | Power-of-2-choices nasumično balansiranje opterećenja                                                                                                                                                                |
+| `random`            | Uniformni nasumični izbor                                                                                                                                                                                            |
+| `least-used`        | Izbor cilja sa najmanjim trenutnim opterećenjem                                                                                                                                                                      |
+| `cost-optimized`    | Minimizacija $ po zahtevu s obzirom na cene u katalogu                                                                                                                                                               |
+| `reset-aware` ⭐    | Prioritizacija prema vremenu resetovanja kvote — kraći prozori resetovanja su bolje rangirani                                                                                                                        |
+| `reset-window`      | Preferiranje ciljeva čiji se prozor kvote najranije resetuje                                                                                                                                                         |
+| `headroom`          | Izbor cilja sa najviše preostalog prostora u kvoti                                                                                                                                                                   |
+| `quota-weighted`    | Preskakanje iscrpljenih naloga, zatim izbor među ostalima srazmerno preostaloj kvoti podeljenoj sa trenutnim opterećenjem; postojeće konverzacije ostaju fiksirane                                                   |
+| `strict-random`     | Nasumično bez deduplikacije ponavljanja                                                                                                                                                                              |
+| `auto`              | Korišćenje Auto Combo bodovanja (16-faktorsko) — **preporučeno**                                                                                                                                                     |
+| `lkgp`              | Poslednja poznata dobra putanja (fiksira se na poslednjeg uspešnog provajdera, zatim se vraća na pravila)                                                                                                            |
+| `context-optimized` | Izbor cilja koji najbolje odgovara trenutnoj veličini konteksta                                                                                                                                                      |
+| `cache-optimized`   | Promena redosleda ciljeva prema prompt-cache afinitetu — konekcija za koju je najverovatnije da već sadrži keširani prefiks ovog zahteva se isprobava prva (`open-sse/services/combo/promptCacheAffinity.ts`, #8008) |
+| `fusion` 🧬         | Distribucija na grupu modela paralelno, zatim sinteza jednog odgovora putem sudije (pogledajte ispod)                                                                                                                |
+| `pipeline`          | Sekvencijalno pokretanje ciljeva, prosleđivanje izlaza svakog koraka u ulaz sledećeg koraka; vraća se samo konačan odgovor (#6396)                                                                                   |
 
-⭐ = Ново у v3.8.0 · 🧬 = Ново у v3.8.36
+⭐ = Novo u v3.8.0 · 🧬 = Novo u v3.8.36
 
-### Семантика стратегије `weighted`
+### `weighted` semantika
 
-`weighted` представља **пропорционално насумично извлачење за сваки захтев**
-(`open-sse/services/combo/targetSorters.ts` → `selectWeightedTarget`), а не механизам за изједначавање:
+`weighted` je **proporcionalno nasumično izvlačenje po zahtevu**
+(`open-sse/services/combo/targetSorters.ts` → `selectWeightedTarget`), a ne ekvilajzer:
 
-- За сваки захтев извлачи се **један** корак са вероватноћом `weight / totalWeight`; преостали кораци
-  ређају се по опадајућој тежини као резервни ланац за тај захтев.
-- Корак чија је тежина `0` (или није наведена) **никада се не извлачи** док било који други корак има
-  тежину > 0 — може служити само као резерва након неуспеха извученог корака. Избор постаје равномеран само када су **све**
-  тежине 0.
-- Кораци чија су сва одредишта недоступна — прекидач кола добављача је `OPEN`, веза је
-  у периоду мировања, модел је закључан — уклањају се из извлачења пре него што оно почне
-  (`open-sse/services/combo/targetResolution.ts`), тако да један исправан корак може привремено
-  победити при сваком захтеву.
-- `stickyWeightedLimit` (конфигурација комбинације, подразумевано `1` = искључено) задржава извучени корак током толико
-  узастопних успешних извршавања пре поновног извлачења.
+- Svaki zahtev izvlači **jedan** korak sa verovatnoćom `weight / totalWeight`; preostali koraci
+  su poređani po opadajućoj težini kao rezervni lanac za taj zahtev.
+- Korak čija je težina `0` (ili nedostaje) se **nikada ne izvlači** dokle god bilo koji drugi korak ima
+  težinu > 0 — on može poslužiti samo kao rezervna opcija nakon što izvučeni korak ne uspe. Tek kada su **sve**
+  težine 0, izbor postaje uniforman.
+- Koraci čiji su ciljevi nedostupni — provider circuit breaker `OPEN`, hlađenje konekcije,
+  zaključavanje modela — se uklanjaju iz izvlačenja pre nego što se ono desi
+  (`open-sse/services/combo/targetResolution.ts`), tako da jedan zdrav korak može privremeno da dobije svaki zahtev.
+- `stickyWeightedLimit` (combo konfiguracija, podrazumevano `1` = isključeno) fiksira izvučeni korak za taj broj
+  uzastopnih uspeha pre ponovnog izvlačenja.
 
-За строгу ротацију користите `round-robin`; једнаке тежине у стратегији `weighted` обезбеђују статистичку — а не
-строгу — равнотежу.
+Za strogu rotaciju koristite `round-robin`; jednake težine kod `weighted` daju statistički — ne strogi — balans.
 
-### Режим агентског цевовода
+### Režim agentnog pajplajna
 
-Двокорачна `pipeline` комбинација може да укључи усмеравање планер/извршилац помоћу
-`config.agenticOrchestration.enabled`. Први циљ је задужен за планирање и коначне одговоре;
-други циљ емитује позиве алата у формату изворном за клијента. OmniRoute открива наставке
-са резултатима алата из протокола захтева, пита планер да ли је потребан још један круг
-алата и динамички поставља или извршиоца или планер као завршни корак окренут клијенту.
+`pipeline` kombinacija sa najmanje dva modela može da se opredeli za rutiranje planera/izvršioca pomoću `config.agenticOrchestration.enabled`. Prvi cilj je zadužen za planiranje i konačne odgovore; drugi cilj emituje pozive alata izvornih za klijenta. OmniRoute detektuje nastavke rezultata alata iz protokola zahteva, pita planera da li je potreban još jedan krug alata i dinamički čini ili izvršioca ili planera konačnim korakom okrenutim ka klijentu.
+
+Opcioni `config.agenticOrchestration.contextCompaction` primenjuje poseban budžet korisnog tereta (payload) pre svakog slanja planera ili izvršioca. Omogućite ga eksplicitno:
+
+```json
+{
+  "enabled": true,
+  "defaultMaxChars": 400000,
+  "targetRatio": 0.72,
+  "toolResultMaxChars": 24000,
+  "modelMaxChars": { "provider/planner": 175000, "provider/executor": 300000 }
+}
+```
+
+Ovo su serijalizovani budžeti znakova u JSON formatu koje bira operater, a ne prozori konteksta tokena ili garantovana ograničenja uzvodno. Tačni ID-ovi modela nadjačavaju podrazumevanu vrednost. Iznad praga, kompakcija uklanja identične definicije alata, skraćuje prevelike dokaze alata pomoću sažetka (digest) i uklanja stare kompletne grupe istorije ka ciljnom odnosu. Zadržava sistemska/programerska uputstva, najnoviji zahtev korisnika, poslednji krug alata uključujući paralelne pozive/rezultate i vodeće instrukcije rutiranja Gemini-ja. Instrukcije najvišeg nivoa i podešavanja alata su sačuvani. Oznaka izostavljanja beleži uklonjenu istoriju; ovo je determinističko skraćivanje, a ne semantički sažetak. Ako fiksirani kontekst i dalje premašuje budžet, zahtev vraća 413 pre kontaktiranja modela. Sa onemogućenom kompakcijom ili ispod praga, zahtev prolazi nepromenjen.
+
+Dodatni modeli nakon drugog cilja su poređane rezervne kopije izvršioca. Neuspešan HTTP odgovor ili transportni izuzetak prelazi na sledećeg izvršioca, noseći istu odluku planera i izvorne alate, ali sopstveni prompt koraka tog izvršioca i razrešenu konekciju. Prvi uspešan odgovor se vraća nepromenjen, uključujući SSE striming; neuspesi nakon početka uspešnog strima se ovde ne mogu ponovo pokušati. Ako svi izvršioci ne uspeju, vraća se poslednji neuspeh. Prekidi od strane klijenta zaustavljaju slanje.
 
 ```json
 {
@@ -343,35 +363,17 @@ OmniRoute механизам за комбинације подржава **19 �
 }
 ```
 
-Извршилац може да емитује више независних позива у једном одговору. Зависни позиви се
-обрађују у каснијим клијентским потезима са резултатима алата, при чему планер прегледа сваки резултат.
-`maxToolRounds` подразумевано има вредност `8` и прихвата `1`–`32`; када се граница достигне, планер мора
-да произведе најбољи доступан коначни одговор. Интерне одлуке планера се баферују, док
-изабрани одговор окренут клијенту задржава оригиналну поставку стримовања.
+Izvršilac može emitovati više nezavisnih poziva u jednom odgovoru. Zavisni pozivi se obrađuju u kasnijim krugovima rezultata alata klijenta, pri čemu planer pregleda svaki rezultat. `maxToolRounds` je podrazumevano `8` i prihvata `1`–`32`; kada se dostigne, planer mora da proizvede najbolji dostupni konačni odgovor. Interne odluke planera se baferuju, dok izabrani odgovor okrenut ka klijentu čuva originalnu preferenciju strimovanja.
 
-### Лепљиве серије и проширење налога за `round-robin`
+### `round-robin` sticky batch i proširenje naloga
 
-Round-robin се обавља у серијама, а не по принципу један захтев по кораку:
+Round-robin je grupisan (batched), a ne jedan zahtev po koraku:
 
-- `stickyRoundRobinLimit` (конфигурација комбинације, затим `comboStickyRoundRobinLimit`, па
-  `settings.stickyRoundRobinLimit`, подразумевано **3**) задржава исти циљ током толико
-  узастопних успешних извршавања пре преласка на следећи. Подесите заменску вредност комбинације на `1` за ротирање
-  при сваком захтеву. Уређивач комбинације приказује ефективну вредност и слој из којег потиче.
-- `connectionAwareExpansion` (конфигурација комбинације, затим подешавања, подразумевано **false**) проширује
-  сваки корак на нивоу добављача у циљеве по налогу пре ротирања. Стратегије групе B
-  (priority, weighted, round-robin, random, p2c, least-used, cost-optimized, lkgp,
-  fill-first, strict-random, context-optimized, cache-optimized, context-relay, fusion,
-  pipeline) задржавају приказ на нивоу добављача док се ова опција не укључи. Уређивач комбинације нуди
-  наслеђивање / укључено / искључено; наслеђивање користи глобалну подразумевану вредност (искључено).
-- Усмеравање према локалности кеша упита (`promptCacheAffinityEnabled`, подразумевано **true**) мења редослед
-  закачених веза тако да одговарајући кључеви кеша остану на једном налогу. Оно има предност над
-  round-robin и weighted ротирањем кроз закачене кораке по налогу. Искључите га у
-  Settings → Combo defaults ако вам је потребно строго ротирање. Не постоји заменска вредност по комбинацији.
+- `stickyRoundRobinLimit` (combo config, zatim `comboStickyRoundRobinLimit`, zatim `settings.stickyRoundRobinLimit`, podrazumevano **3**) zadržava isti cilj za toliko uzastopnih uspeha pre rotacije. Podesite combo override na `1` za rotaciju po jednom zahtevu. Combo editor prikazuje efektivnu vrednost i sloj iz kojeg potiče.
+- `connectionAwareExpansion` (combo config, zatim settings, podrazumevano **false**) proširuje svaki korak na nivou provajdera u ciljeve po nalogu pre rotacije. Strategije Group-B (priority, weighted, round-robin, random, p2c, least-used, cost-optimized, lkgp, fill-first, strict-random, context-optimized, cache-optimized, context-relay, fusion, pipeline) zadržavaju pogled na nivou provajdera dok ovo nije uključeno. Combo editor izlaže inherit / on / off; inherit koristi globalnu podrazumevanu vrednost (off).
+- Prompt-cache locality rutiranje (`promptCacheAffinityEnabled`, podrazumevano **true**) preuređuje fiksirane konekcije tako da odgovarajući ključevi keša ostaju na jednom nalogu. Ima prednost nad round-robin i weighted rotacijom preko fiksiranih koraka po nalogu. Isključite ga pod Settings → Combo defaults ako vam je potrebna stroga rotacija. Ne postoji override po kombinaciji.
 
-За ротирање између више налога на једном моделу, дајте предност **једном кораку са динамичким налогом** (празан
-`connectionId`, цео скуп) са лепљивим ограничењем `1`, уместо три закачена `connectionId`-а.
-Закачени кораци уз афинитет своде се на исти налог чак и док се RR бројач
-увећава.
+Za rotaciju više naloga na jednom modelu, preferirajte **jedan korak dinamičkog naloga** (prazan `connectionId`, ceo skup) sa sticky limitom `1`, a ne tri fiksirana `connectionId`-a. Fiksirani koraci plus afinitet se urušavaju na isti nalog čak i dok RR brojač napreduje.
 
 ## Fusion strategija
 
@@ -472,57 +474,51 @@ Auto Combo мотор не захтева претходно дефинисан�
 
 ## API
 
-Не постоји наменски `POST /api/combos/auto` крајња тачка — Auto-Combo се користи на два начина:
+Ne postoji **namenski `POST /api/combos/auto` krajnja tačka (endpoint)** — Auto-Combo se koristi na dva načina:
 
-1. **Без конфигурације (препоручено):** Пошаљите било који chat completion захтев са `model: "auto"` или `model: "auto/<variant>"`. Виртуелна фабрика изграђује комбинацију по захтеву — без перзистенције, без потребе за API позивима.
+1. **Zero-config (preporučeno):** Pošaljite bilo koji zahtev za dopunu ćaskanja (chat completion) sa `model: "auto"` ili `model: "auto/<variant>"`. Virtuelna fabrika kreira combo po zahtevu — nije potrebna perzistencija niti API pozivi.
 
-2. **Перзистентна комбинација са `strategy: "auto"`:** Направите обичну комбинацију преко `POST /api/combos` и подесите `strategy: "auto"` плус `config.auto.weights` / `config.auto.candidatePool`. Користи се исти мотор за оцењивање; комбинација се чува у `combos` табели и може се поново користити преко ID-а.
+2. **Persistirani combo sa `strategy: "auto"`:** Kreirajte regularni combo putem `POST /api/combos` i postavite `strategy: "auto"` uz `config.auto.weights` / `config.auto.candidatePool`. Koristi se isti mehanizam za bodovanje; combo se čuva u `combos` i može se ponovo koristiti putem ID-a.
 
-За откривање, `GET /api/combos/auto` листа сваку варијанту са њеним разрешеним скупом кандидата, плус `context_length` / `max_output_tokens` — MAX вредност преко свих прозора у скупу кандидата. Клијенти (нпр. opencode plugin) морају да оглашавају ове вредности уместо `0`: нулти контекст потпуно онемогућава opencode-ову ауто-компакцију, дозвољавајући сесијама да расту док чишћење историје на gateway-у не уништи контекст. MAX је безбедно оглашавати јер претфилтер контекста auto-combo-а усмерава превелике захтеве на кандидате са великим прозором.
+Za otkrivanje, `GET /api/combos/auto` navodi svaku varijantu sa njenim razrešenim skupom kandidata (candidate pool) plus `context_length` / `max_output_tokens` — MAKSIMUM kroz prozore skupa kandidata. Klijenti (npr. opencode dodatak) moraju reklamirati ove vrednosti umesto `0`: nulti kontekst potpuno onemogućava opencode-ovu automatsku kompresiju, dozvoljavajući sesijama da rastu sve dok čišćenje istorije gateway-a ne uništi kontekst. MAKSIMUM je bezbedan za reklamiranje jer auto-combo pred-filter konteksta usmerava prevelike zahteve ka kandidatima sa velikim prozorima.
 
 ```bash
-# Коришћење без конфигурације (без прављења комбинације)
+# Zero-config usage (no combo creation)
 curl -X POST http://localhost:20128/v1/chat/completions \
   -H "Authorization: Bearer <key>" \
   -H "Content-Type: application/json" \
   -d '{"model":"auto/coding","messages":[{"role":"user","content":"Hello"}]}'
 
-# Перзистентна auto комбинација преко обичне combos крајње тачке
+# Persisted auto combo via the regular combos endpoint
 curl -X POST http://localhost:20128/api/combos \
   -H "Content-Type: application/json" \
   -d '{"id":"my-auto","name":"Auto Coder","strategy":"auto","config":{"auto":{"candidatePool":["anthropic","google","openai"],"weights":{"quota":0.15,"health":0.3,"costInv":0.05,"latencyInv":0.35,"taskFit":0.1,"stability":0,"tierPriority":0.05}}}}'
 ```
 
-### Стратегије auto рутера
+### Strategije auto rutera
 
-Перзистентне `strategy: "auto"` комбинације могу да подесе `config.routerStrategy` (или
-застарело `config.auto.routerStrategy`) на једну од следећих вредности:
+Persistirani `strategy: "auto"` combo-i mogu postaviti `config.routerStrategy` (ili nasleđeni `config.auto.routerStrategy`) na jednu od sledećih vrednosti:
 
-- `rules` — подразумевано пондерисано оцењивање
-- `score` — бира најбоље оцењеног кандидата према конфигурисаном пондерисаном резултату. Потпуно изједначени резултати чувају конфигурисани редослед кандидата; постојећи `explorationRate` узоркује из целог рангираног скупа.
-- `cost` / `eco` — најјефтинији здрав провајдер
-- `latency` / `fast` — најнижа p95 латенција са казном за поузданост
-- `sla-aware` / `sla` — фаворизује кандидате који задовољавају p95 латенцију, стопу грешака и опционе циљеве трошкова (SLO)
-- `lkgp` — последњи познати добар провајдер прво
+- `rules` — podrazumevano ponderisano bodovanje
+- `score` — bira najviši konfigurisani ponderisani rezultat. Tačne nerešene situacije (ties) čuvaju konfigurisan redosled kandidata; postojeći `explorationRate` uzima uzorke iz celog rangiranog skupa.
+- `cost` / `eco` — najjeftiniji zdrav (dostupan) provajder
+- `latency` / `fast` — najniža p95 latencija sa penalom za pouzdanost
+- `sla-aware` / `sla` — preferira kandidate koji zadovoljavaju p95 latenciju, stopu grešaka i opcione SLO-ove troškova
+- `lkgp` — prvo poslednji poznati dobar provajder
+- `nadir` — pita [Nadir](https://getnadir.com) API za odlučivanje koji model u skupu je potreban za prompt; opt-in, fail-open na `rules`
 
-### Детаљан приказ стратегија рутера
+### Detalji o strategijama rutera
 
-Auto-combo мотор излаже 6 модуларних имплементација **RouterStrategy** које
-можете мењати преко `config.routerStrategy` (или застарелог `config.auto.routerStrategy`).
-Свака стратегија бира једног провајдера из скупа кандидата, на основу `RoutingContext`
-(тип задатка, назнаке за алат/визију, процена броја токена, опциона SLA политика,
-опциони последњи познати добар провајдер).
+Auto-combo mehanizam izlaže 7 priključivih **RouterStrategy** implementacija koje možete zameniti putem `config.routerStrategy` (ili nasleđenog `config.auto.routerStrategy`). Svaka strategija bira jednog provajdera iz skupa kandidata, na osnovu `RoutingContext`-a (tip zadatka, saveti za alate/viziju, procena tokena, opciona SLA politika, opcioni poslednji poznati dobar provajder).
 
-#### 1. `rules` (подразумевано) — 16-факторско пондерисано оцењивање
+#### 1. `rules` (podrazumevano) — 16-faktorsko ponderisano bodovanje
 
-Обавија постојећи мотор за оцењивање. Филтрира кандидате чији је circuit-breaker
-у стању `OPEN`, затим покреће `scorePool()` са тренутним типом задатка и `getTaskFitness()`,
-бирајући провајдера са највишим резултатом.
+Obmotava postojeći mehanizam za bodovanje. Filtrira kandidate sa `OPEN` prekidačem strujnog kola (circuit-breaker), zatim pokreće `scorePool()` sa trenutnim tipom zadatka i `getTaskFitness()`, birajući provajdera sa najvišim rezultatom.
 
 ```ts
 class RulesStrategyImpl implements RouterStrategy {
   readonly name = "rules";
-  readonly description = "16-факторско пондерисано оцењивање (види DEFAULT_WEIGHTS)";
+  readonly description = "16-factor weighted scoring (see DEFAULT_WEIGHTS)";
 
   select(pool, context) {
     const eligible = pool.filter((c) => c.circuitBreakerState !== "OPEN");
@@ -537,21 +533,20 @@ class RulesStrategyImpl implements RouterStrategy {
 }
 ```
 
-**Када користити**: Подразумевано. Користите када желите balansiran однос свих сигнала.
+**Kada koristiti**: Podrazumevano. Koristite kada želite balansiran kompromis između svih signala.
 
-**Алијас**: `rules` (нема алијас)
+**Alias**: `rules` (nema aliasa)
 
 ---
 
-#### 2. `cost` / `eco` — најјефтинији здрав провајдер
+#### 2. `cost` / `eco` — najjeftiniji zdrav provajder
 
-Сортира скуп кандидата по `costPer1MTokens` (растуће) и бира најјефтинијег.
-Прво филтрира кандидате у стању `OPEN`.
+Sortira skup kandidata prema `costPer1MTokens` (rastuće) i bira najjeftinijeg. Prvo filtrira `OPEN` kandidate.
 
 ```ts
 class CostStrategyImpl implements RouterStrategy {
   readonly name = "cost";
-  readonly description = "Увек бира најјефтинијег доступног провајдера";
+  readonly description = "Always selects cheapest available provider";
 
   select(pool, context) {
     const healthy = pool.filter((c) => c.circuitBreakerState !== "OPEN");
@@ -561,21 +556,20 @@ class CostStrategyImpl implements RouterStrategy {
 }
 ```
 
-**Када користити**: Радни задаци осетљиви на трошкове, batch обрада или послови у позадини.
+**Kada koristiti**: Radna opterećenja osetljiva na troškove, batch obrada ili pozadinski poslovi.
 
-**Алијаси**: `cost`, `eco`
+**Aliasi**: `cost`, `eco`
 
 ---
 
-#### 3. `latency` / `fast` — најнижа p95 латенција са казном за поузданост
+#### 3. `latency` / `fast` — najniža p95 latencija sa penalom za pouzdanost
 
-Сортира по `p95LatencyMs + (errorRate * 1000)`. Казна за стопу грешака обезбеђује да
-непоуздани провајдери буду рангирани ниже, чак и ако им је номинална латенција ниска.
+Sortira prema `p95LatencyMs + (errorRate * 1000)`. Penal za stopu grešaka osigurava da nepouzdani provajderi budu niže rangirani čak i ako je njihova nominalna latencija niska.
 
 ```ts
 class LatencyStrategyImpl implements RouterStrategy {
   readonly name = "latency";
-  readonly description = "Приоритизује најнижу p95 латенцију уз пондерисање поузданости";
+  readonly description = "Prioritizes lowest p95 latency with reliability weighting";
 
   select(pool, context) {
     const healthy = pool.filter((c) => c.circuitBreakerState !== "OPEN");
@@ -587,42 +581,41 @@ class LatencyStrategyImpl implements RouterStrategy {
 }
 ```
 
-**Када користити**: Радни задаци осетљиви на латенцију, као чет у реалном времену, аутоматско
-довршавање, или интерактивни асистенти за кодирање.
+**Kada koristiti**: Radna opterećenja osetljiva na latenciju kao što su ćaskanje u realnom vremenu, automatsko dopunjavanje ili interaktivni asistenti za kodiranje.
 
-**Алијаси**: `latency`, `fast`
+**Aliasi**: `latency`, `fast`
 
 ---
 
-#### 4. `sla-aware` / `sla` — усклађеност са SLO за латенцију/грешке/трошкове
+#### 4. `sla-aware` / `sla` — usklađenost sa SLO za latenciju/greške/troškove
 
-Оцењује сваког кандидата на основу тога колико добро задовољава конфигурисану SLO политику:
+Boduje svakog kandidata prema tome koliko dobro zadovoljava konfigurisanu SLO politiku:
 
-| Фактор                      | Тежина | Формула                                                |
-| --------------------------- | ------ | ------------------------------------------------------ |
-| Резултат латенције          | 35%    | `threshold / max(value, ε)`                            |
-| Резултат грешака            | 35%    | `threshold / max(value, ε)`                            |
-| Резултат здравственог стања | 15%    | `1.0` (CLOSED) / `0.5` (HALF_OPEN) / `0.0` (OPEN)      |
-| Резултат трошкова           | 10%    | `threshold / max(value, ε)` или инверзно нормализовано |
-| Резултат стабилности        | 5%     | инверзно нормализована стандардна девијација латенције |
+| Фактор            | Тежина | Формула                                                |
+| ----------------- | ------ | ------------------------------------------------------ |
+| Оцена кашњења     | 35%    | `threshold / max(value, ε)`                            |
+| Оцена грешака     | 35%    | `threshold / max(value, ε)`                            |
+| Оцена исправности | 15%    | `1.0` (CLOSED) / `0.5` (HALF_OPEN) / `0.0` (OPEN)      |
+| Оцена трошкова    | 10%    | `threshold / max(value, ε)` или инверзно нормализовано |
+| Оцена стабилности | 5%     | инверзна нормализована стандардна девијација кашњења   |
 
-Када је `hardConstraints: true`, кандидати се сортирају примарно по **резултату кршења**
-(колико прекорачују било који SLO), а затим по композитном резултату. Иначе, користи се
-само композитни резултат.
+Када је `hardConstraints: true`, кандидати се сортирају првенствено према **оцени кршења**
+(колико прекорачују било који SLO), а затим према збирној оцени. У супротном, користи се само
+збирна оцена.
 
 ```ts
 class SLAStrategyImpl implements RouterStrategy {
   readonly name = "sla-aware";
   readonly description =
-    "Бира провајдера који највероватније задовољава SLO за латенцију, стопу грешака и трошкове";
+    "Selects the provider most likely to satisfy latency, error-rate, and cost SLOs";
 
   select(pool, context) {
-    // ... оцењује сваког кандидата у односу на политику: { targetP95Ms, maxErrorRate, maxCostPer1MTokens, hardConstraints }
+    // ... scores each candidate against policy: { targetP95Ms, maxErrorRate, maxCostPer1MTokens, hardConstraints }
   }
 }
 ```
 
-**SLA поља** (подешавају се у конфигурацији комбинације):
+**SLA поља** (подешена у combo конфигурацији):
 
 ```json
 {
@@ -637,22 +630,21 @@ class SLAStrategyImpl implements RouterStrategy {
 }
 ```
 
-**Када користити**: Продукциони радни задаци са строгим буџетима за латенцију, стопу грешака или трошкове.
+**Када користити**: Продукциона оптерећења са строгим буџетима за кашњење, стопу грешака или трошкове.
 
 **Алијаси**: `sla-aware`, `sla`
 
 ---
 
-#### 5. `lkgp` — последњи познати добар провајдер прво
+#### 5. `lkgp` — прво последњи познати добар провајдер
 
-Прво покушава са **последњим познатим добрим провајдером** (ако је постављен), а затим се
-враћа на `rules` стратегију. Корисно за session stickiness — исти провајдер обрађује
-накнадне захтеве у оквиру разговора.
+Прво покушава са **последњим познатим добрим провајдером** (ако је подешен), а затим прелази на
+стратегију `rules`. Корисно за одржавање сесије — исти провајдер обрађује накнадне захтеве у разговору.
 
 ```ts
 class LKGPStrategyImpl implements RouterStrategy {
   readonly name = "lkgp";
-  readonly description = "Прво покушава последњи познати добар провајдер, затим се враћа на rules";
+  readonly description = "Tries last known good provider first, then falls back to rules";
 
   select(pool, context) {
     if (context.lkgpEnabled === false) {
@@ -668,22 +660,65 @@ class LKGPStrategyImpl implements RouterStrategy {
       }
     }
 
-    // Враћа се на rules стратегију
+    // Fallback to rules strategy
     return getStrategy("rules").select(pool, context);
   }
 }
 ```
 
-**Када користити**: Разговори са више размена (multi-turn) где желите да исти провајдер обрађује
-накнадне захтеве (нпр. за кеширање, контекстуалну непрекидност или конзистентност цена).
+**Када користити**: Разговори са више корака где желите да исти провајдер обрађује накнадне захтеве
+(нпр. због кеширања, континуитета контекста или конзистентности цена).
 
-**Алијас**: `lkgp` (нема алијас)
+**Алијас**: `lkgp` (нема алијаса)
+
+---
+
+#### 6. `nadir` — избор модела свестан упита преко Nadir-а
+
+Свака стратегија изнад рангира кандидате према сопственој телеметрији; ниједна од њих не чита
+захтев. `nadir` шаље последњи кориснички унос плус ID-јеве модела из пула на API за одлучивање
+[Nadir-а](https://getnadir.com) (`POST /v1/bucket`) и усмерава на модел који Nadir изабере из тог
+менија (`simple` → најјефтинији способни модел, `complex` → водећи модел). Везу која опслужује тај
+модел и даље бира `rules`, тако да квота, исправност и трошкови настављају да одлучују о томе који
+налог ће се користити.
+
+```json
+{
+  "strategy": "auto",
+  "config": {
+    "routerStrategy": "nadir",
+    "nadir": {
+      "apiKey": "ndr_...",
+      "baseUrl": "https://api.getnadir.com",
+      "timeoutMs": 2000
+    }
+  }
+}
+```
+
+`OMNIROUTE_NADIR_API_KEY` и `OMNIROUTE_NADIR_BASE_URL` су env резервне вредности за ова два
+стринга. `baseUrl` је потребан само за Nadir који сами хостујете (завршни `/v1` се толерише).
+Позиви без кључа доспевају на Nadir-ов анонимни ниво, који је ограничен по IP адреси.
+
+Шта напушта систем: текст последње корисничке поруке (првих 16k карактера), ID-јеви модела кандидата
+и ознака канала `source: "omniroute"`. Без системског упита, историје, алата или заглавља.
+
+Понашање у случају грешке је fail-open: истек времена (подразумевано 2000 ms), non-2xx одговор,
+недоступан хост, лоше обликован одговор или избор ван пула резултирају одлуком `rules`, а разлог
+добија префикс `NadirStrategy: fallback (…)`. Након неуспешног позива, стратегија прескаче мрежу на
+30 s, тако да прекид кошта један истек времена на сваких 30 s уместо једног по захтеву. Догађаји
+рутирања пријављују `strategy: "nadir"` само када је Nadir заиста направио избор.
+
+**Када користити**: саобраћај мешовите тежине на пулу који обухвата нивое модела (мали, средњи и
+водећи модел), где је коришћење увек водећег модела трошак који желите да смањите.
+
+**Алијас**: `nadir` (нема алијаса)
 
 ---
 
 ### Прилагођене стратегије рутера
 
-Можете регистровати сопствену имплементацију `RouterStrategy` преко јавног API-ја:
+Можете регистровати сопствену имплементацију `RouterStrategy` путем јавног API-ја:
 
 ```ts
 import {
@@ -693,10 +728,10 @@ import {
 
 class MyCustomStrategy implements RouterStrategy {
   readonly name = "my-custom";
-  readonly description = "Моја прилагођена стратегија рутирања";
+  readonly description = "My custom routing strategy";
 
   select(pool, context) {
-    // Ваша логика рутирања овде
+    // Your routing logic here
     return {
       provider: pool[0].provider,
       model: pool[0].model,
@@ -726,13 +761,14 @@ registerStrategy("my-custom", new MyCustomStrategy());
 
 ### Водич за избор стратегије рутера
 
-| Случај употребе          | Стратегија  | Разлог                                    |
-| ------------------------ | ----------- | ----------------------------------------- |
-| Balansiran радни задатак | `rules`     | Подразумевано — узима у обзир све факторе |
-| Минимизација трошкова    | `cost`      | Увек бира најјефтинијег                   |
-| Минимизација латенције   | `latency`   | Бира најбржег поузданог провајдера        |
-| Строги SLO               | `sla-aware` | Филтрира по прагу p95/грешке/трошкова     |
-| Multi-turn чет           | `lkgp`      | Session stickiness                        |
+| Случај употребе         | Стратегија  | Разлог                                       |
+| ----------------------- | ----------- | -------------------------------------------- |
+| Балансирано оптерећење  | `rules`     | Подразумевано — разматра све факторе         |
+| Минимизирање трошкова   | `cost`      | Увек бира најјефтиније                       |
+| Минимизирање кашњења    | `latency`   | Бира најбржег поузданог провајдера           |
+| Строги SLO-ови          | `sla-aware` | Филтрира према праговима p95/грешке/трошкова |
+| Разговор са више корака | `lkgp`      | Одржавање сесије                             |
+| Мешовита тежина         | `nadir`     | Бира ниво модела по упиту                    |
 
 SLA-aware поља:
 
@@ -809,17 +845,17 @@ su izostavljeni iz CI-a jer zahtevaju prave kredencijale i pristup VPS-u.
 
 ---
 
-## Datoteke
+## Датотеке
 
-| Datoteka                                                  | Namena                                                                                                   |
+| Датотека                                                  | Намена                                                                                                   |
 | :-------------------------------------------------------- | :------------------------------------------------------------------------------------------------------- |
-| `open-sse/services/autoCombo/scoring.ts`                  | Funkcija bodovanja sa 16 faktora, `DEFAULT_WEIGHTS`, normalizacija pула                                  |
-| `open-sse/services/autoCombo/taskFitness.ts`              | Pretraga podudarnosti model × zadatak                                                                    |
-| `open-sse/services/autoCombo/engine.ts`                   | Logika selekcije, bandit, ograničenje budžeta                                                            |
-| `open-sse/services/autoCombo/selfHealing.ts`              | Isključivanje, probe, režim incidenta                                                                    |
-| `open-sse/services/autoCombo/modePacks.ts`                | 6 profila težina (ship-fast, cost-saver, quality-first, offline-friendly, reliability-first, chaos-mode) |
-| `open-sse/services/autoCombo/autoPrefix.ts`               | Parser prefiksa `auto/` + 6 varijanti                                                                    |
-| `open-sse/services/autoCombo/virtualFactory.ts`           | Izgrađuje in-memory `AutoComboConfig` na osnovu aktivnih konekcija                                       |
-| `open-sse/services/autoCombo/providerRegistryAccessor.ts` | Test kuka za mokovanje registra provajdera                                                               |
-| `src/shared/constants/routingStrategies.ts`               | `ROUTING_STRATEGY_VALUES` (19 strategija)                                                                |
-| `src/sse/handlers/chat.ts`                                | Integracija: kratki spoj za auto-prefiks                                                                 |
+| `open-sse/services/autoCombo/scoring.ts`                  | 16-факторска функција бодовања, DEFAULT_WEIGHTS, норма скупа                                             |
+| `open-sse/services/autoCombo/taskFitness.ts`              | Претрага подесности модела × задатка                                                                     |
+| `open-sse/services/autoCombo/engine.ts`                   | Логика одабира, бандит, ограничење буџета                                                                |
+| `open-sse/services/autoCombo/selfHealing.ts`              | Искључивање, сонде, режим инцидента                                                                      |
+| `open-sse/services/autoCombo/modePacks.ts`                | 6 профила тежина (ship-fast, cost-saver, quality-first, offline-friendly, reliability-first, chaos-mode) |
+| `open-sse/services/autoCombo/autoPrefix.ts`               | Парсер за auto/ префикс + 6 варијанти                                                                    |
+| `open-sse/services/autoCombo/virtualFactory.ts`           | Креира AutoComboConfig у меморији на основу активних конекција                                           |
+| `open-sse/services/autoCombo/providerRegistryAccessor.ts` | Тест кука за моковање регистра провајдера                                                                |
+| `src/shared/constants/routingStrategies.ts`               | ROUTING_STRATEGY_VALUES (20 стратегија)                                                                  |
+| `src/sse/handlers/chat.ts`                                | Интеграција: auto-prefix short-circuit                                                                   |

@@ -4,6 +4,10 @@
 
 ---
 
+🌐 **Languages:** 🇺🇸 [English](../../../../routing/AUTO-COMBO.md) · 🇪🇹 [am](../../../am/docs/routing/AUTO-COMBO.md) · 🇸🇦 [ar](../../../ar/docs/routing/AUTO-COMBO.md) · 🇦🇿 [az](../../../az/docs/routing/AUTO-COMBO.md) · 🇧🇬 [bg](../../../bg/docs/routing/AUTO-COMBO.md) · 🇧🇩 [bn](../../../bn/docs/routing/AUTO-COMBO.md) · 🇧🇦 [bs](../../../bs/docs/routing/AUTO-COMBO.md) · 🇨🇿 [cs](../../../cs/docs/routing/AUTO-COMBO.md) · 🇩🇰 [da](../../../da/docs/routing/AUTO-COMBO.md) · 🇩🇪 [de](../../../de/docs/routing/AUTO-COMBO.md) · 🇬🇷 [el](../../../el/docs/routing/AUTO-COMBO.md) · 🇪🇸 [es](../../../es/docs/routing/AUTO-COMBO.md) · 🇪🇪 [et](../../../et/docs/routing/AUTO-COMBO.md) · 🇮🇷 [fa](../../../fa/docs/routing/AUTO-COMBO.md) · 🇫🇮 [fi](../../../fi/docs/routing/AUTO-COMBO.md) · 🇫🇷 [fr](../../../fr/docs/routing/AUTO-COMBO.md) · 🇮🇪 [ga](../../../ga/docs/routing/AUTO-COMBO.md) · 🇮🇳 [gu](../../../gu/docs/routing/AUTO-COMBO.md) · 🇳🇬 [ha](../../../ha/docs/routing/AUTO-COMBO.md) · 🇮🇱 [he](../../../he/docs/routing/AUTO-COMBO.md) · 🇮🇳 [hi](../../../hi/docs/routing/AUTO-COMBO.md) · 🇭🇷 [hr](../../../hr/docs/routing/AUTO-COMBO.md) · 🇭🇺 [hu](../../../hu/docs/routing/AUTO-COMBO.md) · 🇦🇲 [hy](../../../hy/docs/routing/AUTO-COMBO.md) · 🇮🇩 [id](../../../id/docs/routing/AUTO-COMBO.md) · 🇳🇬 [ig](../../../ig/docs/routing/AUTO-COMBO.md) · 🇮🇹 [it](../../../it/docs/routing/AUTO-COMBO.md) · 🇯🇵 [ja](../../../ja/docs/routing/AUTO-COMBO.md) · 🇬🇪 [ka](../../../ka/docs/routing/AUTO-COMBO.md) · 🇰🇭 [km](../../../km/docs/routing/AUTO-COMBO.md) · 🇮🇳 [kn](../../../kn/docs/routing/AUTO-COMBO.md) · 🇰🇷 [ko](../../../ko/docs/routing/AUTO-COMBO.md) · 🇱🇹 [lt](../../../lt/docs/routing/AUTO-COMBO.md) · 🇱🇻 [lv](../../../lv/docs/routing/AUTO-COMBO.md) · 🇮🇳 [ml](../../../ml/docs/routing/AUTO-COMBO.md) · 🇮🇳 [mr](../../../mr/docs/routing/AUTO-COMBO.md) · 🇲🇾 [ms](../../../ms/docs/routing/AUTO-COMBO.md) · 🇲🇹 [mt](../../../mt/docs/routing/AUTO-COMBO.md) · 🇲🇲 [my](../../../my/docs/routing/AUTO-COMBO.md) · 🇳🇵 [ne](../../../ne/docs/routing/AUTO-COMBO.md) · 🇳🇱 [nl](../../../nl/docs/routing/AUTO-COMBO.md) · 🇳🇴 [no](../../../no/docs/routing/AUTO-COMBO.md) · 🇮🇳 [or](../../../or/docs/routing/AUTO-COMBO.md) · 🇮🇳 [pa](../../../pa/docs/routing/AUTO-COMBO.md) · 🇵🇭 [phi](../../../phi/docs/routing/AUTO-COMBO.md) · 🇵🇱 [pl](../../../pl/docs/routing/AUTO-COMBO.md) · 🇵🇹 [pt](../../../pt/docs/routing/AUTO-COMBO.md) · 🇧🇷 [pt-BR](../../../pt-BR/docs/routing/AUTO-COMBO.md) · 🇷🇴 [ro](../../../ro/docs/routing/AUTO-COMBO.md) · 🇷🇺 [ru](../../../ru/docs/routing/AUTO-COMBO.md) · 🇱🇰 [si](../../../si/docs/routing/AUTO-COMBO.md) · 🇸🇰 [sk](../../../sk/docs/routing/AUTO-COMBO.md) · 🇸🇮 [sl](../../../sl/docs/routing/AUTO-COMBO.md) · 🇷🇸 [sr](../../../sr/docs/routing/AUTO-COMBO.md) · 🇸🇪 [sv](../../../sv/docs/routing/AUTO-COMBO.md) · 🇮🇳 [ta](../../../ta/docs/routing/AUTO-COMBO.md) · 🇮🇳 [te](../../../te/docs/routing/AUTO-COMBO.md) · 🇹🇭 [th](../../../th/docs/routing/AUTO-COMBO.md) · 🇹🇷 [tr](../../../tr/docs/routing/AUTO-COMBO.md) · 🇺🇦 [uk-UA](../../../uk-UA/docs/routing/AUTO-COMBO.md) · 🇵🇰 [ur](../../../ur/docs/routing/AUTO-COMBO.md) · 🇺🇿 [uz](../../../uz/docs/routing/AUTO-COMBO.md) · 🇻🇳 [vi](../../../vi/docs/routing/AUTO-COMBO.md) · 🇳🇬 [yo](../../../yo/docs/routing/AUTO-COMBO.md) · 🇨🇳 [zh-CN](../../../zh-CN/docs/routing/AUTO-COMBO.md) · 🇹🇼 [zh-TW](../../../zh-TW/docs/routing/AUTO-COMBO.md)
+
+---
+
 > **Kwa Watumiaji**: Unatafuta njia ya kuanza haraka? Angalia [Mwongozo wa Mtumiaji wa Auto-Combo](../getting-started/AUTO-COMBO-GUIDE.md) kwa maelezo na mifano rahisi.
 
 > Minyororo ya modeli inayojisimamia yenye uwekaji alama unaobadilika + uelekezaji otomatiki usiohitaji usanidi
@@ -47,15 +51,15 @@ Muundo wowote halali wa `auto/<category>[:<tier>]` hutatuliwa unapohitajika; kik
 **Jinsi ya kutumia:**
 
 ```bash
-# IDE au zana yoyote ya CLI inayotumia muundo wa OpenAI
-URL Msingi: http://localhost:20128/v1
-Ufunguo wa API:  <ufunguo-wa-endpoint-yako>
+# Any IDE or CLI tool that supports OpenAI format
+Base URL: http://localhost:20128/v1
+API Key:  <your-endpoint-key>
 
-# Katika msimbo/usanidi wako, weka modeli kuwa:
-model: "auto"                 # chaguo-msingi lililosawazishwa
-model: "auto/coding"          # bora zaidi kwa kazi za uandishi wa msimbo
-model: "auto/fast"            # inayopatikana iliyo ya haraka zaidi
-model: "auto/cheap"           # gharama ya chini zaidi kwa tokeni
+# In your code/config, set model to:
+model: "auto"                 # balanced default
+model: "auto/coding"          # best for coding tasks
+model: "auto/fast"            # fastest available
+model: "auto/cheap"           # cheapest per token
 ```
 
 **Kinachotokea:**
@@ -106,15 +110,15 @@ muundo wa mpangaji mmoja.
 **Kinachotokea nyuma ya pazia:**
 
 ```txt
-Ombi: { model: "auto/coding" }
+Request: { model: "auto/coding" }
    ↓
-src/sse/handlers/chat.ts hugundua kiambishi awali
+src/sse/handlers/chat.ts detects prefix
    ↓
-createVirtualAutoCombo('coding') → candidatePool kutoka kwa miunganisho amilifu
+createVirtualAutoCombo('coding') → candidatePool from active connections
    ↓
-handleComboChat (injini ileile inayotumiwa na michanganyiko iliyohifadhiwa)
+handleComboChat (same engine as persisted combos)
    ↓
-Uwekaji alama kiotomatiki huchagua mtoa huduma/muundo bora kwa kila ombi
+Auto-scoring selects best provider/model per request
 ```
 
 **Faili za utekelezaji:**
@@ -149,13 +153,7 @@ Kuunda au kubadilisha jina la combo kuwa jina linalofunika kitambulisho halisi c
 modeli:
 
 ```json
-{
-  "warning": {
-    "code": "COMBO_NAME_SHADOWS_MODEL",
-    "modelId": "gpt-5.5",
-    "providerId": "openai"
-  }
-}
+{ "warning": { "code": "COMBO_NAME_SHADOWS_MODEL", "modelId": "gpt-5.5", "providerId": "openai" } }
 ```
 
 Wakati wa kuwasha, `scanComboModelNameCollisionsAtBoot()`
@@ -186,34 +184,45 @@ Mitego miwili ya kawaida:
 
 Angalia [#7992](https://github.com/diegosouzapw/OmniRoute/issues/7992) na [#7111](https://github.com/diegosouzapw/OmniRoute/issues/7111) kuhusu mkanganyiko wa awali unaofafanuliwa hapa.
 
-## Jinsi Inavyofanya Kazi (Auto-Combos Zinazohifadhiwa)
+## Jinsi Inavyofanya Kazi (Auto-Combos Zilizohifadhiwa)
 
-Auto-Combo Engine huchagua kwa nguvu mtoa huduma/modeli bora kwa kila ombi kwa kutumia **funksia ya ukadiriaji yenye vipengele 16** (iliyofafanuliwa katika `open-sse/services/autoCombo/scoring.ts` → `DEFAULT_WEIGHTS`). Jumla ya uzani chaguomsingi ni `1.0`; uzani maalum husawazishwa upya na `normalizeScoringWeights()`. Vipengele viwili kati ya kumi na sita — `cacheAffinity` na `resetWindowAffinity` — vina uzani chaguomsingi wa `0`; `reliability` ina `0` katika `DEFAULT_WEIGHTS` lakini `0.03` katika vifurushi vya jumla na `0.04` katika `reliability-first`, na `quality` ina `0.02` katika vifurushi (`0.03` katika `quality-first`): bado vinakokotolewa kwa kila mgombea, na `cacheAffinity` hudhibiti uondoaji wa nakala za akiba ya prompt nje ya alama, kwa hivyo vipengele vyenye uzani chaguomsingi wa sifuri havichangii kwa chaguomsingi, ilhali vifurushi huchangia.
+Injini ya Auto-Combo huchagua mtoa huduma/mfano bora zaidi kwa kila ombi kwa njia ya kidiplomasia kwa kutumia **kazi ya kupima alama ya vipengele 16** (iliyoainishwa katika `open-sse/services/autoCombo/scoring.ts` → `DEFAULT_WEIGHTS`). Uzito chaguo-msingi unajumlisha kufikia `1.0`; uzito maalum hurekebishwa upya na `normalizeScoringWeights()`. Vipengele viwili kati ya kumi na sita — `cacheAffinity` na `resetWindowAffinity` — vina uzito chaguo-msingi wa `0`; `reliability` hubeba `0` katika `DEFAULT_WEIGHTS` lakini `0.03` katika vifurushi vya jumla na `0.04` katika `reliability-first`, na `quality` hubeba `0.02` katika vifurushi (`0.03` katika `quality-first`): bado vinahesabiwa kwa kila mgombea, na `cacheAffinity` huzuia ununuzi wa nakala rudufu wa prompt-cache nje ya alama, kwa hivyo vipengele vyenye sifuri chaguo-msingi havipigi kura kwa chaguo-msingi wakati vifurushi hufanya hivyo.
 
-![Ukadiriaji wa Auto-Combo wenye vipengele 16](../diagrams/exported/auto-combo-scoring.svg)
+![Upimaji wa alama wa vipengele 16 vya Auto-Combo](../diagrams/exported/auto-combo-scoring.svg)
 
-> Chanzo: [diagrams/auto-combo-scoring.mmd](../diagrams/auto-combo-scoring.mmd) (zalisha upya kupitia `npm run docs:render-diagrams`). Jina la faili ni la kihistoria; chanzo na mchoro uliozalishwa huonyesha vipengele vyote 16 vilivyotangazwa katika `DEFAULT_WEIGHTS`.
+> Chanzo: [diagrams/auto-combo-scoring.mmd](../diagrams/auto-combo-scoring.mmd) (tengeneza upya kupitia `npm run docs:render-diagrams`). Jina la faili ni la kihistoria; chanzo na mchoro uliotolewa huonyesha vipengele vyote 16 vilivyotangazwa katika `DEFAULT_WEIGHTS`.
 
-| Kipengele             | Uzani Chaguomsingi | Maelezo                                                                                                                                                                                                                                                          |
-| :-------------------- | :----------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `quota`               | 0.1429             | Nafasi iliyobaki ya mgao / kikomo cha kasi [0..1]                                                                                                                                                                                                                |
-| `health`              | 0.1605             | Alama ya afya kutoka kwa circuit breaker (CLOSED=1.0, HALF_OPEN=0.5, OPEN=0.0)                                                                                                                                                                                   |
-| `costInv`             | 0.1429             | Kinyume cha gharama **iliyochanganywa** (60% bei ya tokeni za ingizo + 40% bei ya tokeni za towe, iliyosawazishwa) — bei nafuu = alama ya juu                                                                                                                    |
-| `latencyInv`          | 0.1143             | Ucheleweshaji wa p95 uliogeuzwa na kusawazishwa kwa kundi — kasi zaidi = alama ya juu                                                                                                                                                                            |
-| `taskFit`             | 0.0762             | Ufaafu kwa aina ya kazi (uandishi wa msimbo, ukaguzi, upangaji, uchanganuzi, utatuzi wa hitilafu, nyaraka)                                                                                                                                                       |
-| `stability`           | 0.0476             | Uthabiti unaotegemea tofauti kutoka kwa mkengeuko sanifu wa ucheleweshaji — mgombea ambaye muda wake wa kujibu hubadilika sana hupata alama ya chini                                                                                                             |
-| `tierPriority`        | 0.0476             | Kipaumbele cha daraja la akaunti — Ultra=1.0, Pro=0.67, Standard=0.33, Free=0.0                                                                                                                                                                                  |
-| `tierAffinity`        | 0.0476             | Ulinganifu kati ya daraja la mgombea na daraja linalopendekezwa na manifest                                                                                                                                                                                      |
-| `specificityMatch`    | 0.0476             | Ulinganifu kati ya umahususi wa ombi (kidokezo cha manifest) na daraja la modeli                                                                                                                                                                                 |
-| `contextAffinity`     | 0.0476             | Ulinganifu kati ya hitaji la dirisha la muktadha la ombi na dirisha la muktadha la modeli                                                                                                                                                                        |
-| `sessionAvailability` | 0.0476             | Upatikanaji wa kipindi cha OAuth wa muunganisho wa mgombea kwa kipindi hiki (`getOAuthSessionAvailability()`; miunganisho isiyotumia OAuth hupata alama 1.0)                                                                                                     |
-| `connectionDensity`   | 0.0476             | Husambaza mzigo katika miunganisho ya mtoa huduma yuleyule (kuzuia mkusanyiko)                                                                                                                                                                                   |
-| `cacheAffinity`       | 0.00               | Ulinganifu wa rendezvous-hash kuelekea muunganisho unaoelekea zaidi kuwa tayari una kiambishi awali cha akiba ya prompt ya ombi hili (`open-sse/services/combo/promptCacheAffinity.ts`); umezimwa kwa chaguomsingi (#8008)                                       |
-| `resetWindowAffinity` | 0.00               | Upendeleo kwa miunganisho ambayo dirisha lake la kuweka upya mgao linafaa (umezimwa kwa chaguomsingi)                                                                                                                                                            |
-| `quality`             | 0.03               | Ishara ya ubora wa towe inayoongozwa na maoni kutoka kwa kifuatiliaji cha ubora wa matukio ya uelekezaji; wagombea wasio na uchunguzi hupokea alama ya kati ya 0.5                                                                                               |
-| `reliability`         | 0.00               | Sehemu ya mafanikio iliyozingatiwa, `1 - failureRate`, kutoka saa 24 za historia ya matumizi baada ya kufikia kiwango cha chini cha sampuli kumi (vinginevyo vipimo vya wakati halisi); wagombea wasio na uchunguzi husomwa kama 1.0. Kimezimwa kwa chaguomsingi |
+| Kipengele             | Uzito Chaguo-msingi | Maelezo                                                                                                                                                                                                                                                     |
+| :-------------------- | :------------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `quota`               | 0.1429              | Nafasi iliyobaki ya quota / kiwango cha kikomo (rate-limit headroom) [0..1]                                                                                                                                                                                 |
+| `health`              | 0.1605              | Alama ya afya kutoka kwa circuit breaker (CLOSED=1.0, HALF_OPEN=0.5, OPEN=0.0)                                                                                                                                                                              |
+| `costInv`             | 0.1429              | Gharama kinyume **iliyochanganywa** (bei ya tokeni ya 60% ya pembejeo + 40% ya matokeo, iliyorekebishwa) — ya bei nafuu zaidi = alama ya juu zaidi                                                                                                          |
+| `latencyInv`          | 0.1143              | Ucheleweshaji kinyume wa p95 uliorekebishwa kulingana na kundi (pool) — ya haraka zaidi = alama ya juu zaidi                                                                                                                                                |
+| `taskFit`             | 0.0762              | Ufaafu wa aina ya kazi (coding, review, planning, analysis, debugging, docs)                                                                                                                                                                                |
+| `stability`           | 0.0476              | Utulivu unaotegemea tofauti (variance) kutoka kwa mkengeuko wa kawaida wa ucheleweshaji — mgombea ambaye muda wake wa majibu unabadilika-badilika hupata alama ya chini                                                                                     |
+| `tierPriority`        | 0.0476              | Kipaumbele cha daraja la akaunti — Ultra=1.0, Pro=0.67, Standard=0.33, Free=0.0                                                                                                                                                                             |
+| `tierAffinity`        | 0.0476              | Uwiano kati ya daraja la mgombea na daraja lililopendekezwa na manifest                                                                                                                                                                                     |
+| `specificityMatch`    | 0.0476              | Ulinganifu kati ya umaalum wa ombi (dokezo la manifest) na daraja la mfano                                                                                                                                                                                  |
+| `contextAffinity`     | 0.0476              | Uwiano kati ya hitaji la context-window la ombi na context window ya mfano                                                                                                                                                                                  |
+| `sessionAvailability` | 0.0476              | Upatikanaji wa kipindi cha OAuth wa muunganisho wa mgombea kwa kipindi hiki (`getOAuthSessionAvailability()`; miunganisho isiyo ya OAuth hupata alama ya 1.0)                                                                                               |
+| `connectionDensity`   | 0.0476              | Husambaza mzigo kwenye miunganisho ya mtoa huduma yule yule (kuzuia msongamano)                                                                                                                                                                             |
+| `cacheAffinity`       | 0.00                | Uwiano wa Rendezvous-hash kuelekea muunganisho unaoelekea kuwa tayari na kiambishi awali cha prompt-cache cha ombi hili (`open-sse/services/combo/promptCacheAffinity.ts`); imezimwa kwa chaguo-msingi (#8008)                                              |
+| `resetWindowAffinity` | 0.00                | Upendeleo kuelekea miunganisho ambayo dirisha lao la kuweka upya quota ni zuri (imezimwa kwa chaguo-msingi)                                                                                                                                                 |
+| `quality`             | 0.03                | Ishara ya ubora wa matokeo inayoendeshwa na mrejesho kutoka kwa kifuatiliaji cha ubora wa matukio ya uelekezaji; wagombea wasio na uchunguzi hupokea 0.5 isiyoegemea upande wowote                                                                          |
+| `reliability`         | 0.00                | Sehemu ya mafanikio yaliyoshuhudiwa, `1 - failureRate`, kutoka kwa historia ya matumizi ya saa 24 nyuma ya kiwango cha chini cha sampuli kumi (vipimo vya muda halisi vinginevyo); wagombea wasio na uchunguzi husomwa kama 1.0. Imezimwa kwa chaguo-msingi |
 
-**Jumla:** `0.1429 + 0.1605 + 0.1429 + 0.1143 + 0.0762 + (7 × 0.0476) + 0.00 + 0.00 + 0.03 + 0.00 = 1.0` kama ilivyotangazwa katika `DEFAULT_WEIGHTS`; uzani uliosanidiwa na mtumiaji husawazishwa upya kuwa mgawanyo na `normalizeScoringWeights()` kabla ya ukadiriaji.
+> **Kiwango kisichoweza kusomeka (#15347).** Wakati mtoa huduma anayo fetcher ya kiwango (quota fetcher) lakini hairudishi chochote
+> kinachosimika (kushindwa kuleta data, vitambulisho kukosekana, matumizi ya ujumbe pekee, au snapshot yenye hitilafu isiyo na
+> `windows` zinazoweza kuchanganuliwa na bila `percentUsed` yenye kikomo, ikijumuisha `percentUsed: null`), mgombea
+> hupata alama ya `0` kwenye mhimili wa `quota` na alama yake ya mwisho huzidishwa kwa
+> `UNREADABLE_QUOTA_SOFT_DEPRIORITIZE_FACTOR` (0.5, `autoStrategy.ts`), muundo ule ule wa adhabu ndogo
+> kama adhabu ya hali ya muunganisho. Usomaji ulioshindwa wa matumizi ni uthibitisho kuhusu telemetria,
+> si mtoa huduma, kwa hivyo huorodheshwa chini kabisa ya usomaji wowote halisi, ikijumuisha ule uliothibitishwa kutumika kwa 100%,
+> lakini hauzuiwi kabisa au kuondolewa. Mtoa huduma asiye na kikomo huripoti `unlimited: true` na
+> hupata alama kama kiwango kamili; mtoa huduma asiye na quota fetcher iliyosajiliwa hana chanzo chochote cha telemetria
+> na huweka chaguo-msingi la `100`.
+
+**Jumla:** `0.1429 + 0.1605 + 0.1429 + 0.1143 + 0.0762 + (7 × 0.0476) + 0.00 + 0.00 + 0.03 + 0.00 = 1.0` kama ilivyotangazwa kwenye `DEFAULT_WEIGHTS`; uzito uliosanidiwa na mtumiaji hurekebishwa upya kuwa usambazaji kupitia `normalizeScoringWeights()` kabla ya kutoa alama.
 
 ## Vifurushi vya Modi
 
@@ -264,7 +273,7 @@ wakati kichwa hakipo.
 | `X-OmniRoute-Effort`          | `auto` (thamani nyingine zimehifadhiwa)                                                                                                                                                                           | Bajeti inayobadilika ya kufikiri: ombi linapokuwa **halina** sehemu yoyote ya ureasonishaji ya aina yoyote (`reasoning_effort`, `reasoning`, `thinking`), lango hubainisha `auto` kuwa `low`/`medium`/`high` kutokana na ishara bainifu za muundo wa ombi (urefu wa ujumbe wa mwisho wa mtumiaji, ukubwa wa muktadha hadi ujumbe wa mwisho wa mtumiaji, matokeo ya awali ya zana, kina cha mzunguko wa zana). Ishara zinahusu zamu ya sasa pekee — kila kitu baada ya ujumbe wa mwisho wa mtumiaji hupuuzwa — kwa hivyo kila ombi katika mzunguko wa zana hubainishwa kuwa katika kiwango kilekile (ubakizaji usio na hali kwa kila zamu, hakuna hali ya kipindi, wala ongezeko katikati ya mzunguko ambalo lingevunja viambishi awali vya akiba ya kidokezo ya mfumo wa juu). Sehemu dhahiri ya ureasonishaji iliyowekwa na mteja hupewa kipaumbele kila wakati. Hii inatumika kwa maombi ambayo uelekezaji wake wa mfumo wa juu hubainishwa kuwa katika muundo wa OpenAI Chat Completions (`targetFormat === FORMATS.OPENAI`) — `reasoning_effort` ni sehemu yenye muundo wa OpenAI, kwa hivyo kichwa hicho hakina athari kwa ombi linalolenga Claude au Gemini (angalia `open-sse/handlers/chatCore/adaptiveEffortWiring.ts`). |
 
 ```bash
-# Lazimisha wasifu wenye kasi zaidi, weka kikomo cha ombi hili kuwa $0.05, na uzuie kabisa badala ya kutumia zaidi ya bajeti
+# Force the fastest profile, cap this request at $0.05, and hard-block instead of overspending
 curl -sS http://localhost:20128/v1/chat/completions \
   -H "Content-Type: application/json" \
   -H "X-OmniRoute-Mode: fast" \
@@ -280,60 +289,68 @@ zilizobainishwa huingizwa katika ingizo zilizopo za injini za `config.modePack` 
 
 ## Mikakati Yote ya Uelekezaji
 
-Injini ya combo ya OmniRoute inatumia **mikakati 19 ya uelekezaji** (iliyotangazwa katika `src/shared/constants/routingStrategies.ts` → `ROUTING_STRATEGY_VALUES`). Injini yenyewe ya Auto Combo inapatikana chini ya mkakati wa `auto`; mingine inapatikana kwa combo zilizohifadhiwa.
+Injini ya combo ya OmniRoute inaauni **mikakati 20 ya uelekezaji** (iliyotangazwa katika `src/shared/constants/routingStrategies.ts` → `ROUTING_STRATEGY_VALUES`). Injini ya Auto Combo yenyewe inafichuliwa chini ya mkakati wa `auto`; mingine inapatikana kwa ajili ya combo zilizohifadhiwa.
 
-| Mkakati             | Maelezo                                                                                                                                                                                                                                                                 |
-| :------------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `priority`          | Orodha iliyopangwa kwa lengo la kwanza, yenye kipaumbele kilichobainishwa wazi                                                                                                                                                                                          |
-| `weighted`          | Uteuzi nasibu uliopimwa kwa uzito wa kila lengo                                                                                                                                                                                                                         |
-| `round-robin`       | Pitia malengo kwa zamu kwa mpangilio (kwa makundi; tazama hapa chini)                                                                                                                                                                                                   |
-| `context-relay`     | Hamisha muktadha kati ya malengo (mazungumzo marefu)                                                                                                                                                                                                                    |
-| `fill-first`        | Jaza kiasi cha matumizi cha kila lengo kabla ya kuhamia lengo linalofuata                                                                                                                                                                                               |
-| `p2c`               | Usawazishaji nasibu wa mzigo kwa kutumia chaguo 2                                                                                                                                                                                                                       |
-| `random`            | Uteuzi nasibu wenye uwezekano sawa                                                                                                                                                                                                                                      |
-| `least-used`        | Chagua lengo lenye mzigo mdogo zaidi kwa sasa                                                                                                                                                                                                                           |
-| `cost-optimized`    | Punguza $ kwa kila ombi kulingana na bei za katalogi                                                                                                                                                                                                                    |
-| `reset-aware` ⭐    | Panga vipaumbele kulingana na muda wa kuweka upya kiasi cha matumizi — vipindi vifupi vya kuweka upya hupewa nafasi ya juu                                                                                                                                              |
-| `reset-window`      | Pendelea malengo ambayo kipindi chake cha kiasi cha matumizi kitawekwa upya mapema zaidi                                                                                                                                                                                |
-| `headroom`          | Chagua lengo lenye nafasi kubwa zaidi ya kiasi cha matumizi iliyosalia                                                                                                                                                                                                  |
-| `strict-random`     | Uteuzi nasibu bila kuondoa marudio                                                                                                                                                                                                                                      |
-| `auto`              | Tumia ukadiriaji wa Auto Combo (vipengele 16) — **inapendekezwa**                                                                                                                                                                                                       |
-| `lkgp`              | Njia ya Mwisho Inayojulikana Kuwa Nzuri (hufungamanisha na mtoa huduma aliyefanikiwa mara ya mwisho, kisha hutumia sheria kama mbadala)                                                                                                                                 |
-| `context-optimized` | Chagua lengo linalofaa zaidi kwa ukubwa wa sasa wa muktadha                                                                                                                                                                                                             |
-| `cache-optimized`   | Panga upya malengo kulingana na uhusiano wake na akiba ya kidokezo — muunganisho wenye uwezekano mkubwa zaidi wa kuwa tayari na kiambishi awali kilichohifadhiwa kwenye akiba cha ombi hili hujaribiwa kwanza (`open-sse/services/combo/promptCacheAffinity.ts`, #8008) |
-| `fusion` 🧬         | Tuma ombi kwa kundi la miundo sambamba, kisha unganisha jibu moja kupitia mwamuzi (tazama hapa chini)                                                                                                                                                                   |
-| `pipeline`          | Endesha malengo kwa mfuatano, ukipitisha matokeo ya kila hatua kuwa ingizo la hatua inayofuata; jibu la mwisho pekee ndilo linalorejeshwa (#6396)                                                                                                                       |
+| Mkakati             | Maelezo                                                                                                                                                                                                                                        |
+| :------------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `priority`          | Orodha iliyopangwa ya shabaha ya kwanza yenye kipaumbele dhahiri                                                                                                                                                                               |
+| `weighted`          | Nasibu iliyopimwa kulingana na uzito wa kila shabaha                                                                                                                                                                                           |
+| `round-robin`       | Zungusha kupitia shabaha kwa mpangilio (kwa makundi; angalia hapa chini)                                                                                                                                                                       |
+| `context-relay`     | Kabidhi muktadha kwenye shabaha mbalimbali (mazungumzo marefu)                                                                                                                                                                                 |
+| `fill-first`        | Jaza kiasi cha kila shabaha kabla ya kuhamia inayofuata                                                                                                                                                                                        |
+| `p2c`               | Usawazishaji wa mzigo wa nasibu wa Power-of-2-choices                                                                                                                                                                                          |
+| `random`            | Uteuzi wa nasibu sawa                                                                                                                                                                                                                          |
+| `least-used`        | Chagua shabaha yenye mzigo mdogo zaidi wa sasa                                                                                                                                                                                                 |
+| `cost-optimized`    | Punguza $ kwa kila ombi kulingana na bei ya katalogi                                                                                                                                                                                           |
+| `reset-aware` ⭐    | Tanguliza kwa wakati wa kuweka upya kiasi — madirisha mafupi ya kuweka upya yamepangwa juu zaidi                                                                                                                                               |
+| `reset-window`      | Pendelea shabaha ambazo dirisha lake la kiasi huwekwa upya mapema zaidi                                                                                                                                                                        |
+| `headroom`          | Chagua shabaha yenye nafasi kubwa zaidi ya kiasi iliyobaki                                                                                                                                                                                     |
+| `quota-weighted`    | Ruka akaunti zilizokwisha, kisha chagua miongoni mwa zilizobaki kwa uwiano wa kiasi kilichobaki kilichogawanywa na mzigo unaoendelea; mazungumzo yaliyopo yanabaki yamebandikwa                                                                |
+| `strict-random`     | Nasibu bila kuondoa marudio                                                                                                                                                                                                                    |
+| `auto`              | Tumia alama za Auto Combo (kigezo-16) — **inapendekezwa**                                                                                                                                                                                      |
+| `lkgp`              | Njia ya Mwisho Inayojulikana kuwa Nzuri (hubandika kwa mtoa huduma aliyefanikiwa mwisho, kisha hurudi kwenye sheria)                                                                                                                           |
+| `context-optimized` | Chagua shabaha inayofaa zaidi kwa ukubwa wa muktadha wa sasa                                                                                                                                                                                   |
+| `cache-optimized`   | Panga upya shabaha kulingana na mshikamano wa prompt-cache — muunganisho unaowezekana zaidi kuwa tayari unashikilia kiambishi awali kilichohifadhiwa cha ombi hili hujaribiwa kwanza (`open-sse/services/combo/promptCacheAffinity.ts`, #8008) |
+| `fusion` 🧬         | Sambaza kwa jopo la miundo sambamba, kisha usanisi jibu moja kupitia jaji (angalia hapa chini)                                                                                                                                                 |
+| `pipeline`          | Endesha shabaha kwa mfululizo, ukipitisha matokeo ya kila hatua kwenye ingizo la hatua inayofuata; jibu la mwisho pekee ndilo linalorejeshwa (#6396)                                                                                           |
 
 ⭐ = Mpya katika v3.8.0 · 🧬 = Mpya katika v3.8.36
 
 ### Semantiki za `weighted`
 
-`weighted` ni **uteuzi nasibu wa uwiano kwa kila ombi**
-(`open-sse/services/combo/targetSorters.ts` → `selectWeightedTarget`), wala si kisawazishaji:
+`weighted` ni **droo ya nasibu ya uwiano kwa kila ombi**
+(`open-sse/services/combo/targetSorters.ts` → `selectWeightedTarget`), si kisawazishi:
 
-- Kila ombi huchagua hatua **moja** kwa uwezekano wa `weight / totalWeight`; hatua zilizosalia
-  hupangwa kwa uzito unaopungua kama mnyororo wa hatua mbadala kwa ombi hilo.
-- Hatua ambayo uzito wake ni `0` (au haupo) **haichaguliwi kamwe** wakati hatua nyingine yoyote ina
-  uzito > 0 — inaweza kutumika tu kama mbadala baada ya hatua iliyochaguliwa kushindwa. Ni wakati tu ambapo uzito **wote**
-  ni 0 ndipo uteuzi huwa na uwezekano sawa.
-- Hatua ambazo malengo yake yote hayapatikani — kizuia saketi cha mtoa huduma kiko `OPEN`, muunganisho
-  uko katika kipindi cha kusubiri, au modeli imefungiwa — huondolewa kwenye uteuzi kabla haujafanyika
-  (`open-sse/services/combo/targetResolution.ts`), kwa hivyo hatua moja yenye afya inaweza kushinda kila
-  ombi kwa muda.
-- `stickyWeightedLimit` (usanidi wa combo, chaguo-msingi `1` = imezimwa) hufungamanisha hatua iliyochaguliwa kwa idadi hiyo ya
-  mafanikio mfululizo kabla ya kuchagua upya.
+- Kila ombi huchora hatua **moja** yenye uwezekano wa `weight / totalWeight`; hatua zilizobaki
+  hupangwa kwa uzito wa kushuka kama mnyororo wa njia mbadala kwa ombi hilo.
+- Hatua ambayo uzito wake ni `0` (au haipo) **haijawahi kuchorwa** wakati hatua nyingine yoyote ina
+  uzito > 0 — inaweza kutumika tu kama njia mbadala baada ya hatua iliyochorwa kushindwa. Ni wakati **uzito wote** ni 0 ndipo uteuzi huwa sawa.
+- Hatua ambazo shabaha zake zote hazipatikani — kivunja mzunguko wa mtoa huduma `OPEN`,
+  muda wa kupoa wa muunganisho, kufungwa kwa muundo — huondolewa kwenye droo kabla haijatokea
+  (`open-sse/services/combo/targetResolution.ts`), kwa hivyo hatua moja yenye afya inaweza kushinda kila ombi kwa muda.
+- `stickyWeightedLimit` (usanidi wa combo, chaguo-msingi `1` = imezimwa) hubandika hatua iliyochorwa kwa idadi hiyo ya mafanikio mfululizo kabla ya kuchora tena.
 
-Kwa mzunguko mkali tumia `round-robin`; uzito sawa kwenye `weighted` hutoa uwiano wa kitakwimu — si
-mkali.
+Kwa mzunguko mkali (strict rotation) tumia `round-robin`; uzani sawa kwenye `weighted` hutoa uwiano wa kitakwimu — si mkali.
 
-### Modi ya pipeline ya kiwakala
+### Hali ya pipeline ya wakala (Agentic pipeline mode)
 
-Mchanganyiko wa `pipeline` wa hatua mbili unaweza kuchagua uelekezaji wa mpangaji/mtekelezaji kwa kutumia
-`config.agenticOrchestration.enabled`. Lengo la kwanza linawajibika kwa upangaji na majibu ya mwisho;
-lengo la pili hutoa miito ya zana inayotumia muundo asilia wa kiteja. OmniRoute hutambua
-miendelezo ya matokeo ya zana kutoka kwenye itifaki ya ombi, humuuliza mpangaji iwapo duru nyingine ya zana
-inahitajika, na hubadilisha kwa nguvu hatua ya mwisho inayoonekana kwa kiteja iwe mtekelezaji au
-mpangaji.
+Combo ya `pipeline` yenye angalau miundo (models) miwili inaweza kuchagua uelekezaji wa mpangaji/mtendaji (planner/executor) kwa kutumia `config.agenticOrchestration.enabled`. Lengo la kwanza linashughulikia upangaji na majibu ya mwisho; lengo la pili hutoa wito wa zana (tool calls) asilia kwa mteja. OmniRoute hutambua mwendelezo wa matokeo ya zana kutoka kwa itifaki ya ombi, humuuliza mpangaji ikiwa raundi nyingine ya zana inahitajika, na hufanya mtendaji au mpangaji kuwa hatua ya mwisho inayomkabili mteja kwa njia ya nguvu (dynamically).
+
+`config.agenticOrchestration.contextCompaction` ya hiari hutumia bajeti tofauti ya payload kabla ya kila utumaji wa mpangaji au mtendaji. Iwezeshe waziwazi:
+
+```json
+{
+  "enabled": true,
+  "defaultMaxChars": 400000,
+  "targetRatio": 0.72,
+  "toolResultMaxChars": 24000,
+  "modelMaxChars": { "provider/planner": 175000, "provider/executor": 300000 }
+}
+```
+
+Hizi ni bajeti za vibambo vya JSON zilizoserializwa zilizochaguliwa na opereta, si madirisha ya muktadha wa tokeni au vikomo vilivyohakikishwa vya juu (upstream limits). Vitambulisho kamili vya miundo (model IDs) hupuuza chaguo-msingi. Juu ya kizingiti, compaction huondoa ufafanuzi wa zana zinazofanana, hupunguza ushahidi wa zana uliopitiliza kwa digest, na huondoa vikundi vya historia kamili vya zamani kuelekea uwiano lengwa. Huhifadhi maagizo ya mfumo/msanidi, ombi la hivi punde la mtumiaji, raundi ya mwisho ya zana ikijumuisha wito/matokeo sambamba, na maagizo ya uelekezaji ya Gemini. Maagizo ya kiwango cha juu na mipangilio ya zana huhifadhiwa. Alama ya kuacha (omission marker) hurekodi historia iliyoondolewa; hii ni upunguzaji wa kideterministi, si muhtasari wa kisemantiki. Ikiwa muktadha uliopiniwa bado unazidi bajeti, ombi hurejesha 413 kabla ya kuwasiliana na muundo. Ikiwa compaction imezimwa au iko chini ya kizingiti, ombi hupita bila kubadilishwa.
+
+Miundo ya ziada baada ya lengo la pili ni nakala rudufu za mtendaji zilizopangwa. Jibu la HTTP lililoshindwa au ubaguzi wa usafirishaji huendelea hadi kwa mtendaji anayefuata, likibeba uamuzi uleule wa mpangaji na zana asilia lakini likiwa na prompt ya hatua ya mtendaji huyo na muunganisho uliotatuliwa. Jibu la kwanza lililofanikiwa hurejeshwa bila kubadilishwa, ikijumuisha utiririshaji wa SSE; kushindwa baada ya mtiririko uliofanikiwa kuanza hakuwezi kujaribiwa tena hapa. Ikiwa watendaji wote watashindwa, kushindwa kwa mwisho hurejeshwa. Uvunjaji wa mteja (Client aborts) husimamisha utumaji.
 
 ```json
 {
@@ -345,35 +362,17 @@ mpangaji.
 }
 ```
 
-Mtekelezaji anaweza kutoa miito mingi inayojitegemea katika jibu moja. Miito inayotegemeana
-hushughulikiwa katika zamu zinazofuata za matokeo ya zana ya kiteja, huku mpangaji akikagua kila tokeo.
-`maxToolRounds` ina thamani chaguo-msingi ya `8` na hukubali `1`–`32`; kikomo hicho kikifikiwa, mpangaji lazima
-atoe jibu bora zaidi la mwisho linalopatikana. Maamuzi ya ndani ya mpangaji huwekwa kwenye bafa, huku
-jibu lililochaguliwa linaloonekana kwa kiteja likihifadhi mapendeleo ya awali ya utiririshaji.
+Mtendaji anaweza kutoa wito huru nyingi katika jibu moja. Wito tegemezi hushughulikiwa katika zamu za baadaye za matokeo ya zana za mteja, huku mpangaji akipitia kila matokeo. `maxToolRounds` ina chaguo-msingi la `8` na inakubali `1`–`32`; ikifikiwa, mpangaji lazima atoe jibu bora zaidi la mwisho linalopatikana. Maamuzi ya ndani ya mpangaji huhifadhiwa kwenye bafa, huku jibu lililochaguliwa linalomkabili mteja likihifadhi upendeleo wa awali wa utiririshaji.
 
-### Bachi inayonata ya `round-robin` na upanuzi wa akaunti
+### `round-robin` sticky batch na upanuzi wa akaunti
 
-Round-robin hutekelezwa kwa bachi, si ombi moja kwa kila hatua:
+Round-robin hufanywa kwa kundi (batched), si ombi-moja-kwa-kila-hatua:
 
-- `stickyRoundRobinLimit` (usanidi wa mchanganyiko, kisha `comboStickyRoundRobinLimit`, kisha
-  `settings.stickyRoundRobinLimit`, chaguo-msingi **3**) hudumisha lengo lilelile kwa idadi hiyo ya
-  mafanikio mfululizo kabla ya kubadilisha. Weka ubatilishaji wa mchanganyiko kuwa `1` ili kubadilisha
-  baada ya kila ombi. Kihariri cha mchanganyiko huonyesha thamani inayotumika na safu ilikotoka.
-- `connectionAwareExpansion` (usanidi wa mchanganyiko, kisha mipangilio, chaguo-msingi **false**) hupanua
-  kila hatua ya kiwango cha mtoa huduma kuwa malengo ya kila akaunti kabla ya kubadilisha. Mikakati ya Kundi B
-  (priority, weighted, round-robin, random, p2c, least-used, cost-optimized, lkgp,
-  fill-first, strict-random, context-optimized, cache-optimized, context-relay, fusion,
-  pipeline) hudumisha mwonekano wa kiwango cha mtoa huduma hadi kipengele hiki kiwashwe. Kihariri cha mchanganyiko hutoa chaguo za
-  kurithi / kuwasha / kuzima; kurithi hutumia thamani chaguo-msingi ya jumla (imezimwa).
-- Uelekezaji kwa kuzingatia ukaribu wa kache ya kidokezo (`promptCacheAffinityEnabled`, chaguo-msingi **true**) hupanga upya
-  miunganisho iliyobandikwa ili funguo za kache zinazolingana zibaki kwenye akaunti moja. Hupewa kipaumbele kuliko
-  mzunguko wa round-robin na wenye uzani katika hatua zilizobandikwa za kila akaunti. Zima chini ya
-  Settings → Combo defaults ikiwa unahitaji mzunguko mkali. Hakuna ubatilishaji kwa kila mchanganyiko.
+- `stickyRoundRobinLimit` (combo config, kisha `comboStickyRoundRobinLimit`, kisha `settings.stickyRoundRobinLimit`, chaguo-msingi **3**) huhifadhi lengo lilelile kwa idadi hiyo ya mafanikio mfululizo kabla ya kuzunguka. Weka override ya combo kuwa `1` kwa mzunguko wa ombi-moja. Kihariri cha combo kinaonyesha thamani inayofaa na safu iliyotoka.
+- `connectionAwareExpansion` (combo config, kisha settings, chaguo-msingi **false**) hupanua kila hatua ya kiwango cha mtoa huduma kuwa malengo ya kila akaunti kabla ya mzunguko. Mikakati ya Group-B (priority, weighted, round-robin, random, p2c, least-used, cost-optimized, lkgp, fill-first, strict-random, context-optimized, cache-optimized, context-relay, fusion, pipeline) huhifadhi mtazamo wa kiwango cha mtoa huduma hadi hii iwe imewashwa. Kihariri cha combo hufichua inherit / on / off; inherit hutumia chaguo-msingi la kimataifa (off).
+- Uelekezaji wa eneo la Prompt-cache (`promptCacheAffinityEnabled`, chaguo-msingi **true**) hupanga upya miunganisho iliyopiniwa ili funguo za cache zinazolingana zibaki kwenye akaunti moja. Inachukua kipaumbele juu ya round-robin na mzunguko wa uzani (weighted rotation) katika hatua zilizopiniwa za kila akaunti. Iizime chini ya Settings → Combo defaults ikiwa unahitaji mzunguko mkali. Hakuna override ya kila-combo.
 
-Kwa mzunguko wa akaunti nyingi kwenye modeli moja, pendelea **hatua moja ya akaunti inayobadilika** (`connectionId` tupu,
-mkusanyiko mzima) yenye kikomo cha kunata cha `1`, badala ya `connectionId` tatu zilizobandikwa.
-Hatua zilizobandikwa pamoja na ukaribu huishia kwenye akaunti ileile hata wakati kihesabu cha RR
-kinaendelea kusonga mbele.
+Kwa mzunguko wa akaunti nyingi kwenye muundo mmoja, pendelea **hatua moja ya akaunti-dinamiki** (tupu `connectionId`, pool nzima) yenye kikomo cha sticky `1`, si `connectionId` tatu zilizopiniwa. Hatua zilizopiniwa pamoja na affinity huangukia kwenye akaunti ileile hata wakati kaunta ya RR inapoendelea.
 
 ## Mkakati wa Fusion
 
@@ -473,52 +472,46 @@ Hii inamaanisha kuwa **kuongeza mtoa huduma mpya ambaye `auto/*` imewezeshwa hup
 
 ## API
 
-**Hakuna endpoint maalumu ya `POST /api/combos/auto`** — Auto-Combo hutumika kwa njia mbili:
+Hakuna **endpoint maalum ya `POST /api/combos/auto`** — Auto-Combo hutumiwa kwa njia mbili:
 
-1. **Bila usanidi (inapendekezwa):** Tuma ombi lolote la ukamilishaji wa gumzo lenye `model: "auto"` au `model: "auto/<variant>"`. Kiwanda pepe huunda combo kwa kila ombi — hakuna uhifadhi wala miito ya API inayohitajika.
+1. **Zero-config (inapendekezwa):** Tuma ombi lolote la kukamilisha gumzo (chat completion) ukiwa na `model: "auto"` au `model: "auto/<variant>"`. Kiwanda pepe (virtual factory) hujenga combo kwa kila ombi — hakuna uhifadhi, hakuna haja ya API calls.
 
-2. **Combo iliyohifadhiwa yenye `strategy: "auto"`:** Unda combo ya kawaida kupitia `POST /api/combos` na uweke `strategy: "auto"` pamoja na `config.auto.weights` / `config.auto.candidatePool`. Injini ileile ya utoaji alama hutumika; combo huhifadhiwa katika `combos` na inaweza kutumiwa tena kwa ID.
+2. **Combo iliyohifadhiwa (persisted) na `strategy: "auto"`:** Unda combo ya kawaida kupitia `POST /api/combos` na uweke `strategy: "auto"` pamoja na `config.auto.weights` / `config.auto.candidatePool`. Injini ile ile ya uwekaji alama (scoring engine) hutumika; combo huhifadhiwa kwenye `combos` na inaweza kutumika tena kwa kutumia ID.
 
-Kwa ajili ya ugunduzi, `GET /api/combos/auto` huorodhesha kila lahaja pamoja na kundi lake la wagombea lililotatuliwa na `context_length` / `max_output_tokens` — thamani ya MAX katika madirisha yote ya kundi la wagombea. Wateja (k.m. programu-jalizi ya opencode) lazima watangaze thamani hizi badala ya `0`: muktadha wa sifuri huzima kabisa ubanaji otomatiki wa opencode, na kuruhusu vipindi vikue hadi ufutaji wa historia wa gateway uharibu muktadha. Ni salama kutangaza MAX kwa sababu kichujio cha awali cha muktadha wa auto-combo huelekeza maombi makubwa kupita kiasi kwa wagombea wenye madirisha makubwa.
+Kwa ajili ya ugunduzi, `GET /api/combos/auto` huorodhesha kila variant pamoja na candidate pool iliyosuluhishwa na `context_length` / `max_output_tokens` — MAX katika madirisha ya candidate pool. Wateja (kwa mfano, plugin ya opencode) lazima watangaze thamani hizi badala ya `0`: context ya sifuri huzima auto-compaction ya opencode kabisa, ikiruhusu vipindi (sessions) kukua hadi pale gateway's history purge itakapoharibu context. MAX ni salama kutangazwa kwa sababu pre-filter ya auto-combo context huelekeza maombi makubwa kupita kiasi kwa wagombea (candidates) wenye madirisha makubwa.
 
 ```bash
-# Matumizi bila usanidi (hakuna uundaji wa combo)
+# Zero-config usage (no combo creation)
 curl -X POST http://localhost:20128/v1/chat/completions \
   -H "Authorization: Bearer <key>" \
   -H "Content-Type: application/json" \
   -d '{"model":"auto/coding","messages":[{"role":"user","content":"Hello"}]}'
 
-# Combo ya auto iliyohifadhiwa kupitia endpoint ya kawaida ya combos
+# Persisted auto combo via the regular combos endpoint
 curl -X POST http://localhost:20128/api/combos \
   -H "Content-Type: application/json" \
   -d '{"id":"my-auto","name":"Auto Coder","strategy":"auto","config":{"auto":{"candidatePool":["anthropic","google","openai"],"weights":{"quota":0.15,"health":0.3,"costInv":0.05,"latencyInv":0.35,"taskFit":0.1,"stability":0,"tierPriority":0.05}}}}'
 ```
 
-### Mikakati ya kiruta cha auto
+### Mikakati ya Auto router
 
-Combo zilizohifadhiwa zenye `strategy: "auto"` zinaweza kuweka `config.routerStrategy` (au ya zamani
-`config.auto.routerStrategy`) kuwa mojawapo ya:
+Combo zilizohifadhiwa za `strategy: "auto"` zinaweza kuweka `config.routerStrategy` (au `config.auto.routerStrategy` ya zamani) kwa mojawapo ya:
 
-- `rules` — utoaji alama wenye uzani wa chaguo-msingi
-- `score` — huchagua alama ya juu zaidi iliyosanidiwa yenye uzani. Alama zinazolingana kabisa huhifadhi mpangilio wa wagombea uliosanidiwa; `explorationRate` iliyopo huchukua sampuli kutoka kwenye kundi lote lililopangwa.
-- `cost` / `eco` — mtoa huduma mwenye afya aliye nafuu zaidi
-- `latency` / `fast` — latency ya chini zaidi ya p95 pamoja na adhabu ya kutotegemewa
-- `sla-aware` / `sla` — pendelea wagombea wanaotimiza SLO za latency ya p95, kiwango cha makosa na, kwa hiari, gharama
-- `lkgp` — mtoa huduma wa mwisho anayejulikana kuwa mzuri kwanza
+- `rules` — uwekaji alama wa uzito wa kawaida (default weighted scoring)
+- `score` — huchagua alama ya uzito iliyosanidiwa ya juu zaidi. Sare kamili huhifadhi mpangilio wa wagombea uliosanidiwa; `explorationRate` iliyopo huchukua sampuli kutoka kwenye pool nzima iliyopangwa.
+- `cost` / `eco` — mtoa huduma mwenye afya (healthy) wa bei nafuu zaidi
+- `latency` / `fast` — latency ya chini kabisa ya p95 ikiwa na adhabu ya kutokuwa na uhakika (reliability penalty)
+- `sla-aware` / `sla` — pendelea wagombea wanaokidhi p95 latency, kiwango cha makosa (error-rate), na SLOs za gharama za hiari
+- `lkgp` — mtoa huduma wa mwisho aliyejulikana kuwa mzuri (last known good provider) kwanza
+- `nadir` — uliza API ya maamuzi ya [Nadir](https://getnadir.com) ni modeli ipi kwenye pool ambayo prompt inahitaji; opt-in, fail-open kwa `rules`
 
-### Mikakati ya kiruta kwa undani
+### Mikakati ya Router kwa undani
 
-Injini ya auto-combo hutoa utekelezaji 6 wa **RouterStrategy** unaoweza kubadilishwa
-kupitia `config.routerStrategy` (au `config.auto.routerStrategy` ya zamani).
-Kila mkakati huchagua mtoa huduma mmoja kutoka kwenye kundi la wagombea kwa kuzingatia `RoutingContext`
-(aina ya kazi, vidokezo vya zana/maono, makadirio ya tokeni, sera ya hiari ya SLA, na
-mtoa huduma wa hiari wa mwisho anayejulikana kuwa mzuri).
+Injini ya auto-combo hutoa utekelezaji 7 wa **RouterStrategy** unaoweza kuchomekwa (pluggable) ambao unaweza kubadilisha kupitia `config.routerStrategy` (au `config.auto.routerStrategy` ya zamani). Kila mkakati huchagua mtoa huduma mmoja kutoka kwenye candidate pool, ikizingatiwa `RoutingContext` (aina ya kazi, vidokezo vya zana/vision, makadirio ya token, sera ya hiari ya SLA, mtoa huduma wa hiari wa mwisho aliyejulikana kuwa mzuri).
 
-#### 1. `rules` (chaguo-msingi) — utoaji alama wenye uzani wa vipengele 16
+#### 1. `rules` (default) — uwekaji alama wa uzito wa vipengele 16
 
-Hufunika injini iliyopo ya utoaji alama. Huchuja wagombea wa circuit-breaker wenye hali ya `OPEN`,
-kisha huendesha `scorePool()` kwa kutumia aina ya sasa ya kazi na `getTaskFitness()`,
-na kuchagua mtoa huduma mwenye alama za juu zaidi.
+Hufunga injini ya uwekaji alama iliyopo. Huchuja wagombea wa `OPEN` circuit-breaker, kisha huendesha `scorePool()` na aina ya kazi ya sasa na `getTaskFitness()`, ikichagua mtoa huduma mwenye alama za juu zaidi.
 
 ```ts
 class RulesStrategyImpl implements RouterStrategy {
@@ -538,16 +531,15 @@ class RulesStrategyImpl implements RouterStrategy {
 }
 ```
 
-**Wakati wa kutumia**: Chaguo-msingi. Tumia unapotaka uwiano mzuri wa mabadilishano kati ya ishara zote.
+**Wakati wa kutumia**: Default. Tumia wakati unataka uwiano sawa katika ishara zote.
 
-**Jina mbadala**: `rules` (hakuna jina mbadala)
+**Alias**: `rules` (hakuna alias)
 
 ---
 
-#### 2. `cost` / `eco` — mtoa huduma mwenye afya aliye nafuu zaidi
+#### 2. `cost` / `eco` — mtoa huduma mwenye afya wa bei nafuu zaidi
 
-Hupanga kundi la wagombea kwa `costPer1MTokens` (kwa mpangilio wa kupanda) na kuchagua aliye nafuu zaidi.
-Huchuja kwanza wagombea wenye hali ya `OPEN`.
+Hupanga candidate pool kulingana na `costPer1MTokens` (kupanda) na huchagua ya bei nafuu zaidi. Huchuja wagombea wa `OPEN` kwanza.
 
 ```ts
 class CostStrategyImpl implements RouterStrategy {
@@ -562,16 +554,15 @@ class CostStrategyImpl implements RouterStrategy {
 }
 ```
 
-**Wakati wa kutumia**: Mizigo ya kazi inayozingatia gharama, uchakataji wa kundi, au kazi za chinichini.
+**Wakati wa kutumia**: Mizigo ya kazi inayozingatia gharama (cost-sensitive workloads), usindikaji wa kundi (batch processing), au kazi za usuli (background jobs).
 
-**Majina mbadala**: `cost`, `eco`
+**Aliases**: `cost`, `eco`
 
 ---
 
-#### 3. `latency` / `fast` — latency ya chini zaidi ya p95 pamoja na adhabu ya kutotegemewa
+#### 3. `latency` / `fast` — latency ya chini kabisa ya p95 ikiwa na adhabu ya kutokuwa na uhakika
 
-Hupanga kwa `p95LatencyMs + (errorRate * 1000)`. Adhabu ya kiwango cha makosa huhakikisha
-watoa huduma wasioaminika wanawekwa chini zaidi hata kama ucheleweshaji wao wa kawaida ni mdogo.
+Hupanga kulingana na `p95LatencyMs + (errorRate * 1000)`. Adhabu ya kiwango cha makosa (error-rate penalty) huhakikisha kuwa watoa huduma wasio na uhakika wanapangwa chini hata kama latency yao ya kawaida ni ya chini.
 
 ```ts
 class LatencyStrategyImpl implements RouterStrategy {
@@ -588,28 +579,27 @@ class LatencyStrategyImpl implements RouterStrategy {
 }
 ```
 
-**Wakati wa kutumia**: Mizigo ya kazi inayojali ucheleweshaji kama vile gumzo la wakati halisi, ukamilishaji-otomatiki, au
-wasaidizi shirikishi wa uandishi wa msimbo.
+**Wakati wa kutumia**: Mizigo ya kazi inayozingatia latency kama gumzo la wakati halisi (real-time chat), autocomplete, au wasaidizi wa usimbaji shirikishi (interactive coding assistants).
 
-**Majina mbadala**: `latency`, `fast`
+**Aliases**: `latency`, `fast`
 
 ---
 
-#### 4. `sla-aware` / `sla` — uzingatiaji wa SLO za ucheleweshaji/makosa/gharama
+#### 4. `sla-aware` / `sla` — utiifu wa SLO wa latency/makosa/gharama
 
-Hupatia kila mgombea alama kulingana na jinsi anavyokidhi sera iliyosanidiwa ya SLO:
+Hupima kila mgombea kulingana na jinsi anavyokidhi sera ya SLO iliyosanidiwa:
 
-| Kipengele              | Uzito | Fomula                                                   |
-| ---------------------- | ----- | -------------------------------------------------------- |
-| Alama ya ucheleweshaji | 35%   | `threshold / max(value, ε)`                              |
-| Alama ya makosa        | 35%   | `threshold / max(value, ε)`                              |
-| Alama ya afya          | 15%   | `1.0` (CLOSED) / `0.5` (HALF_OPEN) / `0.0` (OPEN)        |
-| Alama ya gharama       | 10%   | `threshold / max(value, ε)` au kinyume kilichosawazishwa |
-| Alama ya uthabiti      | 5%    | mkengeuko sanifu wa ucheleweshaji uliosawazishwa kinyume |
+| Kigezo            | Uzito | Mfumo                                             |
+| ----------------- | ----- | ------------------------------------------------- |
+| Alama ya latency  | 35%   | `threshold / max(value, ε)`                       |
+| Alama ya hitilafu | 35%   | `threshold / max(value, ε)`                       |
+| Alama ya afya     | 15%   | `1.0` (CLOSED) / `0.5` (HALF_OPEN) / `0.0` (OPEN) |
+| Alama ya gharama  | 10%   | `threshold / max(value, ε)` au inverse normalized |
+| Alama ya uthabiti | 5%    | inverse normalized latency stddev                 |
 
-Wakati `hardConstraints: true`, wagombea hupangwa kwanza kwa **alama ya ukiukaji**
-(kiasi wanachozidi SLO yoyote), kisha kwa alama ya jumla. Vinginevyo, hutumika tu
-alama ya jumla.
+Wakati `hardConstraints: true`, wagombea hupangwa kimsingi kwa **alama ya ukiukaji**
+(kiwango wanachozidi SLO yoyote), kisha kwa alama ya jumla. Vinginevyo ni
+alama ya jumla pekee.
 
 ```ts
 class SLAStrategyImpl implements RouterStrategy {
@@ -618,12 +608,12 @@ class SLAStrategyImpl implements RouterStrategy {
     "Selects the provider most likely to satisfy latency, error-rate, and cost SLOs";
 
   select(pool, context) {
-    // ... hupatia kila mgombea alama dhidi ya sera: { targetP95Ms, maxErrorRate, maxCostPer1MTokens, hardConstraints }
+    // ... scores each candidate against policy: { targetP95Ms, maxErrorRate, maxCostPer1MTokens, hardConstraints }
   }
 }
 ```
 
-**Sehemu za SLA** (huwekwa kwenye usanidi wa mchanganyiko):
+**Sehemu za SLA** (zilizowekwa kwenye usanidi wa combo):
 
 ```json
 {
@@ -638,17 +628,16 @@ class SLAStrategyImpl implements RouterStrategy {
 }
 ```
 
-**Wakati wa kutumia**: Mizigo ya kazi ya uzalishaji yenye mipaka mikali ya ucheleweshaji, kiwango cha makosa au gharama.
+**Wakati wa kutumia**: Mizigo ya kazi ya uzalishaji yenye bajeti kali za latency, kiwango cha hitilafu, au gharama.
 
-**Majina mbadala**: `sla-aware`, `sla`
+**Lakabu**: `sla-aware`, `sla`
 
 ---
 
-#### 5. `lkgp` — mtoa huduma wa mwisho aliyejulikana kuwa mzuri kwanza
+#### 5. `lkgp` — mtoa huduma mzuri wa mwisho anayejulikana kwanza
 
-Hujaribu kwanza **mtoa huduma wa mwisho aliyejulikana kuwa mzuri** (ikiwa amewekwa), kisha hutumia
-mkakati wa `rules` kama mbadala. Ni muhimu kwa udumishaji wa kipindi — mtoa huduma yuleyule hushughulikia
-maombi yanayofuata katika mazungumzo.
+Hujaribu **mtoa huduma mzuri wa mwisho anayejulikana** (ikiwa amewekwa) kwanza, kisha hurejea kwenye mkakati wa
+`rules`. Inafaa kwa ushikamanifu wa kipindi (session stickiness) — mtoa huduma yuleyule hushughulikia maombi ya ufuatiliaji katika mazungumzo.
 
 ```ts
 class LKGPStrategyImpl implements RouterStrategy {
@@ -669,22 +658,51 @@ class LKGPStrategyImpl implements RouterStrategy {
       }
     }
 
-    // Tumia mkakati wa rules kama mbadala
+    // Fallback to rules strategy
     return getStrategy("rules").select(pool, context);
   }
 }
 ```
 
-**Wakati wa kutumia**: Mazungumzo ya zamu nyingi ambapo unataka mtoa huduma yuleyule ashughulikie
-maombi yanayofuata (kwa mfano, kwa uhifadhi wa muda, mwendelezo wa muktadha au uthabiti wa bei).
+**Wakati wa kutumia**: Mazungumzo ya hatua nyingi ambapo unataka mtoa huduma yuleyule kushughulikia maombi ya ufuatiliaji (k.m., kwa ajili ya caching, mwendelezo wa muktadha, au uthabiti wa bei).
 
-**Jina mbadala**: `lkgp` (halina jina mbadala)
+**Lakabu**: `lkgp` (hakuna lakabu)
 
 ---
 
-### Mikakati maalum ya kipanga-njia
+#### 6. `nadir` — chaguo la modeli linalozingatia prompt kupitia Nadir
 
-Unaweza kusajili utekelezaji wako mwenyewe wa `RouterStrategy` kupitia API ya umma:
+Kila mkakati hapo juu hupanga wagombea kulingana na telemetry yao wenyewe; hakuna hata mmoja wao anayesoma ombi. `nadir` hutuma hatua ya mwisho ya mtumiaji pamoja na vitambulisho vya modeli vya pool kwenye API ya uamuzi ya [Nadir](https://getnadir.com) (`POST /v1/bucket`) na kuelekeza kwenye modeli ambayo Nadir anachagua kutoka kwenye menyu hiyo (`simple` → modeli ya bei nafuu inayoweza kufanya kazi, `complex` → ile ya kisasa zaidi). Muunganisho unaohudumia modeli hiyo bado huchaguliwa na `rules`, kwa hivyo upendeleo, afya na gharama huendelea kuamua ni akaunti ipi.
+
+```json
+{
+  "strategy": "auto",
+  "config": {
+    "routerStrategy": "nadir",
+    "nadir": {
+      "apiKey": "ndr_...",
+      "baseUrl": "https://api.getnadir.com",
+      "timeoutMs": 2000
+    }
+  }
+}
+```
+
+`OMNIROUTE_NADIR_API_KEY` na `OMNIROUTE_NADIR_BASE_URL` ni vizingiti vya mazingira kwa kamba hizo mbili. `baseUrl` inahitajika tu kwa Nadir inayojiendesha yenyewe (a trailing `/v1` inakubalika). Miito isiyo na ufunguo hutua kwenye tier ya Nadir ya bila jina, ambayo ina kikomo cha kasi kwa kila IP.
+
+Kinachotoka kwenye kisanduku: maandishi ya ujumbe wa mwisho wa mtumiaji (herufi 16k za kwanza), vitambulisho vya modeli za wagombea na tag ya chaneli ya `source: "omniroute"`. Hakuna system prompt, historia, zana au vichwa vya habari (headers).
+
+Tabia ya kushindwa ni fail-open: muda kuisha (chaguo-msingi 2000 ms), non-2xx, host isiyoweza kufikiwa, jibu lililoharibika au uteuzi nje ya pool hutatuliwa kwa uamuzi wa `rules` na sababu huwekwa kiambishi awali `NadirStrategy: fallback (…)`. Baada ya simu iliyoshindwa mkakati huruka mtandao kwa sekunde 30, kwa hivyo hitilafu inagharimu muda mmoja wa kuisha kwa sekunde 30 badala ya mmoja kwa kila ombi. Matukio ya uelekezaji huripoti `strategy: "nadir"` tu wakati Nadir alifanya chaguo hilo.
+
+**Wakati wa kutumia**: trafiki ya ugumu mchanganyiko kwenye pool inayohusu tiers za modeli (ndogo, ya kati na modeli ya kisasa), ambapo daima-frontier ndiyo gharama unayotaka kupunguza.
+
+**Lakabu**: `nadir` (hakuna lakabu)
+
+---
+
+### Mikakati maalum ya router
+
+Unaweza kusajili utekelezaji wako wa `RouterStrategy` kupitia API ya umma:
 
 ```ts
 import {
@@ -697,7 +715,7 @@ class MyCustomStrategy implements RouterStrategy {
   readonly description = "My custom routing strategy";
 
   select(pool, context) {
-    // Mantiki yako ya uelekezaji hapa
+    // Your routing logic here
     return {
       provider: pool[0].provider,
       model: pool[0].model,
@@ -712,7 +730,7 @@ class MyCustomStrategy implements RouterStrategy {
 registerStrategy("my-custom", new MyCustomStrategy());
 ```
 
-Kisha uitumie:
+Kisha itumie:
 
 ```json
 {
@@ -725,17 +743,18 @@ Kisha uitumie:
 
 ---
 
-### Mwongozo wa kuchagua mkakati wa kipanga-njia
+### Mwongozo wa uteuzi wa mkakati wa router
 
-| Hali ya matumizi             | Mkakati     | Sababu                                              |
-| ---------------------------- | ----------- | --------------------------------------------------- |
-| Mzigo wa kazi uliosawazishwa | `rules`     | Chaguo-msingi — huzingatia vipengele vyote          |
-| Punguza gharama              | `cost`      | Daima huchagua wa bei nafuu zaidi                   |
-| Punguza ucheleweshaji        | `latency`   | Huchagua mtoa huduma wa kuaminika mwenye kasi zaidi |
-| SLO kali                     | `sla-aware` | Huchuja kwa viwango vya p95/makosa/gharama          |
-| Gumzo la zamu nyingi         | `lkgp`      | Udumishaji wa kipindi                               |
+| Kisa cha matumizi            | Mkakati     | Sababu                                         |
+| ---------------------------- | ----------- | ---------------------------------------------- |
+| Mzigo wa kazi uliosawazishwa | `rules`     | Chaguo-msingi — huzingatia mambo yote          |
+| Punguza gharama              | `cost`      | Huchagua ya bei nafuu zaidi kila wakati        |
+| Punguza latency              | `latency`   | Huchagua mtoa huduma wa haraka anayeaminika    |
+| SLO kali                     | `sla-aware` | Huchuja kwa vizingiti vya p95/hitilafu/gharama |
+| Gumzo la hatua nyingi        | `lkgp`      | Ushikamanifu wa kipindi                        |
+| Ugumu mchanganyiko           | `nadir`     | Huchagua tier ya modeli kwa kila prompt        |
 
-Sehemu zinazozingatia SLA:
+Sehemu za SLA-aware:
 
 ```json
 {
@@ -812,15 +831,15 @@ kwa makusudi kutoka CI kwa sababu yanahitaji vitambulisho halisi vya uthibitisha
 
 ## Faili
 
-| Faili                                                     | Kusudi                                                                                                    |
-| :-------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------- |
-| `open-sse/services/autoCombo/scoring.ts`                  | Fonkseni ya ukadiriaji ya vipengele 16, `DEFAULT_WEIGHTS`, urekebishaji wa kundi                          |
-| `open-sse/services/autoCombo/taskFitness.ts`              | Jedwali la utafutaji la ufaafu wa modeli × kazi                                                           |
-| `open-sse/services/autoCombo/engine.ts`                   | Mantiki ya uteuzi, bandit, kikomo cha bajeti                                                              |
-| `open-sse/services/autoCombo/selfHealing.ts`              | Utengaji, majaribio, hali ya tukio                                                                        |
-| `open-sse/services/autoCombo/modePacks.ts`                | Wasifu 6 wa uzani (ship-fast, cost-saver, quality-first, offline-friendly, reliability-first, chaos-mode) |
-| `open-sse/services/autoCombo/autoPrefix.ts`               | Kichanganuzi cha kiambishi awali `auto/` + vibadala 6                                                     |
-| `open-sse/services/autoCombo/virtualFactory.ts`           | Huunda `AutoComboConfig` ya ndani ya kumbukumbu kutoka kwa miunganisho hai                                |
-| `open-sse/services/autoCombo/providerRegistryAccessor.ts` | Kiunganishi cha majaribio cha kuiga sajili ya watoa huduma                                                |
-| `src/shared/constants/routingStrategies.ts`               | `ROUTING_STRATEGY_VALUES` (mikakati 19)                                                                   |
-| `src/sse/handlers/chat.ts`                                | Ujumuishaji: njia ya mkato ya kiambishi awali kiotomatiki                                                 |
+| Faili                                                     | Kusudi                                                                                                      |
+| :-------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------- |
+| `open-sse/services/autoCombo/scoring.ts`                  | Kitendaji cha bao cha vipengele 16, `DEFAULT_WEIGHTS`, pool norm                                            |
+| `open-sse/services/autoCombo/taskFitness.ts`              | Utafutaji wa usahihi wa Model × task                                                                        |
+| `open-sse/services/autoCombo/engine.ts`                   | Mantiki ya uteuzi, bandit, kikomo cha bajeti                                                                |
+| `open-sse/services/autoCombo/selfHealing.ts`              | Kutengwa, probes, hali ya tukio                                                                             |
+| `open-sse/services/autoCombo/modePacks.ts`                | Profaili 6 za uzito (ship-fast, cost-saver, quality-first, offline-friendly, reliability-first, chaos-mode) |
+| `open-sse/services/autoCombo/autoPrefix.ts`               | Kichanganuzi cha kiambishi awali cha `auto/` + tofauti 6                                                    |
+| `open-sse/services/autoCombo/virtualFactory.ts`           | Hujenga `AutoComboConfig` ya ndani ya kumbukumbu kutoka kwa miunganisho ya moja kwa moja                    |
+| `open-sse/services/autoCombo/providerRegistryAccessor.ts` | Hook ya majaribio kwa ajili ya kuiga rejista ya mtoa huduma                                                 |
+| `src/shared/constants/routingStrategies.ts`               | `ROUTING_STRATEGY_VALUES` (mikakati 20)                                                                     |
+| `src/sse/handlers/chat.ts`                                | Ujumuishaji: short-circuit ya auto-prefix                                                                   |
