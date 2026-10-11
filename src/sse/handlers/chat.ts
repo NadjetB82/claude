@@ -142,7 +142,11 @@ import {
 } from "./reasoningRouting";
 import { createVirtualAutoCombo, resolveAutoRoutingState } from "./autoRouting";
 import { getComboFailureLogError } from "./comboFailureLogging";
-import { logAdmissionRejection, logHandlerRejection } from "./admissionRejectionLog";
+import {
+  logAdmissionRejection,
+  logHandlerRejection,
+  previousResponseNotFoundRejection,
+} from "./admissionRejectionLog";
 
 // Pipeline integration — wired modules
 import { classify429FromError, type FailureKind } from "@/shared/utils/classify429";
@@ -825,20 +829,14 @@ async function handleChatImplementation(
       : null;
     // resume flag for the attempt store in handleChatCore (best-effort).
     if (!stored) {
-      // Matches OpenAI's own `previous_response_not_found` contract (missing
-      // or expired server-side state) so a client with the matching retry
-      // behavior -- resend the full request, same turn -- recovers exactly
-      // as it would against the real OpenAI backend.
-      return new Response(
-        JSON.stringify({
-          error: {
-            message: "Previous response not found.",
-            type: "invalid_request_error",
-            code: "previous_response_not_found",
-          },
-        }),
-        { status: 400, headers: { "Content-Type": "application/json" } }
-      );
+      return previousResponseNotFoundRejection({
+        path: new URL(request.url).pathname,
+        model: modelStr,
+        requestBody: body ?? null,
+        apiKeyId: apiKeyInfo?.id ?? null,
+        apiKeyName: apiKeyInfo?.name ?? null,
+        correlationId: reqId,
+      });
     }
     const deltaInput = Array.isArray((body as { input?: unknown }).input)
       ? (body as { input: unknown[] }).input

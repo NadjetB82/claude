@@ -64,3 +64,23 @@ export function logHandlerRejection(
   void logAdmissionRejection(rejection, entry);
   return rejection;
 }
+
+// Matches OpenAI's own `previous_response_not_found` contract (missing
+// or expired server-side state) so a client with the matching retry
+// behavior -- resend the full request, same turn -- recovers exactly
+// as it would against the real OpenAI backend.
+export function previousResponseNotFoundRejection(entry: AdmissionRejectionLogEntry): Response {
+  return logHandlerRejection(
+    new Response(
+      JSON.stringify({
+        error: {
+          message: "Previous response not found.",
+          type: "invalid_request_error",
+          code: "previous_response_not_found",
+        },
+      }),
+      { status: 400, headers: { "Content-Type": "application/json" } }
+    ),
+    entry
+  );
+}
